@@ -10,7 +10,7 @@ app.engine("jsx", require("express-react-views").createEngine());
 
 app.set("port", process.env.PORT || 3000);
 
-app.use(express.static(path.join(__dirname, "./static")));
+app.use(express.static(path.join(__dirname, "./statics")));
 
 
 app.use("/", dataMiddleware('es'), optionLang('en'), routes);
