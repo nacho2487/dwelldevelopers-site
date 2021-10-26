@@ -10,9 +10,7 @@ app.engine("jsx", require("express-react-views").createEngine());
 
 app.set("port", process.env.PORT || 3000);
 
-app.use("/clean", express.static(path.join(__dirname, "./html-clean")));
-
-app.use(express.static(path.join(__dirname, "./html")));
+app.use(express.static(path.join(__dirname, "./static")));
 
 
 app.use("/", dataMiddleware('es'), optionLang('en'), routes);
