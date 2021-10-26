@@ -1,0 +1,23 @@
+{
+  "name": "OXO PARQUES",
+  "main_image": "/images/OXO_IMG_0933-2.jpeg",
+  "website_link": "#",
+  "overview": "<p><span class='meta-title'>NAME : </span><span class='meta-value'>Oxo Parques Real Estate Trust</span></p><p>Oxo Park is a housing complex of apartments containing 27 units developed in 2 blocks. The units are comprised of ground floor plus 3 levels. Additionally, the complex has a garage level and common areas such as gym, sauna, locker rooms, meeting room, laundry room and swimming pool with solarium.</p><p>The project is currently completed with all of its units delivered to the end users.</p>",
+  "amenities": "<p>Oxo Park is a housing complex of apartments containing 27 units developed in 2 blocks. The units are comprised of ground floor plus 3 levels. Additionally, the complex has a garage level and common areas such as <br>– Gym<br>– Sauna<br>– Locker Rooms<br>– Meeting Room<br>– Laundry Room <br>– Swimming Pool with Solarium.</p>",
+  "about_project": "<p><strong>FINANCING:</strong></p><p>The financing was obtained directly from the Trustors, who, in this case being a trust at cost, are the end users.</p><p>A pre-sale of 100% of the units was generated prior to the start of construction and the project was developed through monthly payments until its completion.</p><p>A reservation of the land was obtained in advance and paid with the first 3 installments of contribution.</p><p><strong>PERFORMANCE:</strong></p><p>In terms of delivery time, there were no deviations from what was initially committed.</p><p>In economic terms, the deviation remained within the normal parameters for this type of development and was less than 4%.</p>",
+  "status": "Finished",
+  "location": "Barrio Parques",
+  "type": "Residential",
+  "start_date": "05/01/2017",
+  "end_date": "01/31/2019",
+  "investment": "U$S 8.067.198",
+  "images": [
+    { "image": "/images/OXO_IMG_0931.jpeg", "text": "1"},
+    { "image": "/images/OXO_IMG_0933-2.jpeg", "text": "2"},
+    { "image": "/images/OXO_IMG_0949-1.jpeg", "text": "3"},
+    { "image": "/images/OXO_IMG_0963.jpeg", "text": "4"},
+    { "image": "/images/OXO_IMG_0978.jpeg", "text": "5"},
+    { "image": "/images/OXO_IMG_0990.jpeg", "text": "6"}
+
+  ]
+}

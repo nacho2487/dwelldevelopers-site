@@ -1,0 +1,59 @@
+{
+  "slides": {
+    "title_1": "Semi-Private<br />Neighborhood<br />with high Security",
+    "title_2": "Great spaces for<br />perfection and class<br />at best prices",
+    "title_3": "Dive into our world<br />of lavish lifestyle and<br />structures",
+    "subtitle_1": "dwelldevelopers : Real Estate Developer",
+    "subtitle_2": "dwelldevelopers : Real Estate Developer",
+    "subtitle_3": "dwelldevelopers : Real Estate Developer",
+    "button_text_1": "find more",
+    "button_text_2": "view project",
+    "button_text_3": "view project"
+  },
+  "mission": {
+    "title": "our mission",
+    "text": "Creating unique neighborhoods and communities that transform urban living.",
+    "subtext": "We continuously strive to provide the best living experience. Ensuring quality of life for its occupants. By developing landmark buildings and expansive residences in record time, ensuring the most fulfilling lives to their occupants."
+  },
+  "services": {
+    "residential": {
+      "title": "Residential Developments",
+      "text": "The company ventures into real estate development creating high quality and safe residential buildings and neighbourhoods providing the customer with the best service."
+    },
+    "commercial": {
+      "title": "Commercial Developments",
+      "text": "Our mission is to engage in issues that are of concern to individuals, families and communities through an uncompromising commitment to create outstanding living, work and leisure environments."
+    },
+    "investor": {
+      "title": "Investor",
+      "text": "Started more than a decade ago. The Group has firmly established itself as a reliable and trustworthy organization in the real estate development industry offering security to its investors."
+    }
+  },
+  "projects_section": {
+    "title": "Featured projects",
+    "subtitle": "WHAT WE BUILD.",
+    "link": "VIEW ALL PROJECTS"
+  },
+  "why": {
+    "title": "Making living spaces affordable",
+    "subtitle": "WHY CHOOSE US",
+    "reassons": {
+      "quality": {
+        "title": "High quality products",
+        "text":  "The luxurious and exquisite design harmonious with the surrounding architecture provide the best living conditions for every family."
+      },
+      "amenities": {
+        "title": "Comprehensive amenities",
+        "text": "The landscape infrastructures of streets are arranged in harmony with the common amenities for residents."
+      },
+      "environment": {
+        "title": "Green and clean Environment",
+        "text": "Each urban area of dwelldevelopers is built on the basis of 'A place that living is in harmony with nature'"
+      },
+      "community": {
+        "title": "Humanitarian community",
+        "text": "Projects that seek to strengthen community life and harmony among neighbors."
+      }
+    }
+  }
+}

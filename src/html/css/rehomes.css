@@ -1,0 +1,1596 @@
+body,
+input,
+button,
+button[type='submit'],
+select,
+textarea {
+  font-family: 'Be Vietnam', -apple-system, BlinkMacSystemFont, 'Segoe UI',
+    Roboto, 'Helvetica Neue', Arial, sans-serif;
+  font-weight: 300;
+  color: #66717a;
+}
+html {
+}
+.c-heading {
+  color: #66717a;
+}
+.c-primary {
+  color: #5e5e5e;
+}
+.bg-primary {
+  background-color: #5e5e5e;
+}
+.b-primary {
+  border-color: #5e5e5e;
+}
+.button-primary:hover {
+  background-color: #454545;
+  border-color: #454545;
+}
+.c-secondary {
+  color: #66717a;
+}
+.bg-secondary {
+  background-color: #66717a;
+}
+.b-secondary {
+  border-color: #66717a;
+}
+.button-secondary:hover {
+  background-color: #4f575f;
+}
+input[type='text']::placeholder,
+input[type='email']::placeholder,
+input[type='url']::placeholder,
+input[type='password']::placeholder,
+input[type='search']::placeholder,
+input[type='number']::placeholder,
+input[type='tel']::placeholder,
+input[type='range']::placeholder,
+input[type='date']::placeholder,
+input[type='month']::placeholder,
+input[type='week']::placeholder,
+input[type='time']::placeholder,
+input[type='datetime']::placeholder,
+input[type='datetime-local']::placeholder,
+input[type='color']::placeholder,
+input[type='text'],
+input[type='email'],
+input[type='url'],
+input[type='password'],
+input[type='search'],
+input[type='number'],
+input[type='tel'],
+input[type='range'],
+input[type='date'],
+input[type='month'],
+input[type='week'],
+input[type='time'],
+input[type='datetime'],
+input[type='datetime-local'],
+input[type='color'],
+textarea::placeholder,
+textarea,
+a,
+.mainmenu-container li a span,
+.comment-metadata,
+.comment-metadata a,
+.widget.widget_archive a,
+.widget.widget_categories a,
+.widget.widget_nav_menu a,
+.widget.widget_meta a,
+.widget.widget_pages a,
+.c-body,
+.comment-form-cookies-consent label,
+.site-header-account .account-links-menu li a,
+.site-header-account .account-dashboard li a,
+.comment-form a,
+.widget .tagcloud a,
+.widget.widget_tag_cloud a,
+.elementor-nav-menu--dropdown a,
+.elementor-search-form--skin-minimal .elementor-search-form__icon {
+  color: #66717a;
+}
+.widget-area strong,
+h1,
+h2,
+h3,
+h4,
+h5,
+h6,
+.h1,
+.h2,
+.single-portfolio-summary-meta-title,
+.h3,
+h3.entry-title,
+.related-posts .related-heading,
+.comments-title,
+.comment-respond .comment-reply-title,
+.h4,
+.h5,
+.single .navigation .nav-link a,
+h2.widget-title,
+h2.widgettitle,
+.h6,
+blockquote,
+th,
+.main-navigation .top-menu > li > a,
+.main-navigation:not(.navigation-dark) .top-menu > li > a,
+.mainmenu-container ul ul .menu-item > a,
+.entry-content blockquote cite a,
+.entry-content strong,
+.entry-content dt,
+.entry-content th,
+.entry-content dt a,
+.entry-content th a,
+.comment-content strong,
+.comment-author,
+.comment-author a,
+.comment-metadata a.comment-edit-link,
+.comment-content table th,
+.comment-content table td a,
+.comment-content dt,
+.elementor-element .elementor-widget-wp-widget-recent-posts .title-post a,
+.widget a,
+.widget_rss .rss-date,
+.widget_rss li cite,
+.c-heading,
+fieldset legend,
+.author-wrapper .author-name,
+.search .site-content .page-title,
+.site-header-account .login-form-title,
+.elementor-widget-opal-idx-search .flexmls_connect__search_new_title,
+.elementor-accordion .elementor-tab-title,
+.elementor-widget-call-to-action.elementor-button-default
+  .elementor-cta__button,
+.elementor-featured-box-wrapper .elementor-featured-box-title,
+.elementor-widget-opal-image-hotspots
+  .elementor-accordion
+  .elementor-tab-title,
+.portfolio .portfolio-content .entry-title a,
+.elementor-price-table__currency,
+.elementor-price-table__integer-part,
+.elementor-price-table__feature-inner span.item-active,
+.elementor-price-table__period,
+.elementor-progress-percentage,
+.elementor-widget-progress .elementor-title,
+.elementor-teams-wrapper .elementor-team-name,
+.entry-title a,
+.single-portfolio-menu a {
+  color: #66717a;
+}
+.elementor-widget-call-to-action.elementor-button-default
+  .elementor-cta__button {
+  border-bottom-color: #66717a;
+}
+.btn-link,
+.elementor-element .elementor-button-link .elementor-button,
+.button-link,
+.more-link-wrap a,
+.elementor-wpcf7-button-link input[type='button'][type='submit'],
+.elementor-wpcf7-button-link input[type='submit'],
+.elementor-wpcf7-button-link button[type='submit'],
+.mailchimp-button-link button,
+.mailchimp-button-link button[type='submit'],
+.button-underline,
+.elementor-element .elementor-button-underline .elementor-button,
+.wp-block-quote:before,
+.main-navigation .top-menu > li.current-menu-item a,
+.main-navigation .top-menu > li > a:hover,
+.mainmenu-container ul ul .menu-item > a:hover,
+.mainmenu-container ul ul .menu-item > a:active,
+.mainmenu-container ul ul .menu-item > a:focus,
+.mainmenu-container li.current-menu-parent > a,
+.mainmenu-container .menu-item > a:hover,
+.menu-toggle,
+.site-header .header-group .search-submit:hover,
+.site-header .header-group .search-submit:focus,
+.entry-meta a:hover,
+.more-link,
+.pbr-social-share a:hover,
+.single .navigation .nav-title,
+.error404 .error-404 .error-title,
+.breadcrumb a:hover,
+.breadcrumb a:hover span,
+.comment-author a:hover,
+.comment-metadata a:hover,
+.comment-reply-link,
+.elementor-element
+  .elementor-widget-wp-widget-recent-posts
+  .title-post
+  a:hover,
+.widget a:hover,
+.widget a:focus,
+.widget.widget_archive a:hover,
+.widget.widget_archive a:focus,
+.widget.widget_categories a:hover,
+.widget.widget_categories a:focus,
+.widget.widget_nav_menu a:hover,
+.widget.widget_nav_menu a:focus,
+.widget.widget_meta a:hover,
+.widget.widget_meta a:focus,
+.widget.widget_pages a:hover,
+.widget.widget_pages a:focus,
+.title-with-icon:before,
+.widget_nav_menu a:hover,
+.widget_meta a:hover,
+.widget_pages a:hover,
+.widget_archive a:hover,
+.widget_categories a:hover,
+.widget .tagcloud a:hover,
+.widget .tagcloud a:focus,
+.widget.widget_tag_cloud a:hover,
+.widget.widget_tag_cloud a:focus,
+.button-outline-primary,
+.elementor-wpcf7-button-outline_primary input[type='button'],
+.elementor-wpcf7-button-outline_primary input[type='submit'],
+.elementor-wpcf7-button-outline_primary button[type='submit'],
+.mailchimp-button-outline_primary button,
+.mailchimp-button-outline_primary button[type='submit'],
+.elementor-element .elementor-button-outline_primary .elementor-button,
+.c-primary,
+.navigation-button .menu-toggle:hover,
+.navigation-button .menu-toggle:focus,
+.entry-header .entry-title a:hover,
+.entry-content blockquote cite a:hover,
+.site-header-account .account-dropdown a.register-link,
+.site-header-account .account-dropdown a.lostpass-link,
+.site-header-account .account-links-menu li a:hover,
+.site-header-account .account-dashboard li a:hover,
+.comment-form a:hover,
+.wp_widget_tag_cloud a:hover,
+.wp_widget_tag_cloud a:focus,
+#secondary .elementor-widget-container h5:first-of-type,
+.elementor-nav-menu-popup .mfp-close,
+#secondary .elementor-widget-wp-widget-recent-posts a,
+.elementor-accordion .elementor-tab-title.elementor-active,
+.elementor-awards-wrapper .elementor_awards_image,
+.elementor-awards-wrapper .elementor-years,
+.contactform-content .form-title,
+.elementor-widget-call-to-action.elementor-button-default
+  .elementor-cta__button:hover,
+.elementor-widget-opal-countdown .elementor-countdown-digits,
+.elementor-counter .elementor-counter-number-wrapper span,
+.elementor-featured-box-wrapper i,
+.elementor-widget-heading .sub-title,
+.elementor-widget-icon-box.elementor-view-framed:hover .elementor-icon,
+.elementor-widget-icon-box.elementor-view-framed:not(:hover)
+  .elementor-icon,
+.elementor-widget-icon-box.elementor-view-default:hover .elementor-icon,
+.elementor-widget-icon-box.elementor-view-default:not(:hover)
+  .elementor-icon,
+.elementor-widget-icon-box:hover .elementor-icon-box-title,
+.elementor-widget.elementor-widget-icon-list
+  .elementor-icon-list-item:not(:hover)
+  i,
+.elementor-widget.elementor-widget-icon-list
+  .elementor-icon-list-item:not(:hover)
+  .elementor-icon-list-text,
+.elementor-widget.elementor-widget-icon-list
+  .elementor-icon-list-item:hover
+  i,
+.elementor-widget.elementor-widget-icon-list
+  .elementor-icon-list-item:hover
+  .elementor-icon-list-text,
+.elementor-widget-icon.elementor-view-default .elementor-icon,
+.elementor-widget-icon.elementor-view-framed .elementor-icon,
+.elementor-widget-opal-image-hotspots
+  .elementor-accordion
+  .elementor-tab-title.elementor-active,
+.mailchimp-button-default .mc4wp-form-fields button[type='submit']:hover,
+.elementor-nav-menu--main.elementor-nav-menu--layout-horizontal
+  .elementor-nav-menu
+  a.elementor-sub-item.elementor-item-active,
+.elementor-nav-menu--main .elementor-item.highlighted,
+.elementor-nav-menu--main .elementor-item.elementor-item-active,
+.elementor-nav-menu--main .elementor-item:hover,
+.elementor-nav-menu--main .elementor-item:focus,
+.elementor-nav-menu--main
+  .current-menu-ancestor
+  .elementor-item.has-submenu,
+.elementor-nav-menu--main .current-menu-item .elementor-item,
+.elementor-nav-menu--popup .elementor-item.highlighted,
+.elementor-nav-menu--popup .elementor-item.elementor-item-active,
+.elementor-nav-menu--popup .elementor-item:hover,
+.elementor-nav-menu--popup .elementor-item:focus,
+.elementor-nav-menu--popup .elementor-nav-menu--dropdown a:hover,
+.elementor-nav-menu--popup .elementor-nav-menu--dropdown a.highlighted,
+.elementor-nav-menu--dropdown:not(.mega-menu) a:hover,
+.elementor-nav-menu--dropdown:not(.mega-menu) a.highlighted,
+.elementor-nav-menu--dropdown:not(.mega-menu) a.has-submenu,
+.elementor-menu-toggle:hover i,
+.elementor-menu-toggle:hover .menu-toggle-title,
+.elementor-phone i,
+.elementor-phone .elementor-phone-title,
+.elementor-phone .elementor-phone-subtitle,
+.portfolio .portfolio-content .entry-title a:hover,
+.portfolio .entry-category a:hover,
+.elementor-portfolio-style-overlay
+  .portfolio
+  .portfolio-content
+  .entry-category
+  a:hover,
+.elementor-portfolio__filter:hover,
+.elementor-widget-opal-post-grid
+  .column-item
+  .entry-meta
+  .posted-author
+  a:hover,
+.elementor-button-default .elementor-button,
+.elementor-search-form .elementor-search-form__submit:hover,
+.elementor-search-form--skin-full_screen
+  .elementor-search-form__toggle:hover,
+.elementor-widget-social-icons.elementor-social-custom
+  .elementor-social-icon:hover
+  i,
+.elementor-teams-wrapper .elementor-team-job,
+.elementor-teams-wrapper .team-icon-socials li:hover a,
+.elementor-video-icon {
+  color: #5e5e5e;
+}
+.f-primary {
+  fill: #5e5e5e;
+}
+.mainmenu-container li li a:before,
+.mp-level::-webkit-scrollbar-thumb,
+.page-numbers:not(ul):not(.dots):hover,
+.page-numbers:not(ul):not(.dots):focus,
+.page-numbers.current:not(ul):not(.dots),
+.comments-link span,
+.entry-categories a,
+.single .navigation > div:hover,
+.page-links a:hover .page-number,
+.page-links a:focus .page-number,
+.page-links > .page-number,
+.widget_nav_menu a:hover:before,
+.widget_meta a:hover:before,
+.widget_pages a:hover:before,
+.widget_archive a:hover:before,
+.widget_categories a:hover:before,
+.button-primary,
+input[type='reset'],
+input.secondary[type='button'],
+input.secondary[type='reset'],
+input.secondary[type='submit'],
+input[type='button'],
+input[type='submit'],
+button[type='submit'],
+.page .edit-link a.post-edit-link,
+.error404 .go-back,
+.scrollup,
+.comment-form .form-submit input[type='submit'],
+.elementor-wpcf7-button-primary input[type='button'][type='submit'],
+.elementor-wpcf7-button-primary input[type='submit'],
+.elementor-wpcf7-button-primary button[type='submit'],
+.mailchimp-button-primary button,
+.mailchimp-button-primary button[type='submit'],
+.button-default:hover,
+.search .link-more a:hover,
+.button-dark:hover,
+.elementor-element .elementor-button-dark .elementor-button:hover,
+.elementor-wpcf7-button-dark input:hover[type='submit'],
+.elementor-wpcf7-button-dark button:hover[type='submit'],
+.mailchimp-button-dark button:hover,
+.button-dark:active,
+.elementor-element .elementor-button-dark .elementor-button:active,
+.elementor-wpcf7-button-dark input:active[type='submit'],
+.elementor-wpcf7-button-dark button:active[type='submit'],
+.mailchimp-button-dark button:active,
+.button-dark:focus,
+.elementor-element .elementor-button-dark .elementor-button:focus,
+.elementor-wpcf7-button-dark input:focus[type='submit'],
+.elementor-wpcf7-button-dark button:focus[type='submit'],
+.mailchimp-button-dark button:focus,
+.button-light:hover,
+.elementor-element .elementor-button-light .elementor-button:hover,
+.elementor-wpcf7-button-light input:hover[type='submit'],
+.elementor-wpcf7-button-light button:hover[type='submit'],
+.mailchimp-button-light button:hover,
+.button-light:active,
+.elementor-element .elementor-button-light .elementor-button:active,
+.elementor-wpcf7-button-light input:active[type='submit'],
+.elementor-wpcf7-button-light button:active[type='submit'],
+.mailchimp-button-light button:active,
+.button-light:focus,
+.elementor-element .elementor-button-light .elementor-button:focus,
+.elementor-wpcf7-button-light input:focus[type='submit'],
+.elementor-wpcf7-button-light button:focus[type='submit'],
+.mailchimp-button-light button:focus,
+.elementor-element .elementor-button-primary .elementor-button,
+.button-outline-primary:hover,
+.elementor-wpcf7-button-outline_primary input:hover[type='button'],
+.elementor-wpcf7-button-outline_primary input:hover[type='submit'],
+.elementor-wpcf7-button-outline_primary button:hover[type='submit'],
+.mailchimp-button-outline_primary button:hover,
+.button-outline-primary:active,
+.elementor-wpcf7-button-outline_primary input:active[type='button'],
+.elementor-wpcf7-button-outline_primary input:active[type='submit'],
+.elementor-wpcf7-button-outline_primary button:active[type='submit'],
+.mailchimp-button-outline_primary button:active,
+.button-outline-primary.active,
+.elementor-wpcf7-button-outline_primary input.active[type='button'],
+.elementor-wpcf7-button-outline_primary input.active[type='submit'],
+.elementor-wpcf7-button-outline_primary button.active[type='submit'],
+.mailchimp-button-outline_primary button.active,
+.show > .button-outline-primary.dropdown-toggle,
+.elementor-wpcf7-button-outline_primary
+  .show
+  > input.dropdown-toggle[type='button'],
+.elementor-wpcf7-button-outline_primary
+  .show
+  > input.dropdown-toggle[type='submit'],
+.elementor-wpcf7-button-outline_primary
+  .show
+  > button.dropdown-toggle[type='submit'],
+.mailchimp-button-outline_primary .show > button.dropdown-toggle,
+.elementor-element
+  .elementor-button-outline_primary
+  .elementor-button:hover,
+.elementor-element
+  .elementor-button-outline_primary
+  .elementor-button:active,
+.elementor-element
+  .elementor-button-outline_primary
+  .elementor-button:focus,
+.bg-primary,
+.owl-theme.owl-carousel .owl-nav [class*='owl-']:hover:before,
+.owl-theme .products .owl-nav [class*='owl-']:hover:before,
+.owl-theme.owl-carousel .owl-dots .owl-dot:hover,
+.owl-theme.owl-carousel .owl-dots .owl-dot.active,
+.owl-theme .products .owl-dots .owl-dot:hover,
+.owl-theme .products .owl-dots .owl-dot.active,
+.elementor-widget-divider .elementor-divider-separator:before,
+.elementor-flip-box__front,
+.elementor-widget-icon-box.elementor-view-stacked:hover .elementor-icon,
+.elementor-widget-icon-box.elementor-view-stacked:not(:hover)
+  .elementor-icon,
+.elementor-widget-icon.elementor-view-stacked .elementor-icon,
+.elementor-widget-opal-idx-search
+  input.flexmls_connect__search_new_submit[type='submit'],
+.elementor-widget-opal-image-hotspots
+  .scrollbar-inner
+  > .scroll-element
+  .scroll-bar,
+.opal-image-hotspots-main-icons .opal-image-hotspots-icon,
+.elementor-widget-opal-image-gallery .gallery-item-overlay,
+.elementor-nav-menu--main.elementor-nav-menu--layout-horizontal:not(.e--pointer-framed)
+  .elementor-nav-menu
+  > li.current-menu-parent
+  > a:before,
+.elementor-nav-menu--main.elementor-nav-menu--layout-horizontal:not(.e--pointer-framed)
+  .elementor-nav-menu
+  > li.current-menu-parent
+  > a:after,
+.elementor-nav-menu--main.e--pointer-dot
+  .elementor-item.elementor-item-active:before,
+.elementor-nav-menu--main.e--pointer-dot
+  .elementor-item:not(:hover):before,
+.elementor-nav-menu--main.e--pointer-dot .elementor-item:hover:before,
+.elementor-nav-menu--main:not(.e--pointer-framed)
+  .elementor-item.elementor-item-active:before,
+.elementor-nav-menu--main:not(.e--pointer-framed)
+  .elementor-item.elementor-item-active:after,
+.elementor-nav-menu--main:not(.e--pointer-framed) .elementor-item:before,
+.elementor-nav-menu--main:not(.e--pointer-framed) .elementor-item:after,
+.elementor-nav-menu--popup.e--pointer-dot
+  .elementor-item.elementor-item-active:before,
+.elementor-nav-menu--popup.e--pointer-dot .elementor-item:hover:before,
+.e--pointer-dot .elementor-item:before,
+.e--pointer-underline .elementor-item .menu-title:before,
+.e--pointer-underline .elementor-item .menu-title:after,
+.elementor-nav-menu--main.e--pointer-sub-line .elementor-sub-item:before,
+.elementor-phone-style2 .elementor-phone,
+.portfolio .line,
+.elementor-widget-opal-post-grid .column-item .cat-links a,
+.elementor-progress-bar,
+.elementor-tabs-view-horizontal
+  .elementor-tab-title:not(:last-child):before {
+  background-color: #5e5e5e;
+}
+.button-primary,
+input[type='reset'],
+input.secondary[type='button'],
+input.secondary[type='reset'],
+input.secondary[type='submit'],
+input[type='button'],
+input[type='submit'],
+button[type='submit'],
+.page .edit-link a.post-edit-link,
+.error404 .go-back,
+.scrollup,
+.comment-form .form-submit input[type='submit'],
+.elementor-wpcf7-button-primary input[type='button'][type='submit'],
+.elementor-wpcf7-button-primary input[type='submit'],
+.elementor-wpcf7-button-primary button[type='submit'],
+.mailchimp-button-primary button,
+.mailchimp-button-primary button[type='submit'],
+.button-secondary,
+.secondary-button .search-submit,
+.elementor-wpcf7-button-secondary input[type='button'][type='submit'],
+.elementor-wpcf7-button-secondary input[type='submit'],
+.elementor-wpcf7-button-secondary button[type='submit'],
+.mailchimp-button-secondary button,
+.mailchimp-button-secondary button[type='submit'],
+.button-underline,
+.elementor-element .elementor-button-underline .elementor-button,
+.form-control:focus,
+input[type='text']:focus,
+input[type='email']:focus,
+input[type='url']:focus,
+input[type='password']:focus,
+input[type='search']:focus,
+input[type='number']:focus,
+input[type='tel']:focus,
+input[type='range']:focus,
+input[type='date']:focus,
+input[type='month']:focus,
+input[type='week']:focus,
+input[type='time']:focus,
+input[type='datetime']:focus,
+input[type='datetime-local']:focus,
+input[type='color']:focus,
+textarea:focus,
+.more-link-wrap a,
+.single .navigation > div:hover,
+.widget .tagcloud a:hover,
+.widget .tagcloud a:focus,
+.widget.widget_tag_cloud a:hover,
+.widget.widget_tag_cloud a:focus,
+.wp_widget_tag_cloud a:hover,
+.wp_widget_tag_cloud a:focus,
+.button-default:hover,
+.search .link-more a:hover,
+.button-dark:hover,
+.elementor-element .elementor-button-dark .elementor-button:hover,
+.elementor-wpcf7-button-dark input:hover[type='submit'],
+.elementor-wpcf7-button-dark button:hover[type='submit'],
+.mailchimp-button-dark button:hover,
+.button-dark:active,
+.elementor-element .elementor-button-dark .elementor-button:active,
+.elementor-wpcf7-button-dark input:active[type='submit'],
+.elementor-wpcf7-button-dark button:active[type='submit'],
+.mailchimp-button-dark button:active,
+.button-dark:focus,
+.elementor-element .elementor-button-dark .elementor-button:focus,
+.elementor-wpcf7-button-dark input:focus[type='submit'],
+.elementor-wpcf7-button-dark button:focus[type='submit'],
+.mailchimp-button-dark button:focus,
+.button-light:hover,
+.elementor-element .elementor-button-light .elementor-button:hover,
+.elementor-wpcf7-button-light input:hover[type='submit'],
+.elementor-wpcf7-button-light button:hover[type='submit'],
+.mailchimp-button-light button:hover,
+.button-light:active,
+.elementor-element .elementor-button-light .elementor-button:active,
+.elementor-wpcf7-button-light input:active[type='submit'],
+.elementor-wpcf7-button-light button:active[type='submit'],
+.mailchimp-button-light button:active,
+.button-light:focus,
+.elementor-element .elementor-button-light .elementor-button:focus,
+.elementor-wpcf7-button-light input:focus[type='submit'],
+.elementor-wpcf7-button-light button:focus[type='submit'],
+.mailchimp-button-light button:focus,
+.elementor-element .elementor-button-primary .elementor-button,
+.button-outline-primary,
+.elementor-wpcf7-button-outline_primary input[type='button'],
+.elementor-wpcf7-button-outline_primary input[type='submit'],
+.elementor-wpcf7-button-outline_primary button[type='submit'],
+.mailchimp-button-outline_primary button,
+.mailchimp-button-outline_primary button[type='submit'],
+.elementor-element .elementor-button-outline_primary .elementor-button,
+.button-outline-primary:hover,
+.elementor-wpcf7-button-outline_primary input:hover[type='button'],
+.elementor-wpcf7-button-outline_primary input:hover[type='submit'],
+.elementor-wpcf7-button-outline_primary button:hover[type='submit'],
+.mailchimp-button-outline_primary button:hover,
+.button-outline-primary:active,
+.elementor-wpcf7-button-outline_primary input:active[type='button'],
+.elementor-wpcf7-button-outline_primary input:active[type='submit'],
+.elementor-wpcf7-button-outline_primary button:active[type='submit'],
+.mailchimp-button-outline_primary button:active,
+.button-outline-primary.active,
+.elementor-wpcf7-button-outline_primary input.active[type='button'],
+.elementor-wpcf7-button-outline_primary input.active[type='submit'],
+.elementor-wpcf7-button-outline_primary button.active[type='submit'],
+.mailchimp-button-outline_primary button.active,
+.show > .button-outline-primary.dropdown-toggle,
+.elementor-wpcf7-button-outline_primary
+  .show
+  > input.dropdown-toggle[type='button'],
+.elementor-wpcf7-button-outline_primary
+  .show
+  > input.dropdown-toggle[type='submit'],
+.elementor-wpcf7-button-outline_primary
+  .show
+  > button.dropdown-toggle[type='submit'],
+.mailchimp-button-outline_primary .show > button.dropdown-toggle,
+.elementor-element
+  .elementor-button-outline_primary
+  .elementor-button:hover,
+.elementor-element
+  .elementor-button-outline_primary
+  .elementor-button:active,
+.elementor-element
+  .elementor-button-outline_primary
+  .elementor-button:focus,
+.b-primary,
+.owl-theme.owl-carousel .owl-nav [class*='owl-']:hover:before,
+.owl-theme .products .owl-nav [class*='owl-']:hover:before,
+.elementor-widget-icon-box.elementor-view-framed:hover .elementor-icon,
+.elementor-widget-icon-box.elementor-view-framed:not(:hover)
+  .elementor-icon,
+.elementor-widget-icon.elementor-view-default .elementor-icon,
+.elementor-widget-icon.elementor-view-framed .elementor-icon,
+.elementor-widget-opal-image-gallery
+  .elementor-galerry__filter.elementor-active,
+.mc4wp-form-fields:focus-within,
+.e--pointer-framed .elementor-item.elementor-item-active:before,
+.e--pointer-framed .elementor-item.elementor-item-active:after,
+.e--pointer-framed .elementor-item:before,
+.e--pointer-framed .elementor-item:after,
+.elementor-nav-menu--main > .elementor-nav-menu,
+.elementor-nav-menu--main .elementor-nav-menu ul,
+ul.elementor-price-table__features-list,
+.elementor-search-form__container:not(.elementor-search-form--full-screen):focus-within,
+.elementor-search-form--skin-full_screen
+  .elementor-search-form__toggle:hover,
+.elementor-widget-opal-testimonials .elementor-testimonial-rule,
+.elementor-widget-opal-testimonials
+  .layout_2
+  .elementor-testimonial-rule {
+  border-color: #5e5e5e;
+}
+.elementor-widget-call-to-action.elementor-button-default
+  .elementor-cta__button:hover,
+.elementor-nav-menu--layout-horizontal
+  .elementor-nav-menu
+  li.menu-item-has-children:before,
+.elementor-nav-menu--layout-horizontal
+  .elementor-nav-menu
+  li.has-mega-menu:before {
+  border-bottom-color: #5e5e5e;
+}
+.btn-link:focus,
+.elementor-element .elementor-button-link .elementor-button:focus,
+.btn-link:hover,
+.elementor-element .elementor-button-link .elementor-button:hover,
+.button-link:focus,
+.more-link-wrap a:focus,
+.elementor-wpcf7-button-link input:focus[type='submit'],
+.elementor-wpcf7-button-link button:focus[type='submit'],
+.mailchimp-button-link button:focus,
+.button-link:hover,
+.elementor-wpcf7-button-link input:hover[type='submit'],
+.elementor-wpcf7-button-link button:hover[type='submit'],
+.mailchimp-button-link button:hover,
+.button-underline:focus,
+.elementor-element .elementor-button-underline .elementor-button:focus,
+.button-underline:hover,
+.elementor-element .elementor-button-underline .elementor-button:hover,
+a:hover,
+a:active,
+.widget_search button[type='submit']:hover,
+.widget_search button[type='submit']:focus,
+.elementor-phone:hover i,
+.elementor-phone:hover .elementor-phone-title,
+.elementor-phone:hover .elementor-phone-subtitle {
+  color: #454545;
+}
+.error404 .return-home:hover,
+.button-primary:hover,
+input:hover[type='reset'],
+input:hover[type='button'],
+input:hover[type='submit'],
+button:hover[type='submit'],
+.page .edit-link a.post-edit-link:hover,
+.error404 .go-back:hover,
+.scrollup:hover,
+.comment-form .form-submit input:hover[type='submit'],
+.elementor-wpcf7-button-primary input:hover[type='submit'],
+.elementor-wpcf7-button-primary button:hover[type='submit'],
+.mailchimp-button-primary button:hover,
+.button-primary:active,
+input:active[type='reset'],
+input:active[type='button'],
+input:active[type='submit'],
+button:active[type='submit'],
+.page .edit-link a.post-edit-link:active,
+.error404 .go-back:active,
+.scrollup:active,
+.comment-form .form-submit input:active[type='submit'],
+.elementor-wpcf7-button-primary input:active[type='submit'],
+.elementor-wpcf7-button-primary button:active[type='submit'],
+.mailchimp-button-primary button:active,
+.button-primary.active,
+input.active[type='reset'],
+input.active[type='button'],
+input.active[type='submit'],
+button.active[type='submit'],
+.page .edit-link a.active.post-edit-link,
+.error404 .active.go-back,
+.active.scrollup,
+.comment-form .form-submit input.active[type='submit'],
+.elementor-wpcf7-button-primary input.active[type='submit'],
+.elementor-wpcf7-button-primary button.active[type='submit'],
+.mailchimp-button-primary button.active,
+.show > .button-primary.dropdown-toggle,
+.show > input.dropdown-toggle[type='reset'],
+.show > input.dropdown-toggle[type='button'],
+.show > input.dropdown-toggle[type='submit'],
+.show > button.dropdown-toggle[type='submit'],
+.page .edit-link .show > a.dropdown-toggle.post-edit-link,
+.error404 .show > .dropdown-toggle.go-back,
+.show > .dropdown-toggle.scrollup,
+.comment-form .form-submit .show > input.dropdown-toggle[type='submit'],
+.elementor-wpcf7-button-primary
+  .show
+  > input.dropdown-toggle[type='submit'],
+.elementor-wpcf7-button-primary
+  .show
+  > button.dropdown-toggle[type='submit'],
+.mailchimp-button-primary .show > button.dropdown-toggle,
+.elementor-element .elementor-button-primary .elementor-button:hover,
+.elementor-element .elementor-button-primary .elementor-button:active,
+.elementor-element .elementor-button-primary .elementor-button:focus,
+.elementor-phone-style2 .elementor-phone:hover,
+.elementor-widget-opal-post-grid .column-item .cat-links a:hover {
+  background-color: #454545;
+}
+.button-primary:active,
+input:active[type='reset'],
+input:active[type='button'],
+input:active[type='submit'],
+button:active[type='submit'],
+.page .edit-link a.post-edit-link:active,
+.error404 .go-back:active,
+.scrollup:active,
+.comment-form .form-submit input:active[type='submit'],
+.elementor-wpcf7-button-primary input:active[type='submit'],
+.elementor-wpcf7-button-primary button:active[type='submit'],
+.mailchimp-button-primary button:active,
+.button-primary.active,
+input.active[type='reset'],
+input.active[type='button'],
+input.active[type='submit'],
+button.active[type='submit'],
+.page .edit-link a.active.post-edit-link,
+.error404 .active.go-back,
+.active.scrollup,
+.comment-form .form-submit input.active[type='submit'],
+.elementor-wpcf7-button-primary input.active[type='submit'],
+.elementor-wpcf7-button-primary button.active[type='submit'],
+.mailchimp-button-primary button.active,
+.show > .button-primary.dropdown-toggle,
+.show > input.dropdown-toggle[type='reset'],
+.show > input.dropdown-toggle[type='button'],
+.show > input.dropdown-toggle[type='submit'],
+.show > button.dropdown-toggle[type='submit'],
+.page .edit-link .show > a.dropdown-toggle.post-edit-link,
+.error404 .show > .dropdown-toggle.go-back,
+.show > .dropdown-toggle.scrollup,
+.comment-form .form-submit .show > input.dropdown-toggle[type='submit'],
+.elementor-wpcf7-button-primary
+  .show
+  > input.dropdown-toggle[type='submit'],
+.elementor-wpcf7-button-primary
+  .show
+  > button.dropdown-toggle[type='submit'],
+.mailchimp-button-primary .show > button.dropdown-toggle,
+.button-secondary:active,
+.secondary-button .search-submit:active,
+.elementor-wpcf7-button-secondary input:active[type='submit'],
+.elementor-wpcf7-button-secondary button:active[type='submit'],
+.mailchimp-button-secondary button:active,
+.button-secondary.active,
+.secondary-button .active.search-submit,
+.elementor-wpcf7-button-secondary input.active[type='submit'],
+.elementor-wpcf7-button-secondary button.active[type='submit'],
+.mailchimp-button-secondary button.active,
+.show > .button-secondary.dropdown-toggle,
+.secondary-button .show > .dropdown-toggle.search-submit,
+.elementor-wpcf7-button-secondary
+  .show
+  > input.dropdown-toggle[type='submit'],
+.elementor-wpcf7-button-secondary
+  .show
+  > button.dropdown-toggle[type='submit'],
+.mailchimp-button-secondary .show > button.dropdown-toggle,
+.button-underline:hover,
+.elementor-element .elementor-button-underline .elementor-button:hover,
+.error404 .return-home:hover,
+.button-primary:hover,
+input:hover[type='reset'],
+input:hover[type='button'],
+input:hover[type='submit'],
+button:hover[type='submit'],
+.page .edit-link a.post-edit-link:hover,
+.error404 .go-back:hover,
+.scrollup:hover,
+.comment-form .form-submit input:hover[type='submit'],
+.elementor-wpcf7-button-primary input:hover[type='submit'],
+.elementor-wpcf7-button-primary button:hover[type='submit'],
+.mailchimp-button-primary button:hover,
+.elementor-element .elementor-button-primary .elementor-button:hover,
+.elementor-element .elementor-button-primary .elementor-button:active,
+.elementor-element .elementor-button-primary .elementor-button:focus {
+  border-color: #454545;
+}
+.button-outline-secondary,
+.elementor-wpcf7-button-outline_secondary
+  input[type='button'][type='submit'],
+.elementor-wpcf7-button-outline_secondary input[type='submit'],
+.elementor-wpcf7-button-outline_secondary button[type='submit'],
+.mailchimp-button-outline_secondary button,
+.mailchimp-button-outline_secondary button[type='submit'],
+.elementor-element .elementor-button-outline_secondary .elementor-button,
+.c-secondary,
+.author-wrapper .author-name h6,
+.contactform-content button.mfp-close,
+.elementor-widget-opal-building_carousel .elementor-icon {
+  color: #66717a;
+}
+.f-secondary {
+  fill: #66717a;
+}
+.button-secondary,
+.secondary-button .search-submit,
+.elementor-wpcf7-button-secondary input[type='button'][type='submit'],
+.elementor-wpcf7-button-secondary input[type='submit'],
+.elementor-wpcf7-button-secondary button[type='submit'],
+.mailchimp-button-secondary button,
+.mailchimp-button-secondary button[type='submit'],
+.elementor-button-secondary button[type='submit'],
+.elementor-button-secondary input[type='button'],
+.elementor-button-secondary input[type='submit'],
+.elementor-element .elementor-button-secondary .elementor-button,
+.button-outline-secondary:hover,
+.elementor-wpcf7-button-outline_secondary input:hover[type='submit'],
+.elementor-wpcf7-button-outline_secondary button:hover[type='submit'],
+.mailchimp-button-outline_secondary button:hover,
+.button-outline-secondary:active,
+.elementor-wpcf7-button-outline_secondary input:active[type='submit'],
+.elementor-wpcf7-button-outline_secondary button:active[type='submit'],
+.mailchimp-button-outline_secondary button:active,
+.button-outline-secondary.active,
+.elementor-wpcf7-button-outline_secondary input.active[type='submit'],
+.elementor-wpcf7-button-outline_secondary button.active[type='submit'],
+.mailchimp-button-outline_secondary button.active,
+.show > .button-outline-secondary.dropdown-toggle,
+.elementor-wpcf7-button-outline_secondary
+  .show
+  > input.dropdown-toggle[type='submit'],
+.elementor-wpcf7-button-outline_secondary
+  .show
+  > button.dropdown-toggle[type='submit'],
+.mailchimp-button-outline_secondary .show > button.dropdown-toggle,
+.elementor-element
+  .elementor-button-outline_secondary
+  .elementor-button:hover,
+.elementor-element
+  .elementor-button-outline_secondary
+  .elementor-button:active,
+.elementor-element
+  .elementor-button-outline_secondary
+  .elementor-button:focus,
+.bg-secondary,
+#secondary .elementor-widget-wp-widget-categories a:before,
+.elementor-awards-wrapper.awards-style-2
+  .elementor-content-item-inner:hover
+  .elementor_awards_image,
+.elementor-cta,
+.elementor-flip-box__back,
+.portfolio .portfolio-post-thumbnail {
+  background-color: #66717a;
+}
+.button-secondary,
+.secondary-button .search-submit,
+.elementor-wpcf7-button-secondary input[type='button'][type='submit'],
+.elementor-wpcf7-button-secondary input[type='submit'],
+.elementor-wpcf7-button-secondary button[type='submit'],
+.mailchimp-button-secondary button,
+.mailchimp-button-secondary button[type='submit'],
+.elementor-button-secondary button[type='submit'],
+.elementor-button-secondary input[type='button'],
+.elementor-button-secondary input[type='submit'],
+.elementor-element .elementor-button-secondary .elementor-button,
+.button-outline-secondary,
+.elementor-wpcf7-button-outline_secondary
+  input[type='button'][type='submit'],
+.elementor-wpcf7-button-outline_secondary input[type='submit'],
+.elementor-wpcf7-button-outline_secondary button[type='submit'],
+.mailchimp-button-outline_secondary button,
+.mailchimp-button-outline_secondary button[type='submit'],
+.elementor-element .elementor-button-outline_secondary .elementor-button,
+.button-outline-secondary:hover,
+.elementor-wpcf7-button-outline_secondary input:hover[type='submit'],
+.elementor-wpcf7-button-outline_secondary button:hover[type='submit'],
+.button-outline-secondary:active,
+.elementor-wpcf7-button-outline_secondary input:active[type='submit'],
+.elementor-wpcf7-button-outline_secondary button:active[type='submit'],
+.button-outline-secondary.active,
+.elementor-wpcf7-button-outline_secondary input.active[type='submit'],
+.elementor-wpcf7-button-outline_secondary button.active[type='submit'],
+.show > .button-outline-secondary.dropdown-toggle,
+.elementor-wpcf7-button-outline_secondary
+  .show
+  > input.dropdown-toggle[type='submit'],
+.elementor-wpcf7-button-outline_secondary
+  .show
+  > button.dropdown-toggle[type='submit'],
+.mailchimp-button-outline_secondary .show > button.dropdown-toggle,
+.elementor-element
+  .elementor-button-outline_secondary
+  .elementor-button:hover,
+.elementor-element
+  .elementor-button-outline_secondary
+  .elementor-button:active,
+.elementor-element
+  .elementor-button-outline_secondary
+  .elementor-button:focus,
+.b-secondary {
+  border-color: #66717a;
+}
+.button-secondary:hover,
+.secondary-button .search-submit:hover,
+.elementor-wpcf7-button-secondary input:hover[type='submit'],
+.elementor-wpcf7-button-secondary button:hover[type='submit'],
+.mailchimp-button-secondary button:hover,
+.button-secondary:active,
+.secondary-button .search-submit:active,
+.elementor-wpcf7-button-secondary input:active[type='submit'],
+.elementor-wpcf7-button-secondary button:active[type='submit'],
+.mailchimp-button-secondary button:active,
+.button-secondary.active,
+.secondary-button .active.search-submit,
+.elementor-wpcf7-button-secondary input.active[type='submit'],
+.elementor-wpcf7-button-secondary button.active[type='submit'],
+.mailchimp-button-secondary button.active,
+.show > .button-secondary.dropdown-toggle,
+.secondary-button .show > .dropdown-toggle.search-submit,
+.elementor-wpcf7-button-secondary
+  .show
+  > input.dropdown-toggle[type='submit'],
+.elementor-wpcf7-button-secondary
+  .show
+  > button.dropdown-toggle[type='submit'],
+.mailchimp-button-secondary .show > button.dropdown-toggle,
+.elementor-button-secondary button[type='submit']:hover,
+.elementor-button-secondary button[type='submit']:active,
+.elementor-button-secondary button[type='submit']:focus,
+.elementor-button-secondary input[type='button']:hover,
+.elementor-button-secondary input[type='button']:active,
+.elementor-button-secondary input[type='button']:focus,
+.elementor-button-secondary input[type='submit']:hover,
+.elementor-button-secondary input[type='submit']:active,
+.elementor-button-secondary input[type='submit']:focus,
+.elementor-element .elementor-button-secondary .elementor-button:hover,
+.elementor-element .elementor-button-secondary .elementor-button:active,
+.elementor-element .elementor-button-secondary .elementor-button:focus {
+  background-color: #4f575f;
+}
+.button-secondary:hover,
+.secondary-button .search-submit:hover,
+.elementor-wpcf7-button-secondary input:hover[type='submit'],
+.elementor-wpcf7-button-secondary button:hover[type='submit'],
+.mailchimp-button-secondary button:hover,
+.button-secondary:active,
+.secondary-button .search-submit:active,
+.elementor-wpcf7-button-secondary input:active[type='submit'],
+.elementor-wpcf7-button-secondary button:active[type='submit'],
+.mailchimp-button-secondary button:active,
+.button-secondary.active,
+.secondary-button .active.search-submit,
+.elementor-wpcf7-button-secondary input.active[type='submit'],
+.elementor-wpcf7-button-secondary button.active[type='submit'],
+.mailchimp-button-secondary button.active,
+.show > .button-secondary.dropdown-toggle,
+.secondary-button .show > .dropdown-toggle.search-submit,
+.elementor-wpcf7-button-secondary
+  .show
+  > input.dropdown-toggle[type='submit'],
+.elementor-wpcf7-button-secondary
+  .show
+  > button.dropdown-toggle[type='submit'],
+.mailchimp-button-secondary .show > button.dropdown-toggle,
+.elementor-button-secondary button[type='submit']:hover,
+.elementor-button-secondary button[type='submit']:active,
+.elementor-button-secondary button[type='submit']:focus,
+.elementor-button-secondary input[type='button']:hover,
+.elementor-button-secondary input[type='button']:active,
+.elementor-button-secondary input[type='button']:focus,
+.elementor-button-secondary input[type='submit']:hover,
+.elementor-button-secondary input[type='submit']:active,
+.elementor-button-secondary input[type='submit']:focus,
+.elementor-element .elementor-button-secondary .elementor-button:hover,
+.elementor-element .elementor-button-secondary .elementor-button:active,
+.elementor-element .elementor-button-secondary .elementor-button:focus {
+  border-color: #4f575f;
+}
+.row,
+body.opal-default-content-layout-2cr #content .wrap,
+body.opal-content-layout-2cl #content .wrap,
+body.opal-content-layout-2cr #content .wrap,
+[data-opal-columns],
+.opal-archive-style-4.blog .site-main,
+.opal-archive-style-4.archive .site-main,
+.site-footer .widget-area,
+.comment-form,
+.widget .gallery,
+.elementor-element .gallery,
+.entry-gallery .gallery,
+.single .gallery,
+[data-elementor-columns],
+.project-group,
+.form-project {
+  margin-right: -15px;
+  margin-left: -15px;
+}
+.col-1,
+.col-2,
+[data-elementor-columns-mobile='6'] .column-item,
+.col-3,
+[data-elementor-columns-mobile='4'] .column-item,
+.col-4,
+[data-elementor-columns-mobile='3'] .column-item,
+.col-5,
+.col-6,
+[data-elementor-columns-mobile='2'] .column-item,
+.col-7,
+.col-8,
+.col-9,
+.col-10,
+.col-11,
+.col-12,
+.related-posts .column-item,
+.opal-default-content-layout-2cr .related-posts .column-item,
+.opal-content-layout-2cr .related-posts .column-item,
+.opal-content-layout-2cl .related-posts .column-item,
+.site-footer .widget-area .widget-column,
+.comment-form > p,
+.comment-form > .comment-form-rating,
+.widget .gallery-columns-1 .gallery-item,
+.elementor-element .gallery-columns-1 .gallery-item,
+.entry-gallery .gallery-columns-1 .gallery-item,
+.single .gallery-columns-1 .gallery-item,
+[data-elementor-columns-mobile='1'] .column-item,
+.col,
+body #secondary,
+.column-item,
+.col-auto,
+.col-sm-1,
+[data-opal-columns='12'] .column-item,
+.col-sm-2,
+[data-opal-columns='6'] .column-item,
+.col-sm-3,
+[data-opal-columns='4'] .column-item,
+.col-sm-4,
+[data-opal-columns='3'] .column-item,
+.comment-form .comment-form-email,
+.comment-form .comment-form-url,
+.comment-form .comment-form-author,
+.widget .gallery-columns-6 .gallery-item,
+.elementor-element .gallery-columns-6 .gallery-item,
+.entry-gallery .gallery-columns-6 .gallery-item,
+.single .gallery-columns-6 .gallery-item,
+.col-sm-5,
+.col-sm-6,
+[data-opal-columns='2'] .column-item,
+.opal-archive-style-2 .column-item,
+.opal-archive-style-5 .column-item,
+.opal-archive-style-4 .column-item,
+.opal-archive-style-3 .column-item,
+.widget .gallery-columns-2 .gallery-item,
+.elementor-element .gallery-columns-2 .gallery-item,
+.entry-gallery .gallery-columns-2 .gallery-item,
+.single .gallery-columns-2 .gallery-item,
+.widget .gallery-columns-3 .gallery-item,
+.elementor-element .gallery-columns-3 .gallery-item,
+.entry-gallery .gallery-columns-3 .gallery-item,
+.single .gallery-columns-3 .gallery-item,
+.widget .gallery-columns-4 .gallery-item,
+.elementor-element .gallery-columns-4 .gallery-item,
+.entry-gallery .gallery-columns-4 .gallery-item,
+.single .gallery-columns-4 .gallery-item,
+.col-sm-7,
+.col-sm-8,
+.col-sm-9,
+.col-sm-10,
+.col-sm-11,
+.col-sm-12,
+[data-opal-columns='1'] .column-item,
+.opal-archive-style-2.opal-content-layout-2cr .column-item,
+.opal-archive-style-5.opal-content-layout-2cr .column-item,
+.opal-archive-style-4.opal-content-layout-2cr .column-item,
+.opal-archive-style-3.opal-content-layout-2cr .column-item,
+.elementor-widget-opal-image-hotspots .opal-image-hotspots-accordion,
+.elementor-widget-opal-image-hotspots
+  .opal-image-hotspots-accordion
+  + .opal-image-hotspots-container,
+.col-sm,
+.col-sm-auto,
+.col-md-1,
+.col-md-2,
+[data-elementor-columns-tablet='6'] .column-item,
+.col-md-3,
+[data-elementor-columns-tablet='4'] .column-item,
+.col-md-4,
+[data-elementor-columns-tablet='3'] .column-item,
+.col-md-5,
+.col-md-6,
+[data-elementor-columns-tablet='2'] .column-item,
+.col-md-7,
+.col-md-8,
+.col-md-9,
+.col-md-10,
+.col-md-11,
+.col-md-12,
+[data-elementor-columns-tablet='1'] .column-item,
+.col-md,
+.col-md-auto,
+.col-lg-1,
+.col-lg-2,
+[data-elementor-columns='6'] .column-item,
+.col-lg-3,
+[data-elementor-columns='4'] .column-item,
+.col-lg-4,
+[data-elementor-columns='3'] .column-item,
+.col-lg-5,
+.col-lg-6,
+[data-elementor-columns='2'] .column-item,
+.col-lg-7,
+.col-lg-8,
+.col-lg-9,
+.col-lg-10,
+.col-lg-11,
+.col-lg-12,
+[data-elementor-columns='1'] .column-item,
+.col-lg,
+.col-lg-auto,
+.col-xl-1,
+.col-xl-2,
+.col-xl-3,
+.col-xl-4,
+.col-xl-5,
+.col-xl-6,
+.col-xl-7,
+.col-xl-8,
+.col-xl-9,
+.col-xl-10,
+.col-xl-11,
+.col-xl-12,
+.col-xl,
+.col-xl-auto {
+  padding-right: 15px;
+  padding-left: 15px;
+}
+.container,
+#content,
+ul.elementor-nav-menu--dropdown.mega-containerwidth
+  > li.mega-menu-item
+  > .elementor {
+  padding-right: 15px;
+  padding-left: 15px;
+}
+@media (min-width: 576px) {
+  .container,
+  #content,
+  ul.elementor-nav-menu--dropdown.mega-containerwidth
+    > li.mega-menu-item
+    > .elementor {
+    max-width: 540px;
+  }
+}
+@media (min-width: 768px) {
+  .container,
+  #content,
+  ul.elementor-nav-menu--dropdown.mega-containerwidth
+    > li.mega-menu-item
+    > .elementor {
+    max-width: 720px;
+  }
+}
+@media (min-width: 992px) {
+  .container,
+  #content,
+  ul.elementor-nav-menu--dropdown.mega-containerwidth
+    > li.mega-menu-item
+    > .elementor {
+    max-width: 960px;
+  }
+}
+@media (min-width: 1200px) {
+  .container,
+  #content,
+  ul.elementor-nav-menu--dropdown.mega-containerwidth
+    > li.mega-menu-item
+    > .elementor {
+    max-width: 1290px;
+  }
+}
+.elementor-widget-heading .elementor-heading-title {
+  font-family: 'DM Serif Display', -apple-system, BlinkMacSystemFont,
+    Sans-serif;
+}
+.elementor-widget-heading .elementor-heading-title,
+.elementor-text-editor b {
+  font-weight: 400;
+}
+.elementor-widget-heading .elementor-heading-title {
+  font-family: 'DM Serif Display', -apple-system, BlinkMacSystemFont,
+    Sans-serif;
+}
+.elementor-widget-heading .elementor-heading-title,
+.elementor-text-editor b {
+  font-weight: 400;
+}
+.typo-heading,
+h1,
+h2,
+h3,
+h4,
+h5,
+h6,
+.h1,
+.h2,
+.single-portfolio-summary-meta-title,
+.h3,
+h3.entry-title,
+.related-posts .related-heading,
+.comments-title,
+.comment-respond .comment-reply-title,
+.h4,
+.h5,
+.single .navigation .nav-link a,
+h2.widget-title,
+h2.widgettitle,
+.h6,
+blockquote,
+.author-wrapper .author-name,
+.error404 .error-404-subtitle h2,
+.comment-reply-link,
+#secondary .elementor-widget-container h5:first-of-type,
+.elementor-accordion .elementor-tab-title,
+.contactform-content .form-title,
+.elementor-cta-number,
+.elementor-counter .elementor-counter-number-wrapper,
+.elementor-widget-heading .sub-title,
+.icon-list-style2 .elementor-icon-list-item,
+.elementor-widget-opal-image-gallery .elementor-galerry__filter,
+.portfolio .portfolio-number,
+.elementor-widget-progress .elementor-title,
+.tab-tile-style2 .elementor-tab-title,
+.elementor-teams-wrapper .elementor-team-name,
+.elementor-widget-opal-building_carousel .elementor-building-number,
+.single-portfolio-menu a {
+  font-family: 'DM Serif Display', -apple-system, BlinkMacSystemFont,
+    'Segoe UI', Roboto, 'Helvetica Neue', Arial, sans-serif;
+  font-weight: 400;
+}
+@media screen and (min-width: 1200px) {
+  .container,
+  #content,
+  .single-product .related.products,
+  .single-product .up-sells.products,
+  ul.elementor-nav-menu--dropdown.mega-containerwidth
+    > li.mega-menu-item
+    > .elementor {
+    max-width: 1320px;
+  }
+}
+.page-title-bar {
+  background-color: #000000;
+  background-image: url(https://demo2wpopal.b-cdn.net/rehomes/wp-content/uploads/2019/11/background-blog.jpg);
+  background-repeat: no-repeat;
+  background-position: center top;
+}
+.page-title-bar .page-title {
+  color: #ffffff;
+}
+.breadcrumb,
+.breadcrumb span,
+.breadcrumb * {
+  color: #ffffff;
+}
+.breadcrumb a:hover,
+.breadcrumb a:hover span {
+  color: #ffffff;
+}
+.button-primary,
+input[type='reset'],
+input.secondary[type='button'],
+input.secondary[type='reset'],
+input.secondary[type='submit'],
+input[type='button'],
+input[type='submit'],
+button[type='submit'],
+.page .edit-link a.post-edit-link,
+.error404 .go-back,
+.scrollup,
+.comment-form .form-submit input[type='submit'],
+.elementor-wpcf7-button-primary input[type='button'][type='submit'],
+.elementor-wpcf7-button-primary input[type='submit'],
+.elementor-wpcf7-button-primary button[type='submit'],
+.mailchimp-button-primary button,
+.mailchimp-button-primary button[type='submit'],
+.button-default:hover,
+.search .link-more a:hover,
+.button-dark:hover,
+.elementor-element .elementor-button-dark .elementor-button:hover,
+.elementor-wpcf7-button-dark input:hover[type='submit'],
+.elementor-wpcf7-button-dark button:hover[type='submit'],
+.mailchimp-button-dark button:hover,
+.button-dark:active,
+.elementor-element .elementor-button-dark .elementor-button:active,
+.elementor-wpcf7-button-dark input:active[type='submit'],
+.elementor-wpcf7-button-dark button:active[type='submit'],
+.mailchimp-button-dark button:active,
+.button-dark:focus,
+.elementor-element .elementor-button-dark .elementor-button:focus,
+.elementor-wpcf7-button-dark input:focus[type='submit'],
+.elementor-wpcf7-button-dark button:focus[type='submit'],
+.mailchimp-button-dark button:focus,
+.button-light:hover,
+.elementor-element .elementor-button-light .elementor-button:hover,
+.elementor-wpcf7-button-light input:hover[type='submit'],
+.elementor-wpcf7-button-light button:hover[type='submit'],
+.mailchimp-button-light button:hover,
+.button-light:active,
+.elementor-element .elementor-button-light .elementor-button:active,
+.elementor-wpcf7-button-light input:active[type='submit'],
+.elementor-wpcf7-button-light button:active[type='submit'],
+.mailchimp-button-light button:active,
+.button-light:focus,
+.elementor-element .elementor-button-light .elementor-button:focus,
+.elementor-wpcf7-button-light input:focus[type='submit'],
+.elementor-wpcf7-button-light button:focus[type='submit'],
+.mailchimp-button-light button:focus,
+.elementor-element .elementor-button-primary .elementor-button {
+  background-color: #5e5e5e;
+  border-color: #5e5e5e;
+  color: #fff;
+  border-radius: 3px;
+}
+.button-primary:hover,
+input:hover[type='reset'],
+input:hover[type='button'],
+input:hover[type='submit'],
+button:hover[type='submit'],
+.page .edit-link a.post-edit-link:hover,
+.error404 .go-back:hover,
+.scrollup:hover,
+.comment-form .form-submit input:hover[type='submit'],
+.elementor-wpcf7-button-primary input:hover[type='submit'],
+.elementor-wpcf7-button-primary button:hover[type='submit'],
+.mailchimp-button-primary button:hover,
+.button-primary:active,
+input:active[type='reset'],
+input:active[type='button'],
+input:active[type='submit'],
+button:active[type='submit'],
+.page .edit-link a.post-edit-link:active,
+.error404 .go-back:active,
+.scrollup:active,
+.comment-form .form-submit input:active[type='submit'],
+.elementor-wpcf7-button-primary input:active[type='submit'],
+.elementor-wpcf7-button-primary button:active[type='submit'],
+.mailchimp-button-primary button:active,
+.button-primary.active,
+input.active[type='reset'],
+input.active[type='button'],
+input.active[type='submit'],
+button.active[type='submit'],
+.page .edit-link a.active.post-edit-link,
+.error404 .active.go-back,
+.active.scrollup,
+.comment-form .form-submit input.active[type='submit'],
+.elementor-wpcf7-button-primary input.active[type='submit'],
+.elementor-wpcf7-button-primary button.active[type='submit'],
+.mailchimp-button-primary button.active,
+.show > .button-primary.dropdown-toggle,
+.show > input.dropdown-toggle[type='reset'],
+.show > input.dropdown-toggle[type='button'],
+.show > input.dropdown-toggle[type='submit'],
+.show > button.dropdown-toggle[type='submit'],
+.page .edit-link .show > a.dropdown-toggle.post-edit-link,
+.error404 .show > .dropdown-toggle.go-back,
+.show > .dropdown-toggle.scrollup,
+.comment-form .form-submit .show > input.dropdown-toggle[type='submit'],
+.elementor-wpcf7-button-primary
+  .show
+  > input.dropdown-toggle[type='submit'],
+.elementor-wpcf7-button-primary
+  .show
+  > button.dropdown-toggle[type='submit'],
+.mailchimp-button-primary .show > button.dropdown-toggle,
+.elementor-element .elementor-button-primary .elementor-button:hover,
+.elementor-element .elementor-button-primary .elementor-button:active,
+.elementor-element .elementor-button-primary .elementor-button:focus {
+  background-color: #454545;
+  border-color: #454545;
+  color: #fff;
+}
+.button-primary,
+input[type='reset'],
+input.secondary[type='button'],
+input.secondary[type='reset'],
+input.secondary[type='submit'],
+input[type='button'],
+input[type='submit'],
+button[type='submit'],
+.page .edit-link a.post-edit-link,
+.error404 .go-back,
+.scrollup,
+.comment-form .form-submit input[type='submit'],
+.elementor-wpcf7-button-primary input[type='button'][type='submit'],
+.elementor-wpcf7-button-primary input[type='submit'],
+.elementor-wpcf7-button-primary button[type='submit'],
+.mailchimp-button-primary button,
+.mailchimp-button-primary button[type='submit'],
+.button-default:hover,
+.search .link-more a:hover,
+.button-dark:hover,
+.elementor-element .elementor-button-dark .elementor-button:hover,
+.elementor-wpcf7-button-dark input:hover[type='submit'],
+.elementor-wpcf7-button-dark button:hover[type='submit'],
+.mailchimp-button-dark button:hover,
+.button-dark:active,
+.elementor-element .elementor-button-dark .elementor-button:active,
+.elementor-wpcf7-button-dark input:active[type='submit'],
+.elementor-wpcf7-button-dark button:active[type='submit'],
+.mailchimp-button-dark button:active,
+.button-dark:focus,
+.elementor-element .elementor-button-dark .elementor-button:focus,
+.elementor-wpcf7-button-dark input:focus[type='submit'],
+.elementor-wpcf7-button-dark button:focus[type='submit'],
+.mailchimp-button-dark button:focus,
+.button-light:hover,
+.elementor-element .elementor-button-light .elementor-button:hover,
+.elementor-wpcf7-button-light input:hover[type='submit'],
+.elementor-wpcf7-button-light button:hover[type='submit'],
+.mailchimp-button-light button:hover,
+.button-light:active,
+.elementor-element .elementor-button-light .elementor-button:active,
+.elementor-wpcf7-button-light input:active[type='submit'],
+.elementor-wpcf7-button-light button:active[type='submit'],
+.mailchimp-button-light button:active,
+.button-light:focus,
+.elementor-element .elementor-button-light .elementor-button:focus,
+.elementor-wpcf7-button-light input:focus[type='submit'],
+.elementor-wpcf7-button-light button:focus[type='submit'],
+.mailchimp-button-light button:focus,
+.elementor-element .elementor-button-primary .elementor-button {
+  background-color: #5e5e5e;
+  border-color: #5e5e5e;
+  color: #fff;
+  border-radius: 3px;
+}
+.button-primary:hover,
+input:hover[type='reset'],
+input:hover[type='button'],
+input:hover[type='submit'],
+button:hover[type='submit'],
+.page .edit-link a.post-edit-link:hover,
+.error404 .go-back:hover,
+.scrollup:hover,
+.comment-form .form-submit input:hover[type='submit'],
+.elementor-wpcf7-button-primary input:hover[type='submit'],
+.elementor-wpcf7-button-primary button:hover[type='submit'],
+.mailchimp-button-primary button:hover,
+.button-primary:active,
+input:active[type='reset'],
+input:active[type='button'],
+input:active[type='submit'],
+button:active[type='submit'],
+.page .edit-link a.post-edit-link:active,
+.error404 .go-back:active,
+.scrollup:active,
+.comment-form .form-submit input:active[type='submit'],
+.elementor-wpcf7-button-primary input:active[type='submit'],
+.elementor-wpcf7-button-primary button:active[type='submit'],
+.mailchimp-button-primary button:active,
+.button-primary.active,
+input.active[type='reset'],
+input.active[type='button'],
+input.active[type='submit'],
+button.active[type='submit'],
+.page .edit-link a.active.post-edit-link,
+.error404 .active.go-back,
+.active.scrollup,
+.comment-form .form-submit input.active[type='submit'],
+.elementor-wpcf7-button-primary input.active[type='submit'],
+.elementor-wpcf7-button-primary button.active[type='submit'],
+.mailchimp-button-primary button.active,
+.show > .button-primary.dropdown-toggle,
+.show > input.dropdown-toggle[type='reset'],
+.show > input.dropdown-toggle[type='button'],
+.show > input.dropdown-toggle[type='submit'],
+.show > button.dropdown-toggle[type='submit'],
+.page .edit-link .show > a.dropdown-toggle.post-edit-link,
+.error404 .show > .dropdown-toggle.go-back,
+.show > .dropdown-toggle.scrollup,
+.comment-form .form-submit .show > input.dropdown-toggle[type='submit'],
+.elementor-wpcf7-button-primary
+  .show
+  > input.dropdown-toggle[type='submit'],
+.elementor-wpcf7-button-primary
+  .show
+  > button.dropdown-toggle[type='submit'],
+.mailchimp-button-primary .show > button.dropdown-toggle,
+.elementor-element .elementor-button-primary .elementor-button:hover,
+.elementor-element .elementor-button-primary .elementor-button:active,
+.elementor-element .elementor-button-primary .elementor-button:focus {
+  background-color: #454545;
+  border-color: #454545;
+  color: #fff;
+}
+.button-secondary,
+.secondary-button .search-submit,
+.elementor-wpcf7-button-secondary input[type='button'][type='submit'],
+.elementor-wpcf7-button-secondary input[type='submit'],
+.elementor-wpcf7-button-secondary button[type='submit'],
+.mailchimp-button-secondary button,
+.mailchimp-button-secondary button[type='submit'],
+.elementor-button-secondary button[type='submit'],
+.elementor-button-secondary input[type='button'],
+.elementor-button-secondary input[type='submit'],
+.elementor-element .elementor-button-secondary .elementor-button {
+  background-color: #66717a;
+  border-color: #66717a;
+  color: #fff;
+  border-radius: 3px;
+}
+.button-secondary:hover,
+.secondary-button .search-submit:hover,
+.elementor-wpcf7-button-secondary input:hover[type='submit'],
+.elementor-wpcf7-button-secondary button:hover[type='submit'],
+.mailchimp-button-secondary button:hover,
+.button-secondary:active,
+.secondary-button .search-submit:active,
+.elementor-wpcf7-button-secondary input:active[type='submit'],
+.elementor-wpcf7-button-secondary button:active[type='submit'],
+.mailchimp-button-secondary button:active,
+.button-secondary.active,
+.secondary-button .active.search-submit,
+.elementor-wpcf7-button-secondary input.active[type='submit'],
+.elementor-wpcf7-button-secondary button.active[type='submit'],
+.mailchimp-button-secondary button.active,
+.show > .button-secondary.dropdown-toggle,
+.secondary-button .show > .dropdown-toggle.search-submit,
+.elementor-wpcf7-button-secondary
+  .show
+  > input.dropdown-toggle[type='submit'],
+.elementor-wpcf7-button-secondary
+  .show
+  > button.dropdown-toggle[type='submit'],
+.mailchimp-button-secondary .show > button.dropdown-toggle,
+.elementor-button-secondary button[type='submit']:hover,
+.elementor-button-secondary button[type='submit']:active,
+.elementor-button-secondary button[type='submit']:focus,
+.elementor-button-secondary input[type='button']:hover,
+.elementor-button-secondary input[type='button']:active,
+.elementor-button-secondary input[type='button']:focus,
+.elementor-button-secondary input[type='submit']:hover,
+.elementor-button-secondary input[type='submit']:active,
+.elementor-button-secondary input[type='submit']:focus,
+.elementor-element .elementor-button-secondary .elementor-button:hover,
+.elementor-element .elementor-button-secondary .elementor-button:active,
+.elementor-element .elementor-button-secondary .elementor-button:focus {
+  background-color: #4f575f;
+  border-color: #4f575f;
+  color: #fff;
+}
+button,
+input[type='submit'],
+input[type='reset'],
+input[type='button'],
+.button,
+.btn {
+}
+.elementor-button[class*='elementor-size-'] {
+  border-radius: 3px;
+}
+@media (max-width: 991px) {
+  .opal-header-absolute .site-header {
+    background: #173e62;
+  }
+}

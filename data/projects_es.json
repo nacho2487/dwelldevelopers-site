@@ -1,0 +1,8 @@
+{
+  "title": "Proyectos",
+  "projects": [
+    {"name": "Torres Nuevo Centro", "link": "/proyectos/torres-nuevo-centro", "image": "/images/nuevocentro-1.jpeg", "status": "Finalizado", "location": "Luis Alberto de Herrea Av.", "type": "Residencial" },
+    {"name": "Oxo Parques", "link": "/proyectos/oxo-parques", "image": "/images/OXO_IMG_0933-2.jpeg", "status": "Finalizado", "location": "Barrio Parques", "type": "Residencial" },
+    {"name": "Zen Pueblo Jardin", "link": "/proyectos/zen-pueblo-jardin", "image": "/images/2017_01_ZEN_F-1.jpeg", "status": "Proyecto en ejecución", "location": "Camino Brunel", "type": "Residencial" }
+  ]
+}

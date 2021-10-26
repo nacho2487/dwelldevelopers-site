@@ -1,0 +1,32 @@
+{
+  "name": "dwelldevelopers-site",
+  "version": "0.0.1",
+  "description": "Dwell Developers Site",
+  "main": "app.js",
+  "scripts": {
+    "test": "echo \"Error: no test specified\" && exit 1",
+    "start": "node ./src/app",
+    "start-dev": "nodemon ./src/app"
+  },
+  "repository": {
+    "type": "git",
+    "url": "git+https://github.com/nacho2487/dwelldevelopers-site.git"
+  },
+  "author": "",
+  "license": "ISC",
+  "bugs": {
+    "url": "https://github.com/nacho2487/dwelldevelopers-site/issues"
+  },
+  "homepage": "https://github.com/nacho2487/dwelldevelopers-site#readme",
+  "dependencies": {
+    "classnames": "^2.3.1",
+    "express": "^4.17.1",
+    "express-react-views": "^0.11.0",
+    "react": "^17.0.2",
+    "react-declarative-head": "^1.0.5",
+    "react-dom": "^17.0.2"
+  },
+  "devDependencies": {
+    "nodemon": "^2.0.13"
+  }
+}

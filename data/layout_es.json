@@ -1,0 +1,61 @@
+{
+  "title_dwell": "Dwell Developers",
+  "header": {
+    "sections": [
+      {
+        "title": "Inicio",
+        "link": "/"
+      },
+      {
+        "title": "Proyectos",
+        "link": "/proyectos"
+      },
+      {
+        "title": "Servicios",
+        "link": "/#services"
+      },
+      {
+        "title": "Acerca de nosotros",
+        "link": "/acerca-de-nosotros"
+      },
+      {
+        "title": "Contacto",
+        "link": "/contacto"
+      }
+    ]
+  },
+  "footer": {
+    "contact": {
+      "title": "Contactanos",
+      "phone": {
+        "number": "+598 98 797 788",
+        "title": "telefono"
+      },
+      "email": {
+        "title": "email",
+        "text": "info@dwelldevelopers.com"
+      }
+    },
+    "usefull_links": {
+      "title": "Menu",
+      "links": [
+        {
+          "title": "Inicio",
+          "link": "/"
+        },
+        {
+          "title": "Proyectos",
+          "link": "/proyectos"
+        },
+        {
+          "title": "Servicios",
+          "link": "/#services"
+        },
+        {
+          "title": "Contacto",
+          "link": "/contacto"
+        }
+      ]
+    }
+  }
+}

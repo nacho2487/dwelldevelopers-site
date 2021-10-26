@@ -1,0 +1,17 @@
+{
+  "website_label": "visitar sitio",
+  "overview_label": "Descripción",
+  "amenities_label": "Amenities",
+  "gallery_label": "Galería",
+  "about_project_label": "Acerca de proyecto",
+  "status_label": "Estado",
+  "location_label": "Ubicación",
+  "type_label": "Tipo",
+  "start_date_label": "FECHA DE INICIO",
+  "end_date_label": "FECHA DE FINALIZADO",
+  "investment_label": "MONTO DE INVERSIÓN",
+  "home_text": "Inicio",
+  "home_link": "/",
+  "about_us": "We capture investment opportunities in a professional and creative way. We manage investments applied to real estate developments ensuring results and providing confidence to our clients. We develope, you Dwell.",
+  "about_us_label": "acerca de nosotros"
+}

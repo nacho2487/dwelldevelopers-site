@@ -1,0 +1,27 @@
+{
+  "name": "Zen Pueblo Jardin",
+  "main_image": "/images/2017_01_ZEN_F-1.jpeg",
+  "website_link": "#",
+  "overview": "<p>NAME: Zen Garden Village</p><p>LOCATION: Camino Brunel and Camino Carrasco (Carrasco Norte)</p><p>Neighborhood with a potential of 215 homes including 92 'town houses' built in horizontal property in four modules and up to 120 apartments. Project that aims to satisfy an unmet demand for newlyweds or couples with few children looking to stay in carrasco.</p>",
+  "amenities": "<p>Neighborhood with a potential of 215 homes including 92 “town houses” built in horizontal property in four modules and up to 120 apartments. Project that aims to satisfy an unmet demand for newlyweds or couples with few children looking to stay in carrasco.</p>",
+  "about_project": "<p><strong>FINANCING:</strong></p><p>There is interest from several local banks in financing the construction, however, the model being implemented foresees self-financing of the project for all funding requirements beyond the Capital originally raised.</p><p><strong>PERFORMANCE:</strong></p><p>The project is currently in the construction stage and has already completed the earthwork and is working on the infrastructure of the neighborhood.</p>",
+  "status": "Proyecto en Ejecución",
+  "location": "Camino Brunel",
+  "type": "Residential",
+  "start_date": "01/12/2019",
+  "investment": "U$S 25.725.973",
+  "images": [
+    { "image": "/images/1961_01_ZEN_OP-7-1.jpeg", "text": "1"},
+    { "image": "/images/1961_02_ZEN_F-2.jpeg", "text": "2"},
+    { "image": "/images/1961_03_ZEN_OP7.jpeg", "text": "3"},
+    { "image": "/images/1961_04_ZEN_noche_F1-2.jpeg", "text": "4"},
+    { "image": "/images/2017_01_ZEN_F-1.jpeg", "text": "5"},
+    { "image": "/images/2017_02_ZEN_F1.jpeg", "text": "6"},
+    { "image": "/images/2017_03_ZEN_F.jpeg", "text": "7"},
+    { "image": "/images/2057_01-iluminacion-nocturna_ZEN_C1.jpeg", "text": "8"},
+    { "image": "/images/2057_01-iluminacion-nocturna_ZEN_F2-1.jpeg", "text": "9"},
+    { "image": "/images/2058_02-living_ZEN_F1-1.jpeg", "text": "10"},
+    { "image": "/images/2058_03-sum_ZEN_F-1.jpeg", "text": "11"},
+    { "image": "/images/2058_03-sum_ZEN_C1-1.jpeg", "text": "12"}
+  ]
+}
