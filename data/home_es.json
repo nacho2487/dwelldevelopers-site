@@ -15,30 +15,30 @@
     "text": "Crear vecindarios y comunidades únicas que transformen la vida urbana",
     "subtext": "Nos esforzamos continuamente por brindar la mejor experiencia de vida. Garantizando la calidad de vida de sus ocupantes. Desarrollando edificios emblemáticos y residencias en un tiempo récord, asegurando una vida más satisfactoria para sus ocupantes."
   },
-  "servicios": {
-    "recidencial": {
+  "services": {
+    "residential": {
       "title": "Desarrollo Residencial",
       "text": "La empresa incursiona en el desarrollo inmobiliario creando edificios residenciales y barrios de alta calidad y seguridad brindando al cliente el mejor servicio."
     },
-    "Comercial": {
+    "commercial": {
       "title": "Desarrollo Comercial",
       "text": "Nuestra misión es involucrarnos en asuntos que preocupan a las personas, las familias y las comunidades a través de un compromiso inquebrantable de crear entornos de vida, trabajo y ocio excepcionales.."
     },
-    "inversor": {
+    "investor": {
       "title": "Inversor",
       "text": "Comenzó su andadura hace mas de una década. El Grupo se ha establecido firmemente como una organización confiable y fiable en la industria del desarrollo inmobiliario que ofrece seguridad en sus inversores."
     }
   },
-  "seccion-prpyectos": {
+  "projects_section": {
     "title": "Proyectos destacados",
     "subtitle": "LO QUE CONSTRUIMOS.",
     "link": "VER TODOS LOS PROYECTOS"
   },
-  "porque": {
+  "why": {
     "title": "Hacer que los espacios habitables sean asequibles",
     "subtitle": "Porque elegirnos a nosotros",
-    "razones": {
-      "calidad": {
+    "reassons": {
+      "quality": {
         "title": "Productos de gran calidad",
         "text":  "El diseño lujoso y exquisito en armonía con la arquitectura circundante proporciona las mejores condiciones de vida para cada familia."
       },
@@ -46,11 +46,11 @@
         "title": "Grandes cualidades",
         "text": "Las infraestructuras paisajísticas de las calles están dispuestas en armonía con las comodidades comunes para los residentes."
       },
-      "entorno": {
+      "environment": {
         "title": "Medio ambiente verde y con mucha paz",
         "text": "Cada área urbana se construye sobre la base de 'Un lugar en el que vivir está en armonía con la naturaleza'"
       },
-      "comunidad": {
+      "community": {
         "title": "Comunidad humana",
         "text": "Proyectos que buscan fortalecer la vida comunitaria y la armonía entre vecinos."
       }
