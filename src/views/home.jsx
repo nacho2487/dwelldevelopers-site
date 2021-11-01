@@ -19,7 +19,7 @@ function HomePage(props) {
     },
     mission: { title: mission_title, text: mission_text, subtext: mission_subtext },
     services: {
-      residential: { title: residential_title, text: residential_text },
+      residential,
       commercial: { title: commercial_title, text: commercial_text },
       investor: { title: investor_title, text: investor_text },
     },
@@ -1031,25 +1031,26 @@ function HomePage(props) {
                     elementor-container elementor-column-gap-no
                   "
                             >
-                              <div
-                                className="
+                              {residential && (
+                                <div
+                                  className="
                       elementor-column
                       elementor-col-33
                       elementor-inner-column
                       elementor-element
                       elementor-element-011bbf3
                     "
-                                data-id="011bbf3"
-                                data-element_type="column"
-                              >
-                                <div
-                                  className="
-                        elementor-widget-wrap
-                        elementor-element-populated
-                      "
+                                  data-id="011bbf3"
+                                  data-element_type="column"
                                 >
                                   <div
                                     className="
+                        elementor-widget-wrap
+                        elementor-element-populated
+                      "
+                                  >
+                                    <div
+                                      className="
                           elementor-element
                           elementor-element-121b46a
                           elementor-position-top
@@ -1057,47 +1058,48 @@ function HomePage(props) {
                           elementor-widget
                           elementor-widget-image-box
                         "
-                                    data-id="121b46a"
-                                    data-element_type="widget"
-                                    data-widget_type="image-box.default"
-                                  >
-                                    <div className="elementor-widget-container">
-                                      <div
-                                        className="
+                                      data-id="121b46a"
+                                      data-element_type="widget"
+                                      data-widget_type="image-box.default"
+                                    >
+                                      <div className="elementor-widget-container">
+                                        <div
+                                          className="
                               elementor-image-box-wrapper
                               elementor-button-
                             "
-                                      >
-                                        <div className="elementor-image-framed">
-                                          <figure className="elementor-image-box-img">
-                                            <img
-                                              width="200"
-                                              height="140"
-                                              src="/images/development_1.png"
-                                              className="
+                                        >
+                                          <div className="elementor-image-framed">
+                                            <figure className="elementor-image-box-img">
+                                              <img
+                                                width="200"
+                                                height="140"
+                                                src="/images/development_1.png"
+                                                className="
                                     attachment-full
                                     size-full
                                   "
-                                              alt=""
-                                              loading="lazy"
-                                            />
-                                          </figure>
-                                        </div>
-                                        <div className="elementor-image-box-content">
-                                          <h3 className="elementor-image-box-title">{residential_title}</h3>
-                                          <p
-                                            className="
+                                                alt=""
+                                                loading="lazy"
+                                              />
+                                            </figure>
+                                          </div>
+                                          <div className="elementor-image-box-content">
+                                            <h3 className="elementor-image-box-title">{residential.title}</h3>
+                                            <p
+                                              className="
                                   elementor-image-box-description
                                 "
-                                          >
-                                            {residential_text}
-                                          </p>
+                                            >
+                                              {residential.text}
+                                            </p>
+                                          </div>
                                         </div>
                                       </div>
                                     </div>
                                   </div>
                                 </div>
-                              </div>
+                              )}
                               <div
                                 className="
                       elementor-column
