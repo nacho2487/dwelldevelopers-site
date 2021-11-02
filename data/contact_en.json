@@ -2,5 +2,11 @@
   "title": "Contact",
   "located": "We are located in Uruguay",
   "hours": "Monday to Friday: 9.00am to 6.00 pm",
-  "sub_text": "dwelldevelopers brings to you the Building Revolution. It all started with realistic<br />appraisal of your living needs."
+  "sub_text": "dwelldevelopers brings to you the Building Revolution. It all started with realistic<br />appraisal of your living needs.",
+  "form_subtitle": "LEAVE A MESSAGE",
+  "form_title": "Leave us your query",
+  "form_name": "Your Name",
+  "form_subject": "Subject",
+  "form_message": "Message",
+  "form_button": "Submit"
 }

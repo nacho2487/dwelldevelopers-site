@@ -58,14 +58,16 @@ function ProjectPage(props) {
                 <div className="page-header">
                   <h1 className="page-title typo-heading">{name}</h1>
                 </div>
-                <div className="breadcrumb">
-                  <a className="breadcrumb-projects" href={website_link}>
-                    <span>{website_label}</span>
-                    <span className="breadcrumb-icon">
-                      <i className="opal-icon-arrow-right" aria-hidden="true"></i>
-                    </span>
-                  </a>
-                </div>
+                {website_link && (
+                  <div className="breadcrumb">
+                    <a className="breadcrumb-projects" href={website_link}>
+                      <span>{website_label}</span>
+                      <span className="breadcrumb-icon">
+                        <i className="opal-icon-arrow-right" aria-hidden="true"></i>
+                      </span>
+                    </a>
+                  </div>
+                )}
               </div>
             </div>
           </div>
@@ -82,6 +84,9 @@ function ProjectPage(props) {
                           <a href="#overview">{overview_label}</a>
                         </li>
                         <li>
+                          <a href="#aboutProject">{about_project_label}</a>
+                        </li>
+                        <li>
                           <a href="#amenities">{amenities_label}</a>
                         </li>
                         <li>
@@ -92,7 +97,7 @@ function ProjectPage(props) {
                         <h3 className="single-portfolio-summary-meta-title">{overview_label}</h3>
                       </div>
                       <div className="single-portfolio-summary-meta row w-100">
-                        <div className="col-xl-9 col-12">
+                        <div className="col-xl-8 col-12">
                           <div className="row">
                             <div className="col-xl-6 col-12 pt-3">
                               <img
@@ -109,32 +114,32 @@ function ProjectPage(props) {
                             </div>
                           </div>
                         </div>
-                        <div className="col-xl-3 col-12">
+                        <div className="col-xl-4 col-12">
                           <ul className="single-portfolio-summary-meta-list">
-                            <li>
+                            {status && <li>
                               <span className="meta-title">{status_label} </span>
                               <span className="meta-value">{status}</span>
-                            </li>
-                            <li>
+                            </li>}
+                            {location && <li>
                               <span className="meta-title">{location_label}</span>
                               <span className="meta-value">{location}</span>
-                            </li>
-                            <li>
+                            </li>}
+                            {type && <li>
                               <span className="meta-title">{type_label}</span>
                               <span className="meta-value">{type}</span>
-                            </li>
-                            <li>
+                            </li>}
+                            {start_date && <li>
                               <span className="meta-title">{start_date_label}</span>
                               <span className="meta-value">{start_date}</span>
-                            </li>
-                            <li>
+                            </li>}
+                            {end_date && <li>
                               <span className="meta-title">{end_date_label}</span>
                               <span className="meta-value">{end_date}</span>
-                            </li>
-                            <li>
+                            </li>}
+                            {investment && <li>
                               <span className="meta-title">{investment_label}</span>
                               <span className="meta-value">{investment}</span>
-                            </li>
+                            </li>}
                           </ul>
                         </div>
                       </div>
@@ -158,6 +163,7 @@ function ProjectPage(props) {
                             "
                               data-id="7a70a056"
                               data-element_type="section"
+                              id="aboutProject"
                             >
                               <div className="elementor-container elementor-column-gap-default">
                                 <div

@@ -1397,6 +1397,7 @@ function HomePage(props) {
                 elementor-element-06ea702"
                           data-id="06ea702"
                           data-element_type="column"
+                          key={`project-${name.toLowerCase().replace(' ', '-')}-${i}`}
                         >
                           <div
                             className="

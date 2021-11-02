@@ -76,18 +76,20 @@ function ProjectPage(props) {
                     >
                       <div className="portfolio-inner">
                         <div className="portfolio-post-thumbnail">
-                          <img
-                            width="1200"
-                            height="650"
-                            src={image}
-                            className="
+                          <a href={link}>
+                            <img
+                              width="1200"
+                              height="650"
+                              src={image}
+                              className="
                                 attachment-rehomes-featured-image-full
                                 size-rehomes-featured-image-full
                                 wp-post-image
                               "
-                            alt=""
-                            loading="lazy"
-                          />
+                              alt=""
+                              loading="lazy"
+                            />
+                          </a>
                         </div>
                         <div className="portfolio-content">
                           <div className="portfolio-content-inner">

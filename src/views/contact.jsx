@@ -2,7 +2,7 @@ const React = require('react');
 const Layout = require('./layouts/default');
 
 function ContactPage(props) {
-  const { currentPath, lang, layout, title, home_text, home_link, located, hours, about_us, about_us_label, projects } =
+  const { currentPath, lang, layout, title, home_text, home_link, located, hours, about_us, about_us_label, projects, form_subtitle, form_title, form_name, form_subject, form_message, form_button } =
     props;
   return (
     <Layout
@@ -160,10 +160,10 @@ function ContactPage(props) {
                           >
                             <div className="elementor-widget-container">
                               <div className="elementor-heading-wrapper">
-                                <span className="sub-title">leave a message</span>
+                                <span className="sub-title">{form_subtitle}</span>
                                 <div className="elementor-heading-wrapper-inner">
                                   <h2 className="elementor-heading-title elementor-size-default">
-                                    Leave us your query
+                                    {form_title}
                                   </h2>
                                 </div>
                               </div>
@@ -192,10 +192,9 @@ function ContactPage(props) {
                                   <ul></ul>
                                 </div>
                                 <form
-                                  action="/contact/#wpcf7-f1052-p341-o1"
+                                  action="/contacto"
                                   method="post"
                                   className="wpcf7-form init"
-                                  novalidate="novalidate"
                                   data-status="init"
                                 >
                                   <div className="row">
@@ -204,13 +203,13 @@ function ContactPage(props) {
                                         <span className="wpcf7-form-control-wrap text-337">
                                           <input
                                             type="text"
-                                            name="text-337"
-                                            value=""
+                                            name="name"
                                             size="40"
                                             className="wpcf7-form-control wpcf7-text"
                                             id="form-name"
                                             aria-invalid="false"
-                                            placeholder="Your Name"
+                                            placeholder={form_name}
+                                            required
                                           />
                                         </span>
                                       </div>
@@ -218,15 +217,15 @@ function ContactPage(props) {
                                         <span className="wpcf7-form-control-wrap email-104">
                                           <input
                                             type="email"
-                                            name="email-104"
-                                            value=""
+                                            name="email"
                                             size="40"
                                             className="
                                                   wpcf7-form-control wpcf7-text wpcf7-email wpcf7-validates-as-email
                                                 "
                                             id="form-email"
                                             aria-invalid="false"
-                                            placeholder="Email"
+                                            placeholder={layout.footer.contact.email.title}
+                                            required
                                           />
                                         </span>
                                       </div>
@@ -234,34 +233,35 @@ function ContactPage(props) {
                                         <span className="wpcf7-form-control-wrap text-338">
                                           <input
                                             type="text"
-                                            name="text-338"
-                                            value=""
+                                            name="subject"
                                             size="40"
                                             className="wpcf7-form-control wpcf7-text"
                                             id="form-subject"
                                             aria-invalid="false"
-                                            placeholder="Subject"
+                                            placeholder={form_subject}
+                                            required
                                           />
                                         </span>
                                       </div>
                                       <div className="mb-4">
                                         <span className="wpcf7-form-control-wrap textarea-339">
                                           <textarea
-                                            name="textarea-339"
+                                            name="message"
                                             cols="40"
                                             rows="3"
                                             className="wpcf7-form-control wpcf7-textarea form-control"
                                             id="textarea"
                                             aria-invalid="false"
-                                            placeholder="Message"
+                                            placeholder={form_message}
+                                            required
                                           ></textarea>
                                         </span>
                                       </div>
                                     </div>
                                   </div>
                                   <p>
-                                    <button className="btn btn-default btn-sm" type="submit" value="Submit">
-                                      <span>Submit</span>
+                                    <button className="btn btn-default btn-sm" type="submit">
+                                      <span>{form_button}</span>
                                       <i className="opal-icon-arrow-right" aria-hidden="true"></i>
                                     </button>
                                   </p>
