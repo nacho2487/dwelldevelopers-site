@@ -93,13 +93,10 @@ function ProjectPage(props) {
                           <a href="#gallery">{gallery_label}</a>
                         </li>
                       </ul>
-                      <div id="overview" className="w-100">
-                        <h3 className="single-portfolio-summary-meta-title">{overview_label}</h3>
-                      </div>
                       <div className="single-portfolio-summary-meta row w-100">
                         <div className="col-xl-8 col-12">
                           <div className="row">
-                            <div className="col-xl-6 col-12 pt-3">
+                            <div className="col-xl-12 col-12 pt-3">
                               <img
                                 width="700"
                                 height="379"
@@ -108,9 +105,6 @@ function ProjectPage(props) {
                                 alt=""
                                 loading="lazy"
                               />
-                            </div>
-                            <div className="col-xl-6 col-12">
-                              <div className="px-xl-3" dangerouslySetInnerHTML={{ __html: overview }}></div>
                             </div>
                           </div>
                         </div>
@@ -151,6 +145,55 @@ function ProjectPage(props) {
                           data-elementor-settings="[]"
                         >
                           <div className="elementor-section-wrap">
+                          <section
+                              className="
+                              elementor-section
+                              elementor-top-section
+                              elementor-element
+                              elementor-element-7a70a056
+                              elementor-section-boxed
+                              elementor-section-height-default
+                              elementor-section-height-default
+                            "
+                              data-id="7a70a056"
+                              data-element_type="section"
+                              id="overview"
+                            >
+                              <div className="elementor-container elementor-column-gap-default">
+                                <div
+                                  className="
+                                  elementor-column
+                                  elementor-col-100
+                                  elementor-top-column
+                                  elementor-element
+                                  elementor-element-7b4a4a66
+                                "
+                                  data-id="7b4a4a66"
+                                  data-element_type="column"
+                                >
+                                  <div className="elementor-widget-wrap elementor-element-populated">
+                                    <div
+                                      className="
+                                      elementor-element
+                                      elementor-element-3ef73e88
+                                      elementor-widget
+                                      elementor-widget-text-editor
+                                    "
+                                      data-id="3ef73e88"
+                                      data-element_type="widget"
+                                      data-widget_type="text-editor.default"
+                                    >
+                                      <div className="elementor-widget-container">
+                                        <div className="elementor-text-editor elementor-clearfix">
+                                          <h2>{overview_label}</h2>
+                                          <div dangerouslySetInnerHTML={{ __html: overview }}></div>
+                                        </div>
+                                      </div>
+                                    </div>
+                                  </div>
+                                </div>
+                              </div>
+                            </section>
                             <section
                               className="
                               elementor-section

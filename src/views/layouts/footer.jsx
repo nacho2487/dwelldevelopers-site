@@ -290,67 +290,6 @@ function Footer(props) {
                     elementor-col-25
                     elementor-top-column
                     elementor-element
-                    elementor-element-fd7701d
-                  "
-                    data-id="fd7701d"
-                    data-element_type="column"
-                  >
-                    <div
-                      className="
-                      elementor-widget-wrap elementor-element-populated
-                    "
-                    >
-                      <div
-                        className="
-                        elementor-element
-                        elementor-element-f428c96
-                        elementor-widget
-                        elementor-widget-heading
-                      "
-                        data-id="f428c96"
-                        data-element_type="widget"
-                        data-widget_type="heading.default"
-                      >
-                        <div className="elementor-widget-container">
-                          <div className="elementor-heading-wrapper">
-                            <div className="elementor-heading-wrapper-inner">
-                              <h2
-                                className="
-                                elementor-heading-title
-                                elementor-size-default
-                              "
-                              >
-                                {about_us_label}
-                              </h2>
-                            </div>
-                          </div>
-                        </div>
-                      </div>
-                      <div
-                        className="
-                        elementor-element
-                        elementor-element-fdf4a01
-                        elementor-widget
-                        elementor-widget-text-editor
-                      "
-                        data-id="fdf4a01"
-                        data-element_type="widget"
-                        data-widget_type="text-editor.default"
-                      >
-                        <div className="elementor-widget-container">
-                          <div className="elementor-text-editor elementor-clearfix">
-                            <p>{about_us}</p>
-                          </div>
-                        </div>
-                      </div>
-                    </div>
-                  </div>
-                  <div
-                    className="
-                    elementor-column
-                    elementor-col-25
-                    elementor-top-column
-                    elementor-element
                     elementor-element-fbfb74d
                   "
                     data-id="fbfb74d"

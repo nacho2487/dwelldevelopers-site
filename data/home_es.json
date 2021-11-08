@@ -1,24 +1,17 @@
 {
   "slides": {
-    "title_1": "Semi-privado<br />Vecindario<br />con alta seguridad",
+    "title_1": "Barrio Semi-Privado <br /> con alta Seguridad",
     "title_2": "Los mejores espacios<br /> a los mejores precios",
-    "title_3": "Sumergete en el mundo<br />de excelentes estructuras y<br />espacios",
-    "subtitle_1": "dwelldevelopers : Desarrollo inmobiliario",
-    "subtitle_2": "dwelldevelopers : Desarrollo inmobiliario",
-    "subtitle_3": "dwelldevelopers : Desarrollo inmobiliario",
-    "button_text_1": "vea más",
-    "button_text_2": "mirar proyecto",
-    "button_text_3": "mirar proyecto"
+    "title_3": "Sumergete en el mundo <br /> de las oportunidades en Real Estate"
   },
   "mission": {
     "title": "Nuestra Misión",
-    "text": "Crear vecindarios y comunidades únicas que transformen la vida urbana",
-    "subtext": "Nos esforzamos continuamente por brindar la mejor experiencia de vida. Garantizando la calidad de vida de sus ocupantes. Desarrollando edificios emblemáticos y residencias en un tiempo récord, asegurando una vida más satisfactoria para sus ocupantes."
+    "text": "Crear vecindarios y comunidades únicas que transformen la vida urbana"
   },
   "services": {
     "residential": {
       "title": "Desarrollo Residencial",
-      "text": "La empresa incursiona en el desarrollo inmobiliario creando edificios residenciales y barrios de alta calidad y seguridad brindando al cliente el mejor servicio."
+      "text": "Dwell incursiona en el desarrollo inmobiliario creando edificios residenciales y barrios de alta calidad y seguridad brindando al cliente el mejor servicio."
     },
     "commercial": {
       "title": "Desarrollo Comercial",
@@ -26,16 +19,14 @@
     },
     "investor": {
       "title": "Inversor",
-      "text": "Comenzó su andadura hace mas de una década. El Grupo se ha establecido firmemente como una organización confiable y fiable en la industria del desarrollo inmobiliario que ofrece seguridad en sus inversores."
+      "text": "Con mas de una década de experiencia, Dwell se ha establecido firmemente como una organización confiable y fiable en la industria del desarrollo inmobiliario que ofrece seguridad en sus inversores."
     }
   },
   "projects_section": {
     "title": "Proyectos destacados",
-    "subtitle": "LO QUE CONSTRUIMOS.",
-    "link": "VER TODOS LOS PROYECTOS"
+    "subtitle": "LO QUE CONSTRUIMOS."
   },
   "why": {
-    "title": "Hacer que los espacios habitables sean asequibles",
     "subtitle": "Porque elegirnos a nosotros",
     "reassons": {
       "quality": {
@@ -44,7 +35,7 @@
       },
       "amenities": {
         "title": "Grandes cualidades",
-        "text": "Las infraestructuras paisajísticas de las calles están dispuestas en armonía con las comodidades comunes para los residentes."
+        "text": "Las infraestructuras paisajísticas están dispuestas en armonía con las comodidades comunes para los residentes."
       },
       "environment": {
         "title": "Medio ambiente verde y con mucha paz",

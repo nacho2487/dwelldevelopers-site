@@ -2,7 +2,7 @@ const React = require('react');
 const Layout = require('./layouts/default');
 
 function ProjectPage(props) {
-  const { currentPath, lang, layout, title, home_text, home_link, about_us, team, sub_text, projects, about_us_label } = props;
+  const { currentPath, lang, layout, title, home_text, home_link, about_us, team, sub_text, projects, about_us_label, subtitle } = props;
   return (
     <Layout
       {...layout}
@@ -157,9 +157,7 @@ function ProjectPage(props) {
                                       </div>
                                       <div className="elementor-image-box-content">
                                         <div className="elementor-image-box-sub-title">{position}</div>
-                                        <h3 className="elementor-image-box-title">
-                                          <a href="#">{name}</a>
-                                        </h3>
+                                        <h3 className="elementor-image-box-title"  dangerouslySetInnerHTML={{ __html: name }}></h3>
                                         <p
                                           className="elementor-image-box-description"
                                           dangerouslySetInnerHTML={{ __html: text }}
@@ -216,7 +214,7 @@ function ProjectPage(props) {
                                   <div className="elementor-heading-wrapper">
                                     <div className="elementor-heading-wrapper-inner">
                                       <h2 className="elementor-heading-title elementor-size-default">
-                                        Over 10 years of experience
+                                          {subtitle}
                                       </h2>
                                     </div>
                                   </div>

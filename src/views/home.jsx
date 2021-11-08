@@ -147,22 +147,24 @@ function HomePage(props) {
                                         data-frame_999="o:0;st:w;sR:6990;sA:9000;"
                                         style={{ zIndex: 11 }}
                                       >
-                                        <rs-layer
-                                          id="slider-1-slide-1-layer-2"
-                                          data-type="text"
-                                          data-rsp_ch="on"
-                                          data-xy="x:l,c,c,c;"
-                                          data-text="s:15;l:22;fw:600;a:inherit,center,center,center;"
-                                          data-frame_0="x:-50px;"
-                                          data-frame_1="st:180;sp:2000;sR:170;"
-                                          data-frame_999="x:-50px;o:0;st:w;sp:2000;sR:6820;"
-                                          style={{
-                                            zIndex: 8,
-                                            fontFamily: 'Be Vietnam',
-                                          }}
-                                        >
-                                          {subtitle_1}{' '}
-                                        </rs-layer>
+                                        {subtitle_1 && (
+                                          <rs-layer
+                                            id="slider-1-slide-1-layer-2"
+                                            data-type="text"
+                                            data-rsp_ch="on"
+                                            data-xy="x:l,c,c,c;"
+                                            data-text="s:15;l:22;fw:600;a:inherit,center,center,center;"
+                                            data-frame_0="x:-50px;"
+                                            data-frame_1="st:180;sp:2000;sR:170;"
+                                            data-frame_999="x:-50px;o:0;st:w;sp:2000;sR:6820;"
+                                            style={{
+                                              zIndex: 8,
+                                              fontFamily: 'Be Vietnam',
+                                            }}
+                                          >
+                                            {subtitle_1}{' '}
+                                          </rs-layer>
+                                        )}
                                         <rs-layer
                                           id="slider-1-slide-1-layer-3"
                                           data-type="text"
@@ -182,38 +184,40 @@ function HomePage(props) {
                                           }}
                                           dangerouslySetInnerHTML={{ __html: title_1 }}
                                         ></rs-layer>
-                                        <a
-                                          id="slider-1-slide-1-layer-5"
-                                          className="rs-layer rev-btn"
-                                          href="/proyectos"
-                                          target="_self"
-                                          data-type="button"
-                                          data-color="rgba(255,255,255,1)"
-                                          data-rsp_ch="on"
-                                          data-xy="x:l,c,c,c;xo:-1px,0,0,0;yo:304px,305px,305px,257px;"
-                                          data-text="s:11;l:60,60,60,54;ls:2px;a:inherit;"
-                                          data-padding="r:40;l:40;"
-                                          data-border="bor:3px,3px,3px,3px;"
-                                          data-frame_0="x:-50px;"
-                                          data-frame_1="st:1310;sp:1610;sR:1300;"
-                                          data-frame_999="x:-50px;o:0;st:w;sp:2000;sR:6080;"
-                                          data-frame_hover="bgc:#bc986b;boc:#000;bor:3px,3px,3px,3px;bos:solid;oX:50;oY:50;sp:0;e:none;"
-                                          style={{
-                                            zIndex: 10,
-                                            backgroundColor: '#bda588',
-                                            fontFamily: 'Be Vietnam',
-                                            textTransform: 'uppercase',
-                                            cursor: 'pointer',
-                                            outline: 'none',
-                                            boxShadow: 'none',
-                                            boxSizing: 'border-box',
-                                            MozBoxSizing: 'border-box',
-                                            WebkitBoxSizing: 'border-box',
-                                          }}
-                                        >
-                                          {button_text_1}
-                                          <i className="fa-long-arrow-right"></i>{' '}
-                                        </a>
+                                        {button_text_1 && (
+                                          <a
+                                            id="slider-1-slide-1-layer-5"
+                                            className="rs-layer rev-btn"
+                                            href="/proyectos"
+                                            target="_self"
+                                            data-type="button"
+                                            data-color="rgba(255,255,255,1)"
+                                            data-rsp_ch="on"
+                                            data-xy="x:l,c,c,c;xo:-1px,0,0,0;yo:304px,305px,305px,257px;"
+                                            data-text="s:11;l:60,60,60,54;ls:2px;a:inherit;"
+                                            data-padding="r:40;l:40;"
+                                            data-border="bor:3px,3px,3px,3px;"
+                                            data-frame_0="x:-50px;"
+                                            data-frame_1="st:1310;sp:1610;sR:1300;"
+                                            data-frame_999="x:-50px;o:0;st:w;sp:2000;sR:6080;"
+                                            data-frame_hover="bgc:#bc986b;boc:#000;bor:3px,3px,3px,3px;bos:solid;oX:50;oY:50;sp:0;e:none;"
+                                            style={{
+                                              zIndex: 10,
+                                              backgroundColor: '#bda588',
+                                              fontFamily: 'Be Vietnam',
+                                              textTransform: 'uppercase',
+                                              cursor: 'pointer',
+                                              outline: 'none',
+                                              boxShadow: 'none',
+                                              boxSizing: 'border-box',
+                                              MozBoxSizing: 'border-box',
+                                              WebkitBoxSizing: 'border-box',
+                                            }}
+                                          >
+                                            {button_text_1}
+                                            <i className="fa-long-arrow-right"></i>{' '}
+                                          </a>
+                                        )}
                                       </rs-group>
                                       <rs-group
                                         id="slider-1-slide-1-layer-6"
@@ -368,18 +372,20 @@ function HomePage(props) {
                                         data-frame_1="sp:2000;sR:10;"
                                         data-frame_999="o:0;st:w;sR:6990;sA:9000;"
                                       >
-                                        <rs-layer
-                                          id="slider-1-slide-2-layer-2"
-                                          data-type="text"
-                                          data-rsp_ch="on"
-                                          data-xy="x:l,c,c,c;"
-                                          data-text="s:15;l:22;fw:600;a:inherit,center,center,center;"
-                                          data-frame_0="x:-50px;"
-                                          data-frame_1="st:180;sp:2000;sR:170;"
-                                          data-frame_999="x:-50px;o:0;st:w;sp:2000;sR:6820;"
-                                        >
-                                          {subtitle_2}{' '}
-                                        </rs-layer>
+                                        {subtitle_2 && (
+                                          <rs-layer
+                                            id="slider-1-slide-2-layer-2"
+                                            data-type="text"
+                                            data-rsp_ch="on"
+                                            data-xy="x:l,c,c,c;"
+                                            data-text="s:15;l:22;fw:600;a:inherit,center,center,center;"
+                                            data-frame_0="x:-50px;"
+                                            data-frame_1="st:180;sp:2000;sR:170;"
+                                            data-frame_999="x:-50px;o:0;st:w;sp:2000;sR:6820;"
+                                          >
+                                            {subtitle_2}{' '}
+                                          </rs-layer>
+                                        )}
                                         <rs-layer
                                           id="slider-1-slide-2-layer-3"
                                           data-type="text"
@@ -399,38 +405,40 @@ function HomePage(props) {
                                           }}
                                           dangerouslySetInnerHTML={{ __html: title_2 }}
                                         />
-                                        <a
-                                          id="slider-1-slide-2-layer-5"
-                                          className="rs-layer rev-btn"
-                                          href="/proyectos"
-                                          target="_self"
-                                          data-type="button"
-                                          data-color="rgba(255,255,255,1)"
-                                          data-rsp_ch="on"
-                                          data-xy="x:l,c,c,c;xo:-1px,0,0,0;yo:304px,305px,305px,257px;"
-                                          data-text="s:11;l:60,60,60,54;ls:2px;a:inherit;"
-                                          data-padding="r:40;l:40;"
-                                          data-border="bor:3px,3px,3px,3px;"
-                                          data-frame_0="x:-50px;"
-                                          data-frame_1="st:1310;sp:1610;sR:1300;"
-                                          data-frame_999="x:-50px;o:0;st:w;sp:2000;sR:6080;"
-                                          data-frame_hover="bgc:#bc986b;boc:#000;bor:3px,3px,3px,3px;bos:solid;oX:50;oY:50;sp:0;e:none;"
-                                          style={{
-                                            zIndex: 8,
-                                            backgroundColor: '#bda588',
-                                            fontFamily: 'Be Vietnam',
-                                            textTransform: 'uppercase',
-                                            cursor: 'pointer',
-                                            outline: 'none',
-                                            boxShadow: 'none',
-                                            boxSizing: 'border-box',
-                                            MozBoxSizing: 'border-box',
-                                            WebkitBoxSizing: 'border-box',
-                                          }}
-                                        >
-                                          {button_text_2}
-                                          <i className="fa-long-arrow-right"></i>{' '}
-                                        </a>
+                                        {button_text_2 && (
+                                          <a
+                                            id="slider-1-slide-2-layer-5"
+                                            className="rs-layer rev-btn"
+                                            href="/proyectos"
+                                            target="_self"
+                                            data-type="button"
+                                            data-color="rgba(255,255,255,1)"
+                                            data-rsp_ch="on"
+                                            data-xy="x:l,c,c,c;xo:-1px,0,0,0;yo:304px,305px,305px,257px;"
+                                            data-text="s:11;l:60,60,60,54;ls:2px;a:inherit;"
+                                            data-padding="r:40;l:40;"
+                                            data-border="bor:3px,3px,3px,3px;"
+                                            data-frame_0="x:-50px;"
+                                            data-frame_1="st:1310;sp:1610;sR:1300;"
+                                            data-frame_999="x:-50px;o:0;st:w;sp:2000;sR:6080;"
+                                            data-frame_hover="bgc:#bc986b;boc:#000;bor:3px,3px,3px,3px;bos:solid;oX:50;oY:50;sp:0;e:none;"
+                                            style={{
+                                              zIndex: 8,
+                                              backgroundColor: '#bda588',
+                                              fontFamily: 'Be Vietnam',
+                                              textTransform: 'uppercase',
+                                              cursor: 'pointer',
+                                              outline: 'none',
+                                              boxShadow: 'none',
+                                              boxSizing: 'border-box',
+                                              MozBoxSizing: 'border-box',
+                                              WebkitBoxSizing: 'border-box',
+                                            }}
+                                          >
+                                            {button_text_2}
+                                            <i className="fa-long-arrow-right"></i>{' '}
+                                          </a>
+                                        )}
                                       </rs-group>
                                       <rs-group
                                         id="slider-1-slide-2-layer-6"
@@ -585,22 +593,24 @@ function HomePage(props) {
                                         data-frame_999="o:0;st:w;sR:6990;sA:9000;"
                                         style={{ zIndex: 5 }}
                                       >
-                                        <rs-layer
-                                          id="slider-1-slide-3-layer-2"
-                                          data-type="text"
-                                          data-rsp_ch="on"
-                                          data-xy="x:l,c,c,c;"
-                                          data-text="s:15;l:22;fw:600;a:inherit,center,center,center;"
-                                          data-frame_0="x:-50px;"
-                                          data-frame_1="st:180;sp:2000;sR:170;"
-                                          data-frame_999="x:-50px;o:0;st:w;sp:2000;sR:6820;"
-                                          style={{
-                                            zIndex: 6,
-                                            fontFamily: 'Be Vietnam',
-                                          }}
-                                        >
-                                          {subtitle_3}{' '}
-                                        </rs-layer>
+                                        {subtitle_3 && (
+                                          <rs-layer
+                                            id="slider-1-slide-3-layer-2"
+                                            data-type="text"
+                                            data-rsp_ch="on"
+                                            data-xy="x:l,c,c,c;"
+                                            data-text="s:15;l:22;fw:600;a:inherit,center,center,center;"
+                                            data-frame_0="x:-50px;"
+                                            data-frame_1="st:180;sp:2000;sR:170;"
+                                            data-frame_999="x:-50px;o:0;st:w;sp:2000;sR:6820;"
+                                            style={{
+                                              zIndex: 6,
+                                              fontFamily: 'Be Vietnam',
+                                            }}
+                                          >
+                                            {subtitle_3}{' '}
+                                          </rs-layer>
+                                        )}
                                         <rs-layer
                                           id="slider-1-slide-3-layer-3"
                                           data-type="text"
@@ -620,38 +630,40 @@ function HomePage(props) {
                                           }}
                                           dangerouslySetInnerHTML={{ __html: title_3 }}
                                         />
-                                        <a
-                                          id="slider-1-slide-3-layer-5"
-                                          className="rs-layer rev-btn"
-                                          href="/portfolio"
-                                          target="_self"
-                                          data-type="button"
-                                          data-color="rgba(255,255,255,1)"
-                                          data-rsp_ch="on"
-                                          data-xy="x:l,c,c,c;xo:-1px,0,0,0;yo:304px,305px,305px,257px;"
-                                          data-text="s:11;l:60,60,60,54;ls:2px;a:inherit;"
-                                          data-padding="r:40;l:40;"
-                                          data-border="bor:3px,3px,3px,3px;"
-                                          data-frame_0="x:-50px;"
-                                          data-frame_1="st:1310;sp:1610;sR:1300;"
-                                          data-frame_999="x:-50px;o:0;st:w;sp:2000;sR:6080;"
-                                          data-frame_hover="bgc:#bc986b;boc:#000;bor:3px,3px,3px,3px;bos:solid;oX:50;oY:50;sp:0;e:none;"
-                                          style={{
-                                            zIndex: 8,
-                                            backgroundColor: '#bda588',
-                                            fontFamily: 'Be Vietnam',
-                                            textTransform: 'uppercase',
-                                            cursor: 'pointer',
-                                            outline: 'none',
-                                            boxShadow: 'none',
-                                            boxSizing: 'border-box',
-                                            MozBoxSizing: 'border-box',
-                                            WebkitBoxSizing: 'border-box',
-                                          }}
-                                        >
-                                          {button_text_3}
-                                          <i className="fa-long-arrow-right"></i>{' '}
-                                        </a>
+                                        {button_text_3 && (
+                                          <a
+                                            id="slider-1-slide-3-layer-5"
+                                            className="rs-layer rev-btn"
+                                            href="/portfolio"
+                                            target="_self"
+                                            data-type="button"
+                                            data-color="rgba(255,255,255,1)"
+                                            data-rsp_ch="on"
+                                            data-xy="x:l,c,c,c;xo:-1px,0,0,0;yo:304px,305px,305px,257px;"
+                                            data-text="s:11;l:60,60,60,54;ls:2px;a:inherit;"
+                                            data-padding="r:40;l:40;"
+                                            data-border="bor:3px,3px,3px,3px;"
+                                            data-frame_0="x:-50px;"
+                                            data-frame_1="st:1310;sp:1610;sR:1300;"
+                                            data-frame_999="x:-50px;o:0;st:w;sp:2000;sR:6080;"
+                                            data-frame_hover="bgc:#bc986b;boc:#000;bor:3px,3px,3px,3px;bos:solid;oX:50;oY:50;sp:0;e:none;"
+                                            style={{
+                                              zIndex: 8,
+                                              backgroundColor: '#bda588',
+                                              fontFamily: 'Be Vietnam',
+                                              textTransform: 'uppercase',
+                                              cursor: 'pointer',
+                                              outline: 'none',
+                                              boxShadow: 'none',
+                                              boxSizing: 'border-box',
+                                              MozBoxSizing: 'border-box',
+                                              WebkitBoxSizing: 'border-box',
+                                            }}
+                                          >
+                                            {button_text_3}
+                                            <i className="fa-long-arrow-right"></i>{' '}
+                                          </a>
+                                        )}
                                       </rs-group>
                                       <rs-group
                                         id="slider-1-slide-3-layer-6"
@@ -917,7 +929,7 @@ function HomePage(props) {
                               <div
                                 className="
                       elementor-column
-                      elementor-col-50
+                      elementor-col-100
                       elementor-inner-column
                       elementor-element
                       elementor-element-cde4138
@@ -967,25 +979,26 @@ function HomePage(props) {
                                   </div>
                                 </div>
                               </div>
-                              <div
-                                className="
+                              {mission_subtext && (
+                                <div
+                                  className="
                       elementor-column
                       elementor-col-50
                       elementor-inner-column
                       elementor-element
                       elementor-element-06f1172
                     "
-                                data-id="06f1172"
-                                data-element_type="column"
-                              >
-                                <div
-                                  className="
-                        elementor-widget-wrap
-                        elementor-element-populated
-                      "
+                                  data-id="06f1172"
+                                  data-element_type="column"
                                 >
                                   <div
                                     className="
+                        elementor-widget-wrap
+                        elementor-element-populated
+                      "
+                                  >
+                                    <div
+                                      className="
                           elementor-element
                           elementor-element-629defc
                           animated-fast
@@ -993,24 +1006,25 @@ function HomePage(props) {
                           elementor-widget
                           elementor-widget-text-editor
                         "
-                                    data-id="629defc"
-                                    data-element_type="widget"
-                                    data-settings='{"_animation":"opal-move-up"}'
-                                    data-widget_type="text-editor.default"
-                                  >
-                                    <div className="elementor-widget-container">
-                                      <div
-                                        className="
+                                      data-id="629defc"
+                                      data-element_type="widget"
+                                      data-settings='{"_animation":"opal-move-up"}'
+                                      data-widget_type="text-editor.default"
+                                    >
+                                      <div className="elementor-widget-container">
+                                        <div
+                                          className="
                               elementor-text-editor
                               elementor-clearfix
                             "
-                                      >
-                                        <p>{mission_subtext}</p>
+                                        >
+                                          <p>{mission_subtext}</p>
+                                        </div>
                                       </div>
                                     </div>
                                   </div>
                                 </div>
-                              </div>
+                              )}
                             </div>
                           </section>
                           <section
@@ -1343,27 +1357,29 @@ function HomePage(props) {
                       elementor-button-primary
                     "
                               >
-                                <a
-                                  href="/portfolio"
-                                  className="
+                                {projects_link && (
+                                  <a
+                                    href="/portfolio"
+                                    className="
                         elementor-button-link
                         elementor-button
                         elementor-size-md
                       "
-                                  role="button"
-                                >
-                                  <span className="elementor-button-content-wrapper">
-                                    <span
-                                      className="
+                                    role="button"
+                                  >
+                                    <span className="elementor-button-content-wrapper">
+                                      <span
+                                        className="
                             elementor-button-icon
                             elementor-align-icon-right
                           "
-                                    >
-                                      <i className="opal-icon-arrow-right" aria-hidden="true"></i>
+                                      >
+                                        <i className="opal-icon-arrow-right" aria-hidden="true"></i>
+                                      </span>
+                                      <span className="elementor-button-text">{projects_link}</span>
                                     </span>
-                                    <span className="elementor-button-text">{projects_link}</span>
-                                  </span>
-                                </a>
+                                  </a>
+                                )}
                               </div>
                             </div>
                           </div>
@@ -1512,16 +1528,18 @@ function HomePage(props) {
                             <div className="elementor-widget-container">
                               <div className="elementor-heading-wrapper">
                                 <span className="sub-title">{why_subtitle}</span>
-                                <div className="elementor-heading-wrapper-inner">
-                                  <h2
-                                    className="
+                                {why_title && (
+                                  <div className="elementor-heading-wrapper-inner">
+                                    <h2
+                                      className="
                           elementor-heading-title
                           elementor-size-default
                         "
-                                  >
-                                    {why_title}
-                                  </h2>
-                                </div>
+                                    >
+                                      {why_title}
+                                    </h2>
+                                  </div>
+                                )}
                               </div>
                             </div>
                           </div>
