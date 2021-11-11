@@ -52,6 +52,10 @@
           "link": "/#services"
         },
         {
+          "title": "Acerca de nosotros",
+          "link": "/acerca-de-nosotros"
+        },
+        {
           "title": "Contacto",
           "link": "/contacto"
         }
