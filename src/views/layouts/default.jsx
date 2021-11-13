@@ -47,6 +47,16 @@ function Layout(props) {
         <Styles />
         <link rel="alternate" href="https://dwelldevelopers.com/" hrefLang="en" />
         <link rel="alternate" href="https://dwelldevelopers.com/es/" hrefLang="es" />
+        <script async src="https://www.googletagmanager.com/gtag/js?id=G-66JLPE6MNN"></script>
+        <script>
+          {`
+         window.dataLayer = window.dataLayer || [];
+         function gtag(){dataLayer.push(arguments);}
+         gtag('js', new Date());
+
+         gtag('config', 'G-66JLPE6MNN');
+        `}
+        </script>
         <SliderScript />
       </head>
       <body data-rsssl="1" className={bodyClassNames}>

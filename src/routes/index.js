@@ -80,10 +80,6 @@ router.post('/contacto', async (req, res) => {
     host: "smtp.sendgrid.net",
     port: 587,
     secure: false, // true for 465, false for other ports
-    auth: {
-      user: 'apikey', // generated ethereal user
-      pass: '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', // generated ethereal password
-    },
   });
   // create template based sender function
   const sendMessage = transporter.sendMail({
