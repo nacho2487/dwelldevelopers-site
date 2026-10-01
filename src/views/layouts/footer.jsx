@@ -480,7 +480,7 @@ function Footer(props) {
                         <div className="elementor-widget-container">
                           <div className="elementor-text-editor elementor-clearfix">
                             <p>
-                              © 2021 &#8211; dwelldevelopers. All rights
+                              © 2026 &#8211; dwelldevelopers. All rights
                               reserved.
                             </p>
                           </div>
