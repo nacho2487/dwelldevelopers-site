@@ -1107,88 +1107,216 @@
       "name": "Oxo Parques",
       "status": "Completed",
       "status_kind": "done",
-      "location": "Barrio Parques, Montevideo",
+      "location": "Barrio Parques, Carrasco Norte",
       "type": "Residential",
-      "summary": "27 apartments with gym, sauna and pool with solarium. 100% pre-sold before construction began.",
+      "summary": "27 premium units that gained more than 50% in value within a short time. Structured as an at-cost trust when the model was new, with a deviation of only 4%. A pioneer of the apartment boom in Carrasco Norte.",
       "card_image": "/images/OXO_IMG_0933-2.jpeg",
-      "hero_image": "/images/OXO_IMG_0949-1.jpeg",
+      "hero_image": "/images/OXO_IMG_0933-2.jpeg",
       "card_facts": [
         {
-          "value": "27",
-          "label": "units"
+          "value": "+50%",
+          "label": "appreciation"
         },
         {
-          "value": "2019",
-          "label": "delivered"
+          "value": "US$ 8M",
+          "label": "investment"
         }
       ],
-      "facts": [
-        {
-          "label": "Status",
-          "value": "Completed"
+      "theme": "oxo",
+      "rich": {
+        "hero_badge": "A pioneer of the apartment boom in Carrasco Norte",
+        "tagline": "Premium units that gained <em>over 50% in value.</em>",
+        "facts": [
+          {
+            "label": "Status",
+            "value": "Completed · Delivered in 2019"
+          },
+          {
+            "label": "Units",
+            "value": "27 premium in 2 blocks"
+          },
+          {
+            "label": "Location",
+            "value": "Barrio Parques, Carrasco Norte"
+          },
+          {
+            "label": "Investment",
+            "value": "US$ 8M"
+          },
+          {
+            "label": "Architecture",
+            "value": "Bodega & Piedrafita"
+          }
+        ],
+        "award": {
+          "badge": "At-cost trust",
+          "title": "Structured as an at-cost trust when the model was new",
+          "text": "Oxo Parques was structured as an at-cost trust when the model was still new to the market. The buyers themselves, as trustors, funded construction through monthly contributions, and the final cost deviation was only 4%.",
+          "chips": [
+            "At-cost trust",
+            "100% sold before construction",
+            "Only 4% deviation",
+            "No schedule deviations"
+          ]
         },
-        {
-          "label": "Location",
-          "value": "Barrio Parques"
+        "results": {
+          "eyebrow": "Performance",
+          "title": "A project that created value.",
+          "text": "Premium units that quickly gained value, with costs and timelines managed as promised.",
+          "items": [
+            {
+              "value": "+50%",
+              "label": "appreciation in a short time"
+            },
+            {
+              "value": "4%",
+              "label": "cost deviation"
+            },
+            {
+              "value": "100%",
+              "label": "sold before construction began"
+            },
+            {
+              "value": "0",
+              "label": "schedule deviations"
+            }
+          ]
         },
-        {
-          "label": "Type",
-          "value": "Residential"
-        },
-        {
-          "label": "Start",
-          "value": "May 2017"
-        },
-        {
-          "label": "Delivery",
-          "value": "January 2019"
-        },
-        {
-          "label": "Investment",
-          "value": "US$ 8,067,198"
-        }
-      ],
-      "trust": "Fideicomiso Inmobiliario Oxo Parques",
-      "overview": [
-        "Oxo Parques is a complex of 27 apartments in two blocks of ground floor plus three levels, with a parking level and shared spaces.",
-        "The project is complete, with all units delivered to their owners."
-      ],
-      "amenities": [
-        "Gym",
-        "Sauna",
-        "Locker rooms",
-        "Meeting room",
-        "Laundry",
-        "Pool with solarium"
-      ],
-      "financing": [
-        "Financing came directly from the trustors who, as this was an at-cost trust, are the end users.",
-        "100% of the units were pre-sold before construction began, and development was funded through monthly payments until completion. The land was reserved in advance and paid with the first three contributions."
-      ],
-      "performance": [
-        "Timeline: no deviations from the initial commitment.",
-        "Economic: the deviation stayed within normal parameters for this type of development, below 4%."
-      ],
-      "gallery": [
-        {
+        "highlight": {
+          "eyebrow": "Pioneers in Carrasco Norte",
+          "title": "The start of a boom",
+          "text": "Oxo Parques was one of the first apartment projects in the area and paved the way for the development boom that defines Carrasco Norte today.",
+          "caption": "Oxo Parques",
           "image": "/images/OXO_IMG_0949-1.jpeg"
         },
-        {
-          "image": "/images/OXO_IMG_0931.jpeg"
-        },
-        {
-          "image": "/images/OXO_IMG_0933-2.jpeg"
-        },
-        {
-          "image": "/images/OXO_IMG_0963.jpeg"
-        },
-        {
-          "image": "/images/OXO_IMG_0978.jpeg"
-        },
-        {
-          "image": "/images/OXO_IMG_0990.jpeg"
+        "intro_title": "Premium units in a green setting",
+        "intro": [
+          "Oxo Parques is a set of 27 premium apartments in two blocks of ground floor plus three levels, surrounded by gardens.",
+          "It includes a parking level and shared spaces designed for wellbeing: gym, sauna, locker rooms, meeting room, laundry and pool with solarium."
+        ],
+        "intro_image": "/images/OXO_IMG_0963.jpeg",
+        "pillars_intro": "A boutique project ahead of its time: in how it was structured, in the quality of its units and in the area it chose.",
+        "pillars": [
+          {
+            "title": "At-cost trust",
+            "text": "An innovative structure at the time, with a cost deviation of only 4%."
+          },
+          {
+            "title": "Premium units",
+            "text": "Quality finishes that gained more than 50% in value within a short time."
+          },
+          {
+            "title": "Pioneers",
+            "text": "One of the first apartment projects that drove the growth of Carrasco Norte."
+          }
+        ],
+        "project_title": "The project",
+        "project_text": [
+          "Co-developed with Bodega & Piedrafita, who also designed the architecture.",
+          "100% of the units were pre-sold before construction began and the project was delivered with no schedule deviations, with every unit in its owners’ hands."
+        ],
+        "project_images": [
+          "/images/OXO_IMG_0931.jpeg",
+          "/images/OXO_IMG_0978.jpeg"
+        ],
+        "amenities_title": "Amenities",
+        "amenities_heading": "Wellbeing without leaving home",
+        "amenities": [
+          {
+            "title": "Pool with solarium",
+            "text": "Enjoy summer in your own building."
+          },
+          {
+            "title": "Gym",
+            "text": "Equipped for daily training."
+          },
+          {
+            "title": "Sauna and locker rooms",
+            "text": "A space for relaxation and self-care."
+          },
+          {
+            "title": "Meeting room",
+            "text": "Work or host without leaving the building."
+          },
+          {
+            "title": "Laundry",
+            "text": "A practical service for everyday life."
+          },
+          {
+            "title": "Parking",
+            "text": "A full parking level."
+          }
+        ],
+        "location_title": "Location",
+        "location_text": [
+          "In Barrio Parques, Carrasco Norte: a green residential area that is now one of the most sought-after places to live in Montevideo.",
+          "Close to Carrasco’s schools, clubs and services, with good connections to the rest of the city."
+        ],
+        "nearby": [
+          "Barrio Parques",
+          "Carrasco Norte",
+          "Carrasco schools and clubs",
+          "Local services"
+        ],
+        "location_image": "/images/OXO_IMG_0949-1.jpeg",
+        "apartments_title": "The units",
+        "apartments_text": "27 premium apartments in two low-rise blocks, with parking and amenities for the owners’ wellbeing.",
+        "apartments": [
+          {
+            "value": "27",
+            "label": "units"
+          },
+          {
+            "value": "2",
+            "label": "blocks"
+          },
+          {
+            "value": "GF + 3",
+            "label": "levels"
+          }
+        ],
+        "gallery": [
+          {
+            "image": "/images/OXO_IMG_0933-2.jpeg",
+            "caption": "Facade"
+          },
+          {
+            "image": "/images/OXO_IMG_0949-1.jpeg",
+            "caption": "Gardens"
+          },
+          {
+            "image": "/images/OXO_IMG_0931.jpeg",
+            "caption": "Building"
+          },
+          {
+            "image": "/images/OXO_IMG_0963.jpeg",
+            "caption": "Interiors"
+          },
+          {
+            "image": "/images/OXO_IMG_0978.jpeg",
+            "caption": "Interiors"
+          },
+          {
+            "image": "/images/OXO_IMG_0990.jpeg",
+            "caption": "Interiors"
+          }
+        ],
+        "partnership_title": "A Dwell and Bodega & Piedrafita project",
+        "partnership_text": "Co-developed with Bodega & Piedrafita, who also designed the architecture.",
+        "partners": {
+          "developers_label": "Developed by",
+          "developers": [
+            {
+              "name": "Dwell Developers",
+              "logo": "/images/partners/dwell.png"
+            },
+            {
+              "name": "Bodega & Piedrafita"
+            }
+          ],
+          "team": []
         }
-      ]
+      }
     }
   ]
 }

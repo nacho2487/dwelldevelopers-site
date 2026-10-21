@@ -359,19 +359,21 @@ function ProjectRich(props) {
                         ×
                       </span>
                     )}
-                    <img src={d.logo} alt={d.name} loading="lazy" />
+                    {d.logo ? <img src={d.logo} alt={d.name} loading="lazy" /> : <span className="partner-text">{d.name}</span>}
                   </React.Fragment>
                 ))}
               </div>
             </div>
+            {r.partners.team && r.partners.team.length > 0 && (
             <ul className="gc-partners-team" data-reveal>
               {r.partners.team.map((t) => (
                 <li key={t.name}>
                   <span className="partner-role">{t.role}</span>
-                  <img src={t.logo} alt={t.name} loading="lazy" />
+                  {t.logo ? <img src={t.logo} alt={t.name} loading="lazy" /> : <span className="partner-text partner-text-sm">{t.name}</span>}
                 </li>
               ))}
             </ul>
+            )}
           </div>
         </section>
       )}

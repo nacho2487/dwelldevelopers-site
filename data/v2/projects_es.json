@@ -1107,88 +1107,216 @@
       "name": "Oxo Parques",
       "status": "Finalizado",
       "status_kind": "done",
-      "location": "Barrio Parques, Montevideo",
+      "location": "Barrio Parques, Carrasco Norte",
       "type": "Residencial",
-      "summary": "Conjunto de 27 apartamentos con gimnasio, sauna y piscina con solárium. Vendido en un 100% antes del inicio de obra.",
+      "summary": "27 unidades premium que se valorizaron más de un 50% en poco tiempo. Estructurado como fideicomiso al costo cuando era una novedad, con un desvío de solo 4%. Pionero del boom de apartamentos en Carrasco Norte.",
       "card_image": "/images/OXO_IMG_0933-2.jpeg",
-      "hero_image": "/images/OXO_IMG_0949-1.jpeg",
+      "hero_image": "/images/OXO_IMG_0933-2.jpeg",
       "card_facts": [
         {
-          "value": "27",
-          "label": "unidades"
+          "value": "+50%",
+          "label": "de valorización"
         },
         {
-          "value": "2019",
-          "label": "entrega"
+          "value": "U$S 8M",
+          "label": "de inversión"
         }
       ],
-      "facts": [
-        {
-          "label": "Estado",
-          "value": "Finalizado"
+      "theme": "oxo",
+      "rich": {
+        "hero_badge": "Pionero del boom de apartamentos en Carrasco Norte",
+        "tagline": "Unidades premium que se valorizaron <em>más de un 50%.</em>",
+        "facts": [
+          {
+            "label": "Estado",
+            "value": "Finalizado · Entregado en 2019"
+          },
+          {
+            "label": "Unidades",
+            "value": "27 premium en 2 bloques"
+          },
+          {
+            "label": "Ubicación",
+            "value": "Barrio Parques, Carrasco Norte"
+          },
+          {
+            "label": "Inversión",
+            "value": "U$S 8M"
+          },
+          {
+            "label": "Arquitectura",
+            "value": "Bodega & Piedrafita"
+          }
+        ],
+        "award": {
+          "badge": "Fideicomiso al costo",
+          "title": "Estructurado como fideicomiso al costo cuando era una novedad",
+          "text": "Oxo Parques se estructuró como fideicomiso al costo cuando el modelo todavía era nuevo en el mercado. Los propios compradores, como fideicomitentes, financiaron la obra con aportes mensuales, y el desvío económico final fue de tan solo 4%.",
+          "chips": [
+            "Fideicomiso al costo",
+            "100% vendido antes de iniciar la obra",
+            "Desvío de solo 4%",
+            "Sin desvíos de plazo"
+          ]
         },
-        {
-          "label": "Ubicación",
-          "value": "Barrio Parques"
+        "results": {
+          "eyebrow": "Desempeño",
+          "title": "Un proyecto que creó valor.",
+          "text": "Unidades premium que se valorizaron rápidamente, con un manejo de costos y plazos a la altura de lo prometido.",
+          "items": [
+            {
+              "value": "+50%",
+              "label": "de valorización en poco tiempo"
+            },
+            {
+              "value": "4%",
+              "label": "de desvío económico"
+            },
+            {
+              "value": "100%",
+              "label": "vendido antes del inicio de obra"
+            },
+            {
+              "value": "0",
+              "label": "desvíos de plazo"
+            }
+          ]
         },
-        {
-          "label": "Tipo",
-          "value": "Residencial"
-        },
-        {
-          "label": "Inicio",
-          "value": "Mayo 2017"
-        },
-        {
-          "label": "Entrega",
-          "value": "Enero 2019"
-        },
-        {
-          "label": "Inversión",
-          "value": "U$S 8.067.198"
-        }
-      ],
-      "trust": "Fideicomiso Inmobiliario Oxo Parques",
-      "overview": [
-        "Oxo Parques es un conjunto de 27 apartamentos desarrollados en dos bloques de planta baja más tres niveles, con un nivel de garajes y espacios de uso común.",
-        "El proyecto está finalizado, con la totalidad de sus unidades entregadas a los usuarios finales."
-      ],
-      "amenities": [
-        "Gimnasio",
-        "Sauna",
-        "Vestuarios",
-        "Sala de reuniones",
-        "Lavandería",
-        "Piscina con solárium"
-      ],
-      "financing": [
-        "La financiación se obtuvo directamente de los fideicomitentes que, por tratarse de un fideicomiso al costo, son los usuarios finales.",
-        "Se logró la preventa del 100% de las unidades antes del inicio de obra, y el desarrollo se financió con pagos mensuales hasta su finalización. El terreno se reservó con antelación y se pagó con las primeras tres cuotas de aporte."
-      ],
-      "performance": [
-        "Plazo: sin desviaciones respecto a lo comprometido inicialmente.",
-        "Económico: el desvío se mantuvo dentro de los parámetros normales para este tipo de desarrollos, por debajo del 4%."
-      ],
-      "gallery": [
-        {
+        "highlight": {
+          "eyebrow": "Pioneros en Carrasco Norte",
+          "title": "El comienzo de un boom",
+          "text": "Oxo Parques fue de los primeros proyectos de apartamentos de la zona y abrió el camino al boom de desarrollos que hoy caracteriza a Carrasco Norte.",
+          "caption": "Oxo Parques",
           "image": "/images/OXO_IMG_0949-1.jpeg"
         },
-        {
-          "image": "/images/OXO_IMG_0931.jpeg"
-        },
-        {
-          "image": "/images/OXO_IMG_0933-2.jpeg"
-        },
-        {
-          "image": "/images/OXO_IMG_0963.jpeg"
-        },
-        {
-          "image": "/images/OXO_IMG_0978.jpeg"
-        },
-        {
-          "image": "/images/OXO_IMG_0990.jpeg"
+        "intro_title": "Unidades premium en un entorno verde",
+        "intro": [
+          "Oxo Parques es un conjunto de 27 apartamentos premium en dos bloques de planta baja más tres niveles, rodeados de jardines.",
+          "Cuenta con un nivel de garajes y espacios comunes pensados para el bienestar: gimnasio, sauna, vestuarios, sala de reuniones, lavandería y piscina con solárium."
+        ],
+        "intro_image": "/images/OXO_IMG_0963.jpeg",
+        "pillars_intro": "Un proyecto boutique que se adelantó a su tiempo: en su forma de estructurarse, en la calidad de sus unidades y en la zona que eligió.",
+        "pillars": [
+          {
+            "title": "Fideicomiso al costo",
+            "text": "Una estructura novedosa en su momento, con un desvío económico de tan solo 4%."
+          },
+          {
+            "title": "Unidades premium",
+            "text": "Terminaciones de calidad que se valorizaron más de un 50% en poco tiempo."
+          },
+          {
+            "title": "Pioneros",
+            "text": "De los primeros proyectos de apartamentos que impulsaron el desarrollo de Carrasco Norte."
+          }
+        ],
+        "project_title": "El proyecto",
+        "project_text": [
+          "Co-desarrollado junto a Bodega & Piedrafita, que además realizó el proyecto de arquitectura.",
+          "Se logró la preventa del 100% de las unidades antes del inicio de obra y el proyecto se entregó sin desvíos de plazo, con la totalidad de sus unidades en manos de sus propietarios."
+        ],
+        "project_images": [
+          "/images/OXO_IMG_0931.jpeg",
+          "/images/OXO_IMG_0978.jpeg"
+        ],
+        "amenities_title": "Amenities",
+        "amenities_heading": "Bienestar sin salir de casa",
+        "amenities": [
+          {
+            "title": "Piscina con solárium",
+            "text": "Para disfrutar el verano en tu propio edificio."
+          },
+          {
+            "title": "Gimnasio",
+            "text": "Equipado para entrenar todos los días."
+          },
+          {
+            "title": "Sauna y vestuarios",
+            "text": "Un espacio de relax y cuidado personal."
+          },
+          {
+            "title": "Sala de reuniones",
+            "text": "Para trabajar o recibir sin salir del edificio."
+          },
+          {
+            "title": "Lavandería",
+            "text": "Un servicio práctico para el día a día."
+          },
+          {
+            "title": "Garajes",
+            "text": "Un nivel completo de estacionamiento."
+          }
+        ],
+        "location_title": "Ubicación",
+        "location_text": [
+          "En Barrio Parques, Carrasco Norte: una zona residencial y verde que hoy es una de las más buscadas para vivir en Montevideo.",
+          "Cerca de los colegios, clubes y servicios de Carrasco, con buena conexión con el resto de la ciudad."
+        ],
+        "nearby": [
+          "Barrio Parques",
+          "Carrasco Norte",
+          "Colegios y clubes de Carrasco",
+          "Servicios de la zona"
+        ],
+        "location_image": "/images/OXO_IMG_0949-1.jpeg",
+        "apartments_title": "Las unidades",
+        "apartments_text": "27 apartamentos premium en dos bloques de baja altura, con garajes y amenities para el bienestar de sus propietarios.",
+        "apartments": [
+          {
+            "value": "27",
+            "label": "unidades"
+          },
+          {
+            "value": "2",
+            "label": "bloques"
+          },
+          {
+            "value": "PB + 3",
+            "label": "niveles"
+          }
+        ],
+        "gallery": [
+          {
+            "image": "/images/OXO_IMG_0933-2.jpeg",
+            "caption": "Fachada"
+          },
+          {
+            "image": "/images/OXO_IMG_0949-1.jpeg",
+            "caption": "Jardines"
+          },
+          {
+            "image": "/images/OXO_IMG_0931.jpeg",
+            "caption": "Edificio"
+          },
+          {
+            "image": "/images/OXO_IMG_0963.jpeg",
+            "caption": "Interiores"
+          },
+          {
+            "image": "/images/OXO_IMG_0978.jpeg",
+            "caption": "Interiores"
+          },
+          {
+            "image": "/images/OXO_IMG_0990.jpeg",
+            "caption": "Interiores"
+          }
+        ],
+        "partnership_title": "Un proyecto de Dwell y Bodega & Piedrafita",
+        "partnership_text": "Co-desarrollado junto a Bodega & Piedrafita, que además realizó el proyecto de arquitectura.",
+        "partners": {
+          "developers_label": "Desarrollan",
+          "developers": [
+            {
+              "name": "Dwell Developers",
+              "logo": "/images/partners/dwell.png"
+            },
+            {
+              "name": "Bodega & Piedrafita"
+            }
+          ],
+          "team": []
         }
-      ]
+      }
     }
   ]
 }
