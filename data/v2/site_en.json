@@ -5,38 +5,101 @@
     "description": "Boutique real estate developer in Uruguay. High-quality residential projects, managed with rigor and transparency for buyers and investors."
   },
   "nav": [
-    { "title": "Green Concept", "link": "/en/proyectos/green-concept", "badge": "New" },
-    { "title": "Projects", "link": "/en/proyectos" },
-    { "title": "Investors", "link": "/en#inversores" },
-    { "title": "About us", "link": "/en/acerca-de-nosotros" }
+    {
+      "title": "Green Concept",
+      "link": "/en/proyectos/green-concept",
+      "badge": "New"
+    },
+    {
+      "title": "Projects",
+      "link": "/en/proyectos"
+    },
+    {
+      "title": "Investors",
+      "link": "/en#inversores"
+    },
+    {
+      "title": "About us",
+      "link": "/en/acerca-de-nosotros"
+    }
   ],
-  "nav_cta": { "title": "Contact", "link": "/en/contacto" },
+  "nav_cta": {
+    "title": "Contact",
+    "link": "/en/contacto"
+  },
   "hero": {
-    "eyebrow": "Boutique real estate developer · Uruguay",
-    "title": "We develop places <em>truly worth living in.</em>",
-    "text": "For over a decade we have been creating high-quality residential neighborhoods and buildings, with the rigor and transparency our buyers and investors expect.",
-    "cta_primary": { "title": "View projects", "link": "/en/proyectos" },
-    "cta_secondary": { "title": "Invest with Dwell", "link": "#inversores" },
+    "tagline": "Boutique real estate developer. We create places truly worth living in.",
+    "cta_primary": {
+      "title": "View projects",
+      "link": "/en/proyectos"
+    },
+    "cta_secondary": {
+      "title": "Invest with Dwell",
+      "link": "#inversores"
+    },
     "slides": [
-      { "image": "/images/green-concept/vista-posterior-noche.jpg", "caption": "New — Green Concept Carrasco", "link": "/en/proyectos/green-concept" },
-      { "image": "/images/2057_01-iluminacion-nocturna_ZEN_F2.jpeg", "caption": "Zen Pueblo Jardín — Carrasco Norte", "link": "/en/proyectos/zen-pueblo-jardin" },
-      { "image": "/images/nuevocentro-1.jpeg", "caption": "Nuevocentro Towers — Montevideo", "link": "/en/proyectos/torres-nuevo-centro" }
+      {
+        "image": "/images/green-concept/vista-posterior-noche.jpg",
+        "caption": "New — Green Concept Carrasco",
+        "link": "/en/proyectos/green-concept"
+      },
+      {
+        "image": "/images/2057_01-iluminacion-nocturna_ZEN_F2.jpeg",
+        "caption": "Zen Pueblo Jardín — Carrasco Norte",
+        "link": "/en/proyectos/zen-pueblo-jardin"
+      },
+      {
+        "image": "/images/nuevocentro-1.jpeg",
+        "caption": "Nuevocentro Towers — Montevideo",
+        "link": "/en/proyectos/torres-nuevo-centro"
+      }
     ],
     "scroll": "Discover"
   },
   "stats": [
-    { "value": "10+", "label": "years developing projects" },
-    { "value": "467", "label": "units delivered" },
-    { "value": "US$ 64M", "label": "invested in completed projects" },
-    { "value": "0", "label": "delays in our deliveries" }
+    {
+      "value": "10+",
+      "label": "years of experience"
+    },
+    {
+      "value": "500+",
+      "label": "units delivered"
+    },
+    {
+      "value": "290",
+      "label": "units under construction"
+    },
+    {
+      "value": "US$ 90M",
+      "label": "invested in completed projects"
+    }
   ],
   "featured": {
     "eyebrow": "New launch",
     "title": "Your weekend retreat, <em>every day.</em>",
     "text": "Three low-rise buildings joined by a park, next to a linear park in Carrasco. 1, 2 and 3-bedroom apartments overlooking the park, the woods or the sea, with twelve amenities designed for living close to nature.",
-    "facts": [ { "value": "3", "label": "low-rise buildings" }, { "value": "1 · 2 · 3", "label": "bedrooms" }, { "value": "12", "label": "amenities" } ],
-    "cta_primary": { "title": "Discover Green Concept", "link": "/en/proyectos/green-concept" },
-    "cta_secondary": { "title": "greenconcept.uy", "link": "https://www.greenconcept.uy" },
+    "facts": [
+      {
+        "value": "3",
+        "label": "low-rise buildings"
+      },
+      {
+        "value": "1 · 2 · 3",
+        "label": "bedrooms"
+      },
+      {
+        "value": "12",
+        "label": "amenities"
+      }
+    ],
+    "cta_primary": {
+      "title": "Discover Green Concept",
+      "link": "/en/proyectos/green-concept"
+    },
+    "cta_secondary": {
+      "title": "greenconcept.uy",
+      "link": "https://www.greenconcept.uy"
+    },
     "logo": "/images/green-concept/gc-logo-blanco.png",
     "images": [
       "/images/green-concept/acceso-principal.jpg",
@@ -45,42 +108,74 @@
     ]
   },
   "intro": {
-    "eyebrow": "About Dwell",
-    "title": "We choose few projects and develop them with <em>full dedication.</em>",
+    "title": "We choose few projects and develop them with full dedication.",
     "text": "We identify investment opportunities in a professional and creative way, and manage every development with care for design, timelines and numbers. The result: neighborhoods and buildings that gain value over time, and communities that choose to stay.",
-    "signature": "We develop, you Dwell.",
-    "link": { "title": "Meet the team", "link": "/en/acerca-de-nosotros" }
+    "link": {
+      "title": "Meet the team",
+      "link": "/en/acerca-de-nosotros"
+    }
   },
   "projects": {
     "eyebrow": "Projects",
     "title": "What we build",
-    "link": { "title": "View all projects", "link": "/en/proyectos" }
+    "link": {
+      "title": "View all projects",
+      "link": "/en/proyectos"
+    }
   },
   "services": {
     "eyebrow": "What we do",
     "title": "One team, from opportunity to delivery",
     "items": [
-      { "title": "Residential development", "text": "We create high-quality, secure residential buildings and neighborhoods, supporting every buyer throughout the process." },
-      { "title": "Commercial development", "text": "We design spaces to work and enjoy, with a firm commitment to their surroundings and the communities around them." },
-      { "title": "Investment management", "text": "We structure and manage real estate trusts with clear information, timelines met and measurable results." }
+      {
+        "title": "Residential development",
+        "text": "We create high-quality, secure residential buildings and neighborhoods, supporting every buyer throughout the process."
+      },
+      {
+        "title": "Commercial development",
+        "text": "We design spaces to work and enjoy, with a firm commitment to their surroundings and the communities around them."
+      },
+      {
+        "title": "Investment management",
+        "text": "We structure and manage real estate trusts with clear information, timelines met and measurable results."
+      }
     ]
   },
   "why": {
     "eyebrow": "Why Dwell",
     "title": "Quality is not a detail. It is the starting point.",
     "items": [
-      { "title": "Uncompromising quality", "text": "Thoughtful design and fine materials, in harmony with the architecture of each setting." },
-      { "title": "Considered amenities", "text": "Shared spaces that add to daily life: green, recreational and for work." },
-      { "title": "Green surroundings", "text": "Every project starts from a simple idea: living in harmony with nature." },
-      { "title": "Community", "text": "We design so neighbors can meet and community life grows stronger." }
+      {
+        "title": "Uncompromising quality",
+        "text": "Thoughtful design and fine materials, in harmony with the architecture of each setting."
+      },
+      {
+        "title": "Considered amenities",
+        "text": "Shared spaces that add to daily life: green, recreational and for work."
+      },
+      {
+        "title": "Green surroundings",
+        "text": "Every project starts from a simple idea: living in harmony with nature."
+      },
+      {
+        "title": "Community",
+        "text": "We design so neighbors can meet and community life grows stronger."
+      }
     ]
   },
   "investors": {
     "eyebrow": "Investors",
     "title": "Invest with a team that delivers on its promises.",
     "text": "Nuevocentro Towers was República AFAP's first real estate investment project. At Oxo Parques, the cost deviation was under 4%. We manage every trust with the same discipline.",
-    "points": [ "At-cost and financial trusts", "Clear, periodic reporting", "Timelines met" ],
-    "cta": { "title": "Let's talk about your investment", "link": "/en/contacto" },
+    "points": [
+      "At-cost and financial trusts",
+      "Clear, periodic reporting",
+      "Timelines met"
+    ],
+    "cta": {
+      "title": "Let's talk about your investment",
+      "link": "/en/contacto"
+    },
     "image": "/images/nuevocentro-2.jpeg"
   },
   "about": {

@@ -21,7 +21,8 @@
   --gc-sage: #e7ece8;
   --gc-moss: #8fa892;
 
-  --serif: 'Instrument Serif', 'Times New Roman', serif;
+  /* Una sola familia en todo el sitio, afín al logo; la jerarquía se da por tamaño y peso */
+  --serif: 'Jost', 'Century Gothic', 'Helvetica Neue', Arial, sans-serif;
   --sans: 'Jost', 'Century Gothic', 'Helvetica Neue', Arial, sans-serif;
 
   --container: 1280px;
@@ -2564,5 +2565,141 @@ body.menu-open .mobile-menu {
   }
   .member-photo {
     max-width: 220px;
+  }
+}
+
+/* ==========================================================================
+   Ajustes tipográficos: una sola familia (Jost), sin itálicas ni cambios de color
+   ========================================================================== */
+
+.display,
+.hero-title,
+.page-title,
+.project-name,
+.service h3,
+.why-item h3,
+.member h3,
+.next-name,
+.mobile-link,
+.gc-pillars-intro,
+.placeholder-mark {
+  font-weight: 300;
+  letter-spacing: -0.02em;
+}
+
+.display {
+  line-height: 1.08;
+}
+
+.hero-title,
+.page-title {
+  line-height: 1.02;
+}
+
+.display em,
+.hero-title em,
+.page-title em {
+  font-style: normal;
+  color: inherit;
+}
+
+.stat-value,
+.project-facts dt,
+.featured-facts dt,
+.project-index,
+.service-num,
+.pillar-num,
+.gc-amenity-grid li span {
+  font-weight: 300;
+  letter-spacing: -0.01em;
+}
+
+.signature {
+  font-style: normal;
+  font-weight: 400;
+  font-size: 20px;
+  letter-spacing: 0.02em;
+}
+
+/* ---------- Home: portada con la marca como protagonista ---------- */
+
+.hero-brand-content {
+  display: flex;
+  flex-direction: column;
+  align-items: flex-start;
+  padding-bottom: 64px;
+}
+
+.hero-brand {
+  margin: 0;
+  line-height: 0;
+}
+
+.hero-brand img {
+  width: min(760px, 78vw);
+  height: auto;
+}
+
+.hero-tagline {
+  margin-top: 32px;
+  max-width: 34ch;
+  font-size: clamp(18px, 1.7vw, 23px);
+  font-weight: 300;
+  line-height: 1.45;
+  color: rgba(255, 255, 255, 0.86);
+}
+
+.hero-brand-content .hero-actions {
+  margin-top: 44px;
+}
+
+/* En la home, el logo del header aparece recién al bajar (arriba ya está el grande) */
+.page-home .site-header:not(.is-scrolled) .brand {
+  opacity: 0;
+  pointer-events: none;
+}
+
+.page-home .brand {
+  transition: opacity 0.4s var(--ease);
+}
+
+/* ---------- Home: "Sobre Dwell" simplificado ---------- */
+
+.intro-simple-grid {
+  display: grid;
+  grid-template-columns: 1.2fr 1fr;
+  gap: clamp(40px, 7vw, 120px);
+  align-items: end;
+}
+
+.intro-heading {
+  margin: 0;
+  font-family: var(--sans);
+  font-weight: 300;
+  font-size: clamp(34px, 3.8vw, 54px);
+  line-height: 1.12;
+  letter-spacing: -0.02em;
+  max-width: 18ch;
+}
+
+.intro-body {
+  display: flex;
+  flex-direction: column;
+  align-items: flex-start;
+  gap: 32px;
+}
+
+.intro-body p {
+  font-size: 18px;
+  color: var(--muted);
+}
+
+@media (max-width: 820px) {
+  .intro-simple-grid {
+    grid-template-columns: minmax(0, 1fr);
+    gap: 32px;
+  }
+  .hero-brand img {
+    width: 88vw;
   }
 }

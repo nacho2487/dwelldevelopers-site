@@ -5,38 +5,101 @@
     "description": "Desarrolladora inmobiliaria boutique en Uruguay. Proyectos residenciales de alta calidad, gestionados con rigor y transparencia para compradores e inversores."
   },
   "nav": [
-    { "title": "Green Concept", "link": "/proyectos/green-concept", "badge": "Nuevo" },
-    { "title": "Proyectos", "link": "/proyectos" },
-    { "title": "Inversores", "link": "/#inversores" },
-    { "title": "Nosotros", "link": "/acerca-de-nosotros" }
+    {
+      "title": "Green Concept",
+      "link": "/proyectos/green-concept",
+      "badge": "Nuevo"
+    },
+    {
+      "title": "Proyectos",
+      "link": "/proyectos"
+    },
+    {
+      "title": "Inversores",
+      "link": "/#inversores"
+    },
+    {
+      "title": "Nosotros",
+      "link": "/acerca-de-nosotros"
+    }
   ],
-  "nav_cta": { "title": "Contacto", "link": "/contacto" },
+  "nav_cta": {
+    "title": "Contacto",
+    "link": "/contacto"
+  },
   "hero": {
-    "eyebrow": "Desarrolladora inmobiliaria boutique · Uruguay",
-    "title": "Desarrollamos lugares <em>donde vale la pena vivir.</em>",
-    "text": "Más de diez años creando barrios y edificios residenciales de alta calidad, con el rigor y la transparencia que esperan quienes compran e invierten con nosotros.",
-    "cta_primary": { "title": "Ver proyectos", "link": "/proyectos" },
-    "cta_secondary": { "title": "Invertir con Dwell", "link": "#inversores" },
+    "tagline": "Desarrolladora inmobiliaria boutique. Creamos lugares donde vale la pena vivir.",
+    "cta_primary": {
+      "title": "Ver proyectos",
+      "link": "/proyectos"
+    },
+    "cta_secondary": {
+      "title": "Invertir con Dwell",
+      "link": "#inversores"
+    },
     "slides": [
-      { "image": "/images/green-concept/vista-posterior-noche.jpg", "caption": "Nuevo — Green Concept Carrasco", "link": "/proyectos/green-concept" },
-      { "image": "/images/2057_01-iluminacion-nocturna_ZEN_F2.jpeg", "caption": "Zen Pueblo Jardín — Carrasco Norte", "link": "/proyectos/zen-pueblo-jardin" },
-      { "image": "/images/nuevocentro-1.jpeg", "caption": "Torres Nuevocentro — Montevideo", "link": "/proyectos/torres-nuevo-centro" }
+      {
+        "image": "/images/green-concept/vista-posterior-noche.jpg",
+        "caption": "Nuevo — Green Concept Carrasco",
+        "link": "/proyectos/green-concept"
+      },
+      {
+        "image": "/images/2057_01-iluminacion-nocturna_ZEN_F2.jpeg",
+        "caption": "Zen Pueblo Jardín — Carrasco Norte",
+        "link": "/proyectos/zen-pueblo-jardin"
+      },
+      {
+        "image": "/images/nuevocentro-1.jpeg",
+        "caption": "Torres Nuevocentro — Montevideo",
+        "link": "/proyectos/torres-nuevo-centro"
+      }
     ],
     "scroll": "Descubrir"
   },
   "stats": [
-    { "value": "+10", "label": "años desarrollando proyectos" },
-    { "value": "467", "label": "unidades entregadas" },
-    { "value": "U$S 64M", "label": "invertidos en proyectos finalizados" },
-    { "value": "0", "label": "atrasos en nuestras entregas" }
+    {
+      "value": "+10",
+      "label": "años de experiencia"
+    },
+    {
+      "value": "+500",
+      "label": "unidades entregadas"
+    },
+    {
+      "value": "290",
+      "label": "unidades en construcción"
+    },
+    {
+      "value": "U$S 90M",
+      "label": "invertidos en proyectos finalizados"
+    }
   ],
   "featured": {
     "eyebrow": "Nuevo lanzamiento",
     "title": "Tu refugio de fin de semana, <em>todos los días.</em>",
     "text": "Tres edificios bajos unidos por un parque, junto a un parque lineal en Carrasco. Apartamentos de 1, 2 y 3 dormitorios con vistas al parque, al bosque o al mar, y doce amenities pensados para vivir en contacto con la naturaleza.",
-    "facts": [ { "value": "3", "label": "edificios bajos" }, { "value": "1 · 2 · 3", "label": "dormitorios" }, { "value": "12", "label": "amenities" } ],
-    "cta_primary": { "title": "Conocé Green Concept", "link": "/proyectos/green-concept" },
-    "cta_secondary": { "title": "greenconcept.uy", "link": "https://www.greenconcept.uy" },
+    "facts": [
+      {
+        "value": "3",
+        "label": "edificios bajos"
+      },
+      {
+        "value": "1 · 2 · 3",
+        "label": "dormitorios"
+      },
+      {
+        "value": "12",
+        "label": "amenities"
+      }
+    ],
+    "cta_primary": {
+      "title": "Conocé Green Concept",
+      "link": "/proyectos/green-concept"
+    },
+    "cta_secondary": {
+      "title": "greenconcept.uy",
+      "link": "https://www.greenconcept.uy"
+    },
     "logo": "/images/green-concept/gc-logo-blanco.png",
     "images": [
       "/images/green-concept/acceso-principal.jpg",
@@ -45,42 +108,74 @@
     ]
   },
   "intro": {
-    "eyebrow": "Sobre Dwell",
-    "title": "Elegimos pocos proyectos y los desarrollamos con <em>dedicación total.</em>",
+    "title": "Elegimos pocos proyectos y los desarrollamos con dedicación total.",
     "text": "Captamos oportunidades de inversión de forma profesional y creativa, y gestionamos cada desarrollo cuidando el diseño, los plazos y los números. El resultado son barrios y edificios que se valorizan con el tiempo y comunidades que eligen quedarse.",
-    "signature": "We develop, you Dwell.",
-    "link": { "title": "Conocé al equipo", "link": "/acerca-de-nosotros" }
+    "link": {
+      "title": "Conocé al equipo",
+      "link": "/acerca-de-nosotros"
+    }
   },
   "projects": {
     "eyebrow": "Proyectos",
     "title": "Lo que construimos",
-    "link": { "title": "Ver todos los proyectos", "link": "/proyectos" }
+    "link": {
+      "title": "Ver todos los proyectos",
+      "link": "/proyectos"
+    }
   },
   "services": {
     "eyebrow": "Qué hacemos",
     "title": "Un solo equipo, de la oportunidad a la entrega",
     "items": [
-      { "title": "Desarrollo residencial", "text": "Creamos edificios y barrios residenciales de alta calidad y seguridad, acompañando a cada comprador durante todo el proceso." },
-      { "title": "Desarrollo comercial", "text": "Proyectamos espacios para trabajar y disfrutar, con un compromiso firme con el entorno y con las comunidades que los rodean." },
-      { "title": "Gestión de inversiones", "text": "Estructuramos y administramos fideicomisos inmobiliarios con información clara, cronogramas cumplidos y resultados medibles." }
+      {
+        "title": "Desarrollo residencial",
+        "text": "Creamos edificios y barrios residenciales de alta calidad y seguridad, acompañando a cada comprador durante todo el proceso."
+      },
+      {
+        "title": "Desarrollo comercial",
+        "text": "Proyectamos espacios para trabajar y disfrutar, con un compromiso firme con el entorno y con las comunidades que los rodean."
+      },
+      {
+        "title": "Gestión de inversiones",
+        "text": "Estructuramos y administramos fideicomisos inmobiliarios con información clara, cronogramas cumplidos y resultados medibles."
+      }
     ]
   },
   "why": {
     "eyebrow": "Por qué Dwell",
     "title": "La calidad no es un detalle. Es el punto de partida.",
     "items": [
-      { "title": "Calidad sin concesiones", "text": "Diseño cuidado y materiales nobles, en armonía con la arquitectura de cada entorno." },
-      { "title": "Amenities pensados", "text": "Espacios comunes que suman a la vida diaria: verdes, recreativos y de trabajo." },
-      { "title": "Entorno verde", "text": "Cada proyecto parte de una idea simple: vivir en armonía con la naturaleza." },
-      { "title": "Comunidad", "text": "Diseñamos para que los vecinos se encuentren y la vida en comunidad se fortalezca." }
+      {
+        "title": "Calidad sin concesiones",
+        "text": "Diseño cuidado y materiales nobles, en armonía con la arquitectura de cada entorno."
+      },
+      {
+        "title": "Amenities pensados",
+        "text": "Espacios comunes que suman a la vida diaria: verdes, recreativos y de trabajo."
+      },
+      {
+        "title": "Entorno verde",
+        "text": "Cada proyecto parte de una idea simple: vivir en armonía con la naturaleza."
+      },
+      {
+        "title": "Comunidad",
+        "text": "Diseñamos para que los vecinos se encuentren y la vida en comunidad se fortalezca."
+      }
     ]
   },
   "investors": {
     "eyebrow": "Inversores",
     "title": "Invertí con un equipo que cumple lo que promete.",
     "text": "Torres Nuevocentro fue el primer proyecto de inversión inmobiliaria de República AFAP. En Oxo Parques, el desvío económico fue menor al 4%. Gestionamos cada fideicomiso con la misma disciplina.",
-    "points": [ "Fideicomisos al costo y financieros", "Reportes claros y periódicos", "Cronogramas cumplidos" ],
-    "cta": { "title": "Hablemos de tu inversión", "link": "/contacto" },
+    "points": [
+      "Fideicomisos al costo y financieros",
+      "Reportes claros y periódicos",
+      "Cronogramas cumplidos"
+    ],
+    "cta": {
+      "title": "Hablemos de tu inversión",
+      "link": "/contacto"
+    },
     "image": "/images/nuevocentro-2.jpeg"
   },
   "about": {

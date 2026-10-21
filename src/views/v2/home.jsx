@@ -19,10 +19,11 @@ function Home(props) {
           ))}
         </div>
         <div className="hero-shade"></div>
-        <div className="container hero-content">
-          <Eyebrow light>{hero.eyebrow}</Eyebrow>
-          <h1 className="hero-title" dangerouslySetInnerHTML={html(hero.title)} />
-          <p className="hero-text">{hero.text}</p>
+        <div className="container hero-content hero-brand-content">
+          <h1 className="hero-brand">
+            <img src="/images/brand/dwell-wordmark-blanco.png" alt="Dwell Developers" width="928" height="104" />
+          </h1>
+          <p className="hero-tagline">{hero.tagline}</p>
           <div className="hero-actions">
             <a href={hero.cta_primary.link} className="btn btn-light">
               {hero.cta_primary.title} <Arrow />
@@ -103,22 +104,16 @@ function Home(props) {
       </section>
 
       {/* INTRO */}
-      <section className="intro section" id="intro">
-        <div className="container intro-grid">
-          <div data-reveal>
-            <Eyebrow>{intro.eyebrow}</Eyebrow>
-          </div>
-          <div>
-            <h2 className="display" data-reveal dangerouslySetInnerHTML={html(intro.title)} />
-            <div className="intro-cols" data-reveal>
-              <p>{intro.text}</p>
-              <div>
-                <p className="signature">{intro.signature}</p>
-                <a href={intro.link.link} className="link-arrow">
-                  {intro.link.title} <Arrow />
-                </a>
-              </div>
-            </div>
+      <section className="intro intro-simple section" id="intro">
+        <div className="container intro-simple-grid">
+          <h2 className="intro-heading" data-reveal>
+            {intro.title}
+          </h2>
+          <div className="intro-body" data-reveal>
+            <p>{intro.text}</p>
+            <a href={intro.link.link} className="link-arrow">
+              {intro.link.title} <Arrow />
+            </a>
           </div>
         </div>
       </section>

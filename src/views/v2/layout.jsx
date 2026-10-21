@@ -29,7 +29,7 @@ function Layout(props) {
         <link rel="preconnect" href="https://fonts.gstatic.com" crossOrigin="true" />
         <link
           rel="stylesheet"
-          href="https://fonts.googleapis.com/css2?family=Instrument+Serif:ital@0;1&family=Jost:wght@300;400;500;600&display=swap"
+          href="https://fonts.googleapis.com/css2?family=Jost:wght@200;300;400;500;600&display=swap"
         />
         <link rel="stylesheet" href="/css/v2.css" />
         <script dangerouslySetInnerHTML={{ __html: "document.documentElement.classList.add('js');" }} />
