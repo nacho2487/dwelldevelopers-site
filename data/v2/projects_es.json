@@ -33,17 +33,17 @@
       "theme": "gc",
       "name": "Green Concept",
       "name_full": "Green Concept Carrasco",
-      "status": "Nuevo lanzamiento",
+      "status": "En ejecución",
       "status_kind": "new",
       "location": "Carrasco, Montevideo",
       "type": "Residencial",
-      "summary": "Tres edificios bajos unidos por un parque, junto a un parque lineal en Carrasco. Apartamentos de 1, 2 y 3 dormitorios con vistas al parque, al bosque o al mar.",
+      "summary": "Ganador como Mejor Proyecto Residencial Multifamiliar de Uruguay. Tres edificios bajos unidos por un parque en Carrasco, en régimen de vivienda promovida. Etapa 1 vendida en un 85% y Etapa 2 a la venta.",
       "card_image": "/images/green-concept/acceso-principal.jpg",
       "hero_image": "/images/green-concept/vista-posterior-noche.jpg",
       "card_facts": [
         {
-          "value": "3",
-          "label": "edificios"
+          "value": "85%",
+          "label": "vendida etapa 1"
         },
         {
           "value": "1 · 2 · 3",
@@ -61,20 +61,24 @@
         ],
         "facts": [
           {
-            "label": "Ubicación",
-            "value": "Carrasco, Montevideo"
+            "label": "Estado",
+            "value": "En ejecución"
           },
           {
-            "label": "Proyecto",
-            "value": "3 edificios bajos con centro verde"
+            "label": "Etapas",
+            "value": "3 · Etapa 2 en venta"
           },
           {
             "label": "Unidades",
             "value": "1, 2 y 3 dormitorios"
           },
           {
+            "label": "Régimen",
+            "value": "Vivienda promovida"
+          },
+          {
             "label": "Arquitectura",
-            "value": "RMA Arquitectos"
+            "value": "RMA Arquitectura"
           }
         ],
         "pillars_intro": "Promovemos la flexibilidad de usos de los espacios interiores, la interacción con el entorno de proximidad y el vínculo permanente con la naturaleza. Y en el centro, la comunidad que los habita.",
@@ -95,7 +99,7 @@
         "project_title": "El proyecto",
         "project_text": [
           "Lindante con un parque lineal y rodeado de un entorno cuidado se ubica Green Concept: un desarrollo de tres bloques de edificios bajos con entorno y centro verde.",
-          "Una arquitectura contemporánea diseñada por RMA Arquitectos, que integra el entorno de manera respetuosa y lo incorpora en su interior."
+          "Una arquitectura contemporánea diseñada por RMA Arquitectura, que integra el entorno de manera respetuosa y lo incorpora en su interior."
         ],
         "location_title": "Ubicación",
         "location_text": [
@@ -218,7 +222,7 @@
           },
           {
             "role": "Arquitectura",
-            "name": "RMA Arquitectos — Ravecca Montaño Artagaveytia"
+            "name": "RMA Arquitectura — Ravecca Montaño Artagaveytia"
           },
           {
             "role": "Paisajismo",
@@ -228,7 +232,57 @@
         "cta_title": "Conocé tu próximo hogar",
         "cta_text": "Agendá una reunión con nuestro equipo comercial o visitá el sitio del proyecto para ver planos y disponibilidad.",
         "cta_primary": "Quiero que me contacten",
-        "cta_secondary": "greenconcept.uy"
+        "cta_secondary": "greenconcept.uy",
+        "award": {
+          "badge": "Ganador · Americas Property Awards 2026-2027",
+          "title": "Mejor Proyecto Residencial Multifamiliar de Uruguay",
+          "text": "Green Concept fue distinguido en los International Property Awards, uno de los reconocimientos más prestigiosos de la industria inmobiliaria a nivel mundial. Un jurado independiente de expertos evalúa proyectos de todo el mundo y premia a los que se destacan por su diseño, calidad e innovación.",
+          "edition": "Americas Property Awards 2026-2027 · en asociación con International Property & Travel",
+          "logo": "/images/green-concept/award-americas-property-awards-2026.png"
+        },
+        "stages": {
+          "eyebrow": "Avance",
+          "title": "Tres etapas. Un éxito de ventas.",
+          "text": "El proyecto está en ejecución y se desarrolla en tres etapas. La primera etapa ya está vendida en un 85% y lanzamos la venta de la segunda.",
+          "items": [
+            {
+              "name": "Etapa 1",
+              "status": "85% vendida",
+              "progress": 85,
+              "kind": "sold"
+            },
+            {
+              "name": "Etapa 2",
+              "status": "Venta lanzada",
+              "progress": 0,
+              "kind": "open"
+            },
+            {
+              "name": "Etapa 3",
+              "status": "Próximamente",
+              "progress": 0,
+              "kind": "soon"
+            }
+          ]
+        },
+        "promoted": {
+          "eyebrow": "Vivienda promovida",
+          "title": "Beneficios fiscales para quienes compran",
+          "text": "Green Concept es un proyecto de Vivienda Promovida (Ley N.º 18.795). Por eso, quienes compran acceden a beneficios fiscales establecidos por ley.",
+          "points": [
+            "Exoneración del ITP en la compra de la unidad",
+            "Para quienes invierten para alquilar: exoneración de IRPF sobre los alquileres por 10 años",
+            "Exoneración del Impuesto al Patrimonio por 10 años"
+          ],
+          "note": "Consultá con nuestro equipo comercial las condiciones aplicables a tu caso."
+        },
+        "highlight": {
+          "eyebrow": "El corazón del proyecto",
+          "title": "Un jardín en el centro de tu vida",
+          "text": "Los tres edificios se abrazan alrededor de un jardín interno diseñado por Fernando Bianco: senderos sinuosos, vegetación frondosa y lugares para encontrarse, a pasos de tu puerta.",
+          "caption": "Jardín interno — vista cenital",
+          "image": "/images/green-concept/patio-cenital.jpg"
+        }
       }
     },
     {

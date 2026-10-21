@@ -21,9 +21,16 @@ function GreenConcept(props) {
       <section className="gc-hero">
         <img className="p-hero-img" src={p.hero_image} alt={p.name_full} />
         <div className="hero-shade gc-shade"></div>
+        <a href="#premio" className="gc-hero-ribbon" aria-label={gc.award.title}>
+          <img src={gc.award.logo} alt={gc.award.badge} />
+        </a>
         <div className="container gc-hero-content">
           <a href={`${base}/proyectos`} className="back-link">
             ← {labels.back}
+          </a>
+          <a href="#premio" className="gc-hero-award">
+            <span className="award-star" aria-hidden="true">★</span>
+            {gc.award.title}
           </a>
           <img className="gc-hero-logo" src={gc.logo} alt={p.name_full} />
           <h1 className="hero-title gc-tagline" dangerouslySetInnerHTML={html(gc.tagline)} />
@@ -53,6 +60,75 @@ function GreenConcept(props) {
               </div>
             ))}
           </dl>
+        </div>
+      </section>
+
+      {/* PREMIO */}
+      <section className="gc-award" id="premio">
+        <div className="container gc-award-grid">
+          <img className="gc-award-ribbon" src={gc.award.logo} alt={gc.award.badge} data-reveal />
+          <div data-reveal>
+            <span className="gc-award-badge">{gc.award.badge}</span>
+            <h2 className="display">{gc.award.title}</h2>
+            <p>{gc.award.text}</p>
+            <p className="gc-award-edition">{gc.award.edition}</p>
+          </div>
+        </div>
+      </section>
+
+      {/* ETAPAS Y VIVIENDA PROMOVIDA */}
+      <section className="section gc-status">
+        <div className="container gc-status-grid">
+          <div className="gc-stages" data-reveal>
+            <Eyebrow>{gc.stages.eyebrow}</Eyebrow>
+            <h2 className="display">{gc.stages.title}</h2>
+            <p className="muted-p">{gc.stages.text}</p>
+            <ol className="stage-list">
+              {gc.stages.items.map((s) => (
+                <li key={s.name} className={`stage stage-${s.kind}`}>
+                  <div className="stage-head">
+                    <span className="stage-name">{s.name}</span>
+                    <span className="stage-status">{s.status}</span>
+                  </div>
+                  <span className="stage-bar">
+                    <i style={{ width: `${s.kind === 'sold' ? s.progress : s.kind === 'open' ? 8 : 0}%` }}></i>
+                  </span>
+                </li>
+              ))}
+            </ol>
+          </div>
+          <div className="gc-promoted" data-reveal>
+            <span className="gc-promoted-badge">{gc.promoted.eyebrow}</span>
+            <h3>{gc.promoted.title}</h3>
+            <p>{gc.promoted.text}</p>
+            <ul className="check-list">
+              {gc.promoted.points.map((pt) => (
+                <li key={pt}>{pt}</li>
+              ))}
+            </ul>
+            <p className="gc-promoted-note">{gc.promoted.note}</p>
+          </div>
+        </div>
+      </section>
+
+      {/* RENDER DESTACADO: JARDÍN INTERNO */}
+      <section className="gc-highlight">
+        <div className="container gc-highlight-grid">
+          <a
+            href={gc.highlight.image}
+            className="gc-highlight-media"
+            data-lightbox
+            data-caption={gc.highlight.caption}
+            data-reveal
+          >
+            <img src={gc.highlight.image} alt={gc.highlight.caption} loading="lazy" />
+          </a>
+          <div className="gc-highlight-copy" data-reveal>
+            <Eyebrow light>{gc.highlight.eyebrow}</Eyebrow>
+            <h2 className="display">{gc.highlight.title}</h2>
+            <p>{gc.highlight.text}</p>
+            <span className="gc-highlight-caption">{gc.highlight.caption}</span>
+          </div>
         </div>
       </section>
 

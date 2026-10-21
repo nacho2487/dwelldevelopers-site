@@ -33,17 +33,17 @@
       "theme": "gc",
       "name": "Green Concept",
       "name_full": "Green Concept Carrasco",
-      "status": "New launch",
+      "status": "Under construction",
       "status_kind": "new",
       "location": "Carrasco, Montevideo",
       "type": "Residential",
-      "summary": "Three low-rise buildings joined by a park, next to a linear park in Carrasco. 1, 2 and 3-bedroom apartments overlooking the park, the woods or the sea.",
+      "summary": "Winner of Best Multi-Family Residential Development in Uruguay. Three low-rise buildings joined by a park in Carrasco, under the promoted housing regime. Phase 1 is 85% sold and Phase 2 is on sale.",
       "card_image": "/images/green-concept/acceso-principal.jpg",
       "hero_image": "/images/green-concept/vista-posterior-noche.jpg",
       "card_facts": [
         {
-          "value": "3",
-          "label": "buildings"
+          "value": "85%",
+          "label": "phase 1 sold"
         },
         {
           "value": "1 · 2 · 3",
@@ -61,20 +61,24 @@
         ],
         "facts": [
           {
-            "label": "Location",
-            "value": "Carrasco, Montevideo"
+            "label": "Status",
+            "value": "Under construction"
           },
           {
-            "label": "Project",
-            "value": "3 low-rise buildings with a green core"
+            "label": "Phases",
+            "value": "3 · Phase 2 on sale"
           },
           {
             "label": "Units",
             "value": "1, 2 and 3 bedrooms"
           },
           {
+            "label": "Regime",
+            "value": "Promoted housing"
+          },
+          {
             "label": "Architecture",
-            "value": "RMA Arquitectos"
+            "value": "RMA Arquitectura"
           }
         ],
         "pillars_intro": "We promote flexible interiors, interaction with the immediate surroundings and a permanent bond with nature. And at the center, the community that lives there.",
@@ -95,7 +99,7 @@
         "project_title": "The project",
         "project_text": [
           "Bordering a linear park and surrounded by a well-kept setting, Green Concept is a development of three low-rise buildings with green surroundings and a green core.",
-          "Contemporary architecture by RMA Arquitectos that respectfully integrates its surroundings and brings them inside."
+          "Contemporary architecture by RMA Arquitectura that respectfully integrates its surroundings and brings them inside."
         ],
         "location_title": "Location",
         "location_text": [
@@ -218,7 +222,7 @@
           },
           {
             "role": "Architecture",
-            "name": "RMA Arquitectos — Ravecca Montaño Artagaveytia"
+            "name": "RMA Arquitectura — Ravecca Montaño Artagaveytia"
           },
           {
             "role": "Landscape",
@@ -228,7 +232,57 @@
         "cta_title": "Discover your next home",
         "cta_text": "Book a meeting with our sales team or visit the project website to see floor plans and availability.",
         "cta_primary": "Contact me",
-        "cta_secondary": "greenconcept.uy"
+        "cta_secondary": "greenconcept.uy",
+        "award": {
+          "badge": "Winner · Americas Property Awards 2026-2027",
+          "title": "Best Multi-Family Residential Development in Uruguay",
+          "text": "Green Concept was recognized at the International Property Awards, one of the most prestigious distinctions in the real estate industry worldwide. An independent panel of experts reviews projects from around the world and honors those that stand out for design, quality and innovation.",
+          "edition": "Americas Property Awards 2026-2027 · in association with International Property & Travel",
+          "logo": "/images/green-concept/award-americas-property-awards-2026.png"
+        },
+        "stages": {
+          "eyebrow": "Progress",
+          "title": "Three phases. A sales success.",
+          "text": "The project is under construction and is being developed in three phases. Phase 1 is already 85% sold and Phase 2 is now on sale.",
+          "items": [
+            {
+              "name": "Phase 1",
+              "status": "85% sold",
+              "progress": 85,
+              "kind": "sold"
+            },
+            {
+              "name": "Phase 2",
+              "status": "Now on sale",
+              "progress": 0,
+              "kind": "open"
+            },
+            {
+              "name": "Phase 3",
+              "status": "Coming soon",
+              "progress": 0,
+              "kind": "soon"
+            }
+          ]
+        },
+        "promoted": {
+          "eyebrow": "Promoted housing",
+          "title": "Tax benefits for buyers",
+          "text": "Green Concept is a Promoted Housing project under Uruguayan Law No. 18,795, so buyers have access to tax benefits established by law.",
+          "points": [
+            "Exemption from property transfer tax (ITP) on the purchase",
+            "For buy-to-let investors: income tax exemption on rental income for 10 years",
+            "Wealth tax exemption for 10 years"
+          ],
+          "note": "Ask our sales team about the conditions that apply to your case."
+        },
+        "highlight": {
+          "eyebrow": "The heart of the project",
+          "title": "A garden at the center of your life",
+          "text": "The three buildings embrace an inner garden designed by Fernando Bianco: winding paths, lush planting and places to meet, just steps from your door.",
+          "caption": "Inner garden — aerial view",
+          "image": "/images/green-concept/patio-cenital.jpg"
+        }
       }
     },
     {
