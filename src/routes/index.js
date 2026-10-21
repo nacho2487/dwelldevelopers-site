@@ -51,19 +51,6 @@ router.get('/contacto', (req, res) => {
   });
 });
 
-// Home anterior, disponible mientras dure el rediseño para comparar
-router.get('/version-anterior', (req, res) => {
-  const { lang, currentPath, layout, home, translation, projectsPage } = res.locals;
-  res.render('home', {
-    currentPath,
-    lang,
-    layout,
-    ...translation,
-    projects: projectsPage,
-    ...home,
-  });
-});
-
 const escapeHtml = (s) =>
   String(s || '').replace(/[&<>"']/g, (c) => ({ '&': '&amp;', '<': '&lt;', '>': '&gt;', '"': '&quot;', "'": '&#39;' }[c]));
 
