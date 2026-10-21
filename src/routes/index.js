@@ -30,7 +30,7 @@ router.get('/proyectos/:project', (req, res, next) => {
     return next();
   }
   const project = items[index];
-  const view = project.theme === 'gc' ? 'v2/project-gc' : 'v2/project';
+  const view = project.rich ? 'v2/project-rich' : 'v2/project';
   res.render(view, {
     ...data,
     project,

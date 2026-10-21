@@ -51,7 +51,7 @@
         }
       ],
       "website": "https://www.greenconcept.uy",
-      "gc": {
+      "rich": {
         "logo": "/images/green-concept/gc-logo-blanco.png",
         "tagline": "Tu refugio de fin de semana, <em>todos los días.</em>",
         "intro_title": "Una nueva forma de habitar",
@@ -303,110 +303,608 @@
               "logo": "/images/green-concept/partners/itau.png"
             }
           ]
+        },
+        "hero_badge": "Mejor Proyecto Residencial Multifamiliar de Uruguay",
+        "intro_image": "/images/green-concept/paseo-frente.jpg",
+        "project_images": [
+          "/images/green-concept/acceso-principal.jpg",
+          "/images/green-concept/vista-lateral.jpg"
+        ],
+        "cta_image": "/images/green-concept/jardin-interior-noche.jpg"
+      }
+    },
+    {
+      "slug": "zen-reserva",
+      "theme": "zr",
+      "name": "Zen Reserva",
+      "name_full": "Zen Reserva",
+      "status": "Venta lanzada · En construcción",
+      "status_kind": "new",
+      "location": "Zen Pueblo Jardín, Carrasco",
+      "type": "Residencial",
+      "summary": "La nueva etapa de Zen Pueblo Jardín: residencias de 3 y 4 dormitorios con jardín privado, en la zona más demandada de Carrasco. Venta lanzada y en construcción.",
+      "card_image": "/images/zen-reserva/residencia-piscina.jpg",
+      "hero_image": "/images/zen-reserva/jardines-privados.jpg",
+      "card_facts": [
+        {
+          "value": "41",
+          "label": "residencias"
+        },
+        {
+          "value": "3 · 4",
+          "label": "dormitorios"
         }
+      ],
+      "website": "https://www.zenpueblojardin.uy/",
+      "rich": {
+        "logo": "/images/zen-reserva/logo-zen-reserva.png",
+        "hero_badge": "Nueva etapa de Zen Pueblo Jardín · Venta lanzada",
+        "tagline": "Una manera de vivir que crece: <em>más metraje, más verde, más intimidad.</em>",
+        "facts": [
+          {
+            "label": "Estado",
+            "value": "Venta lanzada · En construcción"
+          },
+          {
+            "label": "Residencias",
+            "value": "41"
+          },
+          {
+            "label": "Tipologías",
+            "value": "3 y 4 dormitorios"
+          },
+          {
+            "label": "Superficie",
+            "value": "168 a 222 m² + jardín privado"
+          },
+          {
+            "label": "Arquitectura",
+            "value": "RMA Arquitectura"
+          }
+        ],
+        "award": {
+          "badge": "Diferencial",
+          "title": "Un producto único en la zona más demandada de Carrasco",
+          "text": "Zen Reserva lleva el concepto ZEN a su máxima expresión: residencias más amplias, con jardín privado y mayor intimidad, dentro de un barrio seguro en el corazón de Carrasco, rodeado de los mejores colegios y clubes.",
+          "chips": [
+            "Residencias de 3 y 4 dormitorios",
+            "Jardín privado de 103 a 230 m²",
+            "Seguridad 24 horas",
+            "Club House y piscina"
+          ]
+        },
+        "stages": {
+          "eyebrow": "Avance",
+          "title": "La segunda etapa de un éxito.",
+          "text": "Zen Reserva es la Etapa 2 de Zen Pueblo Jardín. La primera etapa ya está construida y entregada; esta nueva etapa está en construcción y con la venta lanzada.",
+          "items": [
+            {
+              "name": "Etapa 1 · Zen Pueblo Jardín",
+              "detail": "46 casas",
+              "status": "Construida y entregada",
+              "progress": 100,
+              "kind": "done",
+              "link": {
+                "title": "Ver Zen Pueblo Jardín",
+                "href": "/proyectos/zen-pueblo-jardin"
+              }
+            },
+            {
+              "name": "Etapa 2 · Zen Reserva",
+              "detail": "41 residencias",
+              "status": "Venta lanzada",
+              "progress": 0,
+              "kind": "open"
+            }
+          ]
+        },
+        "highlight": {
+          "eyebrow": "Tu jardín privado",
+          "title": "Más verde, más intimidad",
+          "text": "Cada residencia tiene su propio jardín, de 103 a 230 m², con terraza y parrillero: un refugio de bienestar y privacidad, fiel al espíritu ZEN.",
+          "caption": "Vida en el jardín",
+          "image": "/images/zen-reserva/lifestyle-familia.jpg"
+        },
+        "intro_title": "El concepto ZEN, en una nueva dimensión",
+        "intro": [
+          "Zen Reserva es un conjunto de 41 residencias cuya arquitectura se integra de forma natural con la luz y el paisaje, generando una atmósfera serena donde cada espacio invita a disfrutar del día a día.",
+          "Inspirado en la experiencia de Zen Pueblo Jardín, amplifica su esencia: más metraje, más verde y mayor privacidad. Elegir ZEN es elegir una vida tranquila sin renunciar a lo esencial: seguridad, comodidad y una conexión fluida con todo lo que necesitás."
+        ],
+        "intro_image": "/images/zen-reserva/lifestyle-arbol.jpg",
+        "pillars_intro": "Viví en equilibrio. Viví ZEN. Espacios que amplifican lo esencial: hogar, familia y reconectarse con lo natural.",
+        "pillars": [
+          {
+            "title": "Más metraje",
+            "text": "Residencias de 168 a 222 m² con interiores generosos, luminosos y cuidadosamente resueltos."
+          },
+          {
+            "title": "Más verde",
+            "text": "Jardines privados de 103 a 230 m² y un paisajismo que potencia el entorno natural."
+          },
+          {
+            "title": "Más intimidad",
+            "text": "Una escala más amplia y natural, pensada para la privacidad y el bienestar de cada familia."
+          }
+        ],
+        "project_title": "Residencias",
+        "project_text": [
+          "Desde una escala más amplia y natural, Zen Reserva reinterpreta la elegancia contemporánea con residencias de 3 y 4 dormitorios.",
+          "Materiales nobles, texturas cálidas y una arquitectura que crece en metraje para priorizar la luz, la amplitud y una conexión auténtica con el jardín."
+        ],
+        "project_images": [
+          "/images/zen-reserva/acceso-interior.jpg",
+          "/images/zen-reserva/garden.jpg"
+        ],
+        "amenities_title": "Amenities y comodidades",
+        "amenities_heading": "Todo el barrio ZEN, a tu disposición",
+        "amenities": [
+          {
+            "title": "Seguridad",
+            "text": "Entrada única con vigilancia las 24 horas."
+          },
+          {
+            "title": "Club House",
+            "text": "Pensado para el uso y aprovechamiento de todos los propietarios."
+          },
+          {
+            "title": "Piscina",
+            "text": "Disfrutá los días lindos dentro de un entorno natural."
+          },
+          {
+            "title": "Espacio cowork",
+            "text": "Oficinas compartidas para el uso de los propietarios."
+          },
+          {
+            "title": "Paisajismo",
+            "text": "Un diseño que potencia el entorno natural."
+          },
+          {
+            "title": "Ubicación",
+            "text": "En el corazón de Carrasco."
+          }
+        ],
+        "amenities_images": [
+          {
+            "image": "/images/zen-reserva/garden.jpg",
+            "caption": "Terraza con parrillero"
+          },
+          {
+            "image": "/images/zen-reserva/lifestyle-piscina.jpg",
+            "caption": "Piscina"
+          },
+          {
+            "image": "/images/zen-reserva/lifestyle-mesa.jpg",
+            "caption": "Vida al aire libre"
+          },
+          {
+            "image": "/images/zen-reserva/acceso.jpg",
+            "caption": "Acceso ZEN"
+          }
+        ],
+        "location_title": "Ubicación",
+        "location_text": [
+          "Dentro de Zen Pueblo Jardín, en el corazón de Carrasco: la zona más demandada de Montevideo, rodeada de colegios, clubes y servicios.",
+          "Con rápido acceso a Camino Carrasco, Avenida Italia y el resto de la ciudad."
+        ],
+        "nearby": [
+          "Colegio Stella Maris",
+          "St. Patrick's College",
+          "British School",
+          "American School",
+          "Colegio Jesús María",
+          "Carrasco Polo Club",
+          "Carrasco Lawn Tennis",
+          "Portones Shopping",
+          "Parque Rivera"
+        ],
+        "location_image": "/images/zen-reserva/acceso.jpg",
+        "apartments_title": "Residencias",
+        "apartments_text": "Tres tipologías con master suite, cocina integrada, terraza exterior con parrillero, jardín privado y lavadero independiente.",
+        "apartments": [
+          {
+            "value": "A",
+            "label": "4 dorm. · 222 m²"
+          },
+          {
+            "value": "B",
+            "label": "4 dorm. · 193 m²"
+          },
+          {
+            "value": "C",
+            "label": "3 dorm. · 168 m²"
+          }
+        ],
+        "gallery": [
+          {
+            "image": "/images/zen-reserva/living.jpg",
+            "caption": "Living"
+          },
+          {
+            "image": "/images/zen-reserva/cocina-estar.jpg",
+            "caption": "Cocina y estar"
+          },
+          {
+            "image": "/images/zen-reserva/living-galeria.jpg",
+            "caption": "Living y galería"
+          },
+          {
+            "image": "/images/zen-reserva/living-lifestyle.jpg",
+            "caption": "Interiores"
+          },
+          {
+            "image": "/images/zen-reserva/bano-suite.jpg",
+            "caption": "Baño en suite"
+          },
+          {
+            "image": "/images/zen-reserva/garden.jpg",
+            "caption": "Terraza"
+          },
+          {
+            "image": "/images/zen-reserva/residencia-piscina.jpg",
+            "caption": "Residencia con jardín privado"
+          },
+          {
+            "image": "/images/zen-reserva/lifestyle-terraza.jpg",
+            "caption": "ZEN lifestyle"
+          },
+          {
+            "image": "/images/zen-reserva/acceso-interior.jpg",
+            "caption": "Acceso interior"
+          },
+          {
+            "image": "/images/zen-reserva/lifestyle-familia.jpg",
+            "caption": "ZEN lifestyle"
+          },
+          {
+            "image": "/images/zen-reserva/residencia-jardin.jpg",
+            "caption": "Jardín privado"
+          },
+          {
+            "image": "/images/zen-reserva/jardines-privados.jpg",
+            "caption": "Jardines privados"
+          }
+        ],
+        "partnership_title": "Un proyecto de Edilica y Dwell",
+        "partnership_text": "Zen Reserva se apoya en los pilares de Zen Pueblo Jardín, con el mismo equipo desarrollador y el diseño de RMA Arquitectura.",
+        "partners": {
+          "developers_label": "Desarrollan",
+          "developers": [
+            {
+              "name": "Edilica",
+              "logo": "/images/partners/edilica.png"
+            },
+            {
+              "name": "Dwell Developers",
+              "logo": "/images/partners/dwell.png"
+            }
+          ],
+          "team": [
+            {
+              "role": "Diseño",
+              "name": "RMA Arquitectura",
+              "logo": "/images/partners/rma.png"
+            },
+            {
+              "role": "Comercializa",
+              "name": "Meikle Bienes Raíces",
+              "logo": "/images/partners/meikle.png"
+            },
+            {
+              "role": "Comercializa",
+              "name": "Crisci Blanco Propiedades",
+              "logo": "/images/partners/crisci-blanco.png"
+            },
+            {
+              "role": "Comercializa",
+              "name": "Roig Negocios Inmobiliarios",
+              "logo": "/images/partners/roig.png"
+            }
+          ]
+        },
+        "cta_title": "Viví en equilibrio. Viví ZEN.",
+        "cta_text": "La venta de Zen Reserva ya está abierta. Escribinos para conocer las residencias disponibles.",
+        "cta_primary": "Quiero que me contacten",
+        "cta_secondary": "zenpueblojardin.uy",
+        "cta_image": "/images/zen-reserva/residencia-jardin.jpg"
       }
     },
     {
       "slug": "zen-pueblo-jardin",
+      "theme": "zpj",
       "name": "Zen Pueblo Jardín",
-      "status": "En ejecución",
+      "name_full": "Zen Pueblo Jardín",
+      "status": "Etapa 2 en construcción",
       "status_kind": "progress",
-      "location": "Carrasco Norte, Montevideo",
+      "location": "Carrasco, Montevideo",
       "type": "Residencial",
-      "summary": "Barrio residencial con seguridad 24 horas, clubhouse, piscina, cowork y amplios espacios verdes.",
-      "card_image": "/images/2017_01_ZEN_F-1.jpeg",
-      "hero_image": "/images/2057_01-iluminacion-nocturna_ZEN_F2.jpeg",
+      "summary": "Un producto único en la zona más demandada de Carrasco: 86 casas en un entorno seguro y natural. Etapa 1 construida y entregada; Etapa 2, Zen Reserva, en construcción.",
+      "card_image": "/images/zen-pueblo-jardin/casa-pergola.jpg",
+      "hero_image": "/images/zen-pueblo-jardin/casa-pergola.jpg",
       "card_facts": [
         {
-          "value": "215",
-          "label": "viviendas proyectadas"
+          "value": "86",
+          "label": "casas"
         },
         {
-          "value": "92",
-          "label": "town houses"
+          "value": "U$S 35M",
+          "label": "de inversión"
         }
       ],
       "website": "https://www.zenpueblojardin.uy/",
-      "facts": [
-        {
-          "label": "Estado",
-          "value": "En ejecución"
+      "rich": {
+        "logo": "/images/zen-pueblo-jardin/logo-zen-pueblo-jardin.png",
+        "hero_badge": "Un producto único en la zona más demandada de Carrasco",
+        "tagline": "Tu entorno seguro <em>para disfrutar.</em>",
+        "facts": [
+          {
+            "label": "Ubicación",
+            "value": "Carrasco, Montevideo"
+          },
+          {
+            "label": "Casas",
+            "value": "86 en 2 etapas"
+          },
+          {
+            "label": "Estado",
+            "value": "Etapa 1 entregada · Etapa 2 en obra"
+          },
+          {
+            "label": "Inversión",
+            "value": "U$S 35M"
+          },
+          {
+            "label": "Arquitectura",
+            "value": "Ponce de León Architects"
+          }
+        ],
+        "award": {
+          "badge": "Diferencial",
+          "title": "Un producto único en la zona más demandada de Carrasco",
+          "text": "Zen Pueblo Jardín ofrece casas en un barrio con entrada única y vigilancia las 24 horas, en el corazón de Carrasco: a minutos de los principales colegios y clubes, con rápido acceso al resto de la ciudad. Una propuesta que no tiene par en la zona.",
+          "chips": [
+            "Colegio Stella Maris",
+            "St. Patrick's College",
+            "British School",
+            "American School",
+            "Colegio Jesús María",
+            "Carrasco Polo Club",
+            "Carrasco Lawn Tennis",
+            "Portones Shopping"
+          ]
         },
-        {
-          "label": "Ubicación",
-          "value": "Camino Brunel y Camino Carrasco"
+        "stages": {
+          "eyebrow": "Avance",
+          "title": "Dos etapas. Una misma forma de vivir.",
+          "text": "La primera etapa ya está construida y entregada a sus propietarios. La segunda, Zen Reserva, está en construcción y con la venta lanzada.",
+          "items": [
+            {
+              "name": "Etapa 1",
+              "detail": "46 casas",
+              "status": "Construida y entregada",
+              "progress": 100,
+              "kind": "done"
+            },
+            {
+              "name": "Etapa 2 · Zen Reserva",
+              "detail": "Residencias de 3 y 4 dormitorios",
+              "status": "En construcción · venta lanzada",
+              "progress": 0,
+              "kind": "open",
+              "link": {
+                "title": "Conocé Zen Reserva",
+                "href": "/proyectos/zen-reserva"
+              }
+            }
+          ]
         },
-        {
-          "label": "Tipo",
-          "value": "Residencial"
+        "highlight": {
+          "eyebrow": "Estilo de vida",
+          "title": "Vivir en paz, entre naturaleza y armonía",
+          "text": "Casas con pérgola y parrillero que se abren al jardín, calles internas arboladas y la tranquilidad de un entorno seguro para criar a tu familia.",
+          "caption": "Casa con pérgola y parrillero",
+          "image": "/images/zen-pueblo-jardin/casa-atardecer.jpg"
         },
-        {
-          "label": "Inicio",
-          "value": "Enero 2019"
+        "intro_title": "Zen es un estilo de vida",
+        "intro": [
+          "Un entorno seguro para disfrutar. Es la manera de vivir en paz entre naturaleza y armonía, próximo a todo tipo de servicios y comodidades.",
+          "Ubicado en el corazón de Carrasco, en un punto estratégicamente seleccionado, es el lugar perfecto para transformar tu nueva rutina."
+        ],
+        "intro_image": "/images/zen-pueblo-jardin/calle-interior.jpg",
+        "pillars_intro": "Te ofrecemos un cambio en la calidad de tu vida: seguridad, tranquilidad y contacto con la naturaleza, sin resignar la comodidad de la ciudad.",
+        "pillars": [
+          {
+            "title": "Seguridad",
+            "text": "Entrada única con vigilancia las 24 horas, en un entorno confiable donde criar a tu familia."
+          },
+          {
+            "title": "Naturaleza",
+            "text": "Fuera del ruido de la ciudad, con un diseño paisajista que potencia el entorno natural."
+          },
+          {
+            "title": "Ubicación",
+            "text": "A minutos de los colegios de la zona y con rápido acceso para trasladarte a otros puntos de la ciudad."
+          }
+        ],
+        "project_title": "El proyecto",
+        "project_text": [
+          "Un barrio de 86 casas con entrada única y un ClubHouse diseñado a medida para el uso y bienestar de sus propietarios.",
+          "ZEN aplica un concepto de vivienda experiencial que suma valor a la zona de Carrasco: arquitectura contemporánea, calles internas verdes y espacios pensados para la vida en familia."
+        ],
+        "project_images": [
+          "/images/zen-pueblo-jardin/casa-frente.jpg",
+          "/images/1961_01_ZEN_OP-7-1.jpeg"
+        ],
+        "amenities_title": "Amenities",
+        "amenities_heading": "Todo para disfrutar, sin salir de casa",
+        "amenities": [
+          {
+            "title": "Seguridad",
+            "text": "Entrada única con vigilancia las 24 horas."
+          },
+          {
+            "title": "Club House",
+            "text": "Pensado para el uso y aprovechamiento de todos los propietarios."
+          },
+          {
+            "title": "Piscina",
+            "text": "Disfrutá los días lindos dentro de un entorno natural."
+          },
+          {
+            "title": "Espacio cowork",
+            "text": "Oficinas compartidas para el uso de los propietarios."
+          },
+          {
+            "title": "Paisajismo",
+            "text": "Un diseño que potencia el entorno natural."
+          },
+          {
+            "title": "Ubicación",
+            "text": "En el corazón de Carrasco."
+          }
+        ],
+        "amenities_images": [
+          {
+            "image": "/images/zen-pueblo-jardin/piscina.jpg",
+            "caption": "Piscina"
+          },
+          {
+            "image": "/images/2058_03-sum_ZEN_F-1.jpeg",
+            "caption": "Club House"
+          },
+          {
+            "image": "/images/2058_03-sum_ZEN_C1-1.jpeg",
+            "caption": "Club House"
+          },
+          {
+            "image": "/images/zen-pueblo-jardin/panoramica-jacarandas.jpg",
+            "caption": "Paisajismo"
+          }
+        ],
+        "location_title": "Ubicación",
+        "location_text": [
+          "En el corazón de Carrasco, en un punto estratégicamente elegido, próximo a todos los servicios y a minutos de los colegios de la zona.",
+          "Camino Brunel y Camino Carrasco, con rápido acceso para trasladarte a otros puntos de la ciudad."
+        ],
+        "nearby": [
+          "Colegio Stella Maris",
+          "St. Patrick's College",
+          "British School",
+          "American School",
+          "Colegio Jesús María",
+          "Carrasco Polo Club",
+          "Carrasco Lawn Tennis",
+          "Portones Shopping"
+        ],
+        "location_image": "/images/zen-pueblo-jardin/panoramica-jacarandas.jpg",
+        "apartments_title": "Las casas",
+        "apartments_text": "Un nuevo concepto de arquitectura residencial: 3 dormitorios incluida master suite con vestidor, 2 baños y toilette, cocina con estar integrado y pérgola con parrillero y box lavadero.",
+        "apartments": [
+          {
+            "value": "138 m²",
+            "label": "por casa"
+          },
+          {
+            "value": "3",
+            "label": "dormitorios"
+          },
+          {
+            "value": "2 + 1",
+            "label": "baños y toilette"
+          }
+        ],
+        "gallery": [
+          {
+            "image": "/images/zen-pueblo-jardin/casa-pergola.jpg",
+            "caption": "Casa con pérgola"
+          },
+          {
+            "image": "/images/zen-pueblo-jardin/casa-atardecer.jpg",
+            "caption": "Atardecer"
+          },
+          {
+            "image": "/images/zen-pueblo-jardin/calle-interior.jpg",
+            "caption": "Calle interna"
+          },
+          {
+            "image": "/images/1961_01_ZEN_OP-7-1.jpeg",
+            "caption": "Casas"
+          },
+          {
+            "image": "/images/2058_02-living_ZEN_F1-1.jpeg",
+            "caption": "Living"
+          },
+          {
+            "image": "/images/zen-pueblo-jardin/piscina.jpg",
+            "caption": "Piscina"
+          },
+          {
+            "image": "/images/2057_01-iluminacion-nocturna_ZEN_F2.jpeg",
+            "caption": "Iluminación nocturna"
+          },
+          {
+            "image": "/images/zen-pueblo-jardin/casa-frente.jpg",
+            "caption": "Frente"
+          },
+          {
+            "image": "/images/1961_02_ZEN_F-2.jpeg",
+            "caption": "Casas"
+          },
+          {
+            "image": "/images/1961_04_ZEN_noche_F1-2.jpeg",
+            "caption": "De noche"
+          },
+          {
+            "image": "/images/2017_02_ZEN_F1.jpeg",
+            "caption": "Jardines"
+          },
+          {
+            "image": "/images/2058_03-sum_ZEN_F-1.jpeg",
+            "caption": "Club House"
+          }
+        ],
+        "partnership_title": "Un proyecto de Edilica y Dwell",
+        "partnership_text": "Desarrollado junto a Edilica Group, con un equipo de primer nivel en arquitectura, paisajismo y diseño interior.",
+        "partners": {
+          "developers_label": "Desarrollan",
+          "developers": [
+            {
+              "name": "Edilica Group",
+              "logo": "/images/partners/edilica.png"
+            },
+            {
+              "name": "Dwell Developers",
+              "logo": "/images/partners/dwell.png"
+            }
+          ],
+          "team": [
+            {
+              "role": "Arquitectura",
+              "name": "Ponce de León Architects",
+              "logo": "/images/partners/ponce-de-leon.png"
+            },
+            {
+              "role": "Paisajismo",
+              "name": "Identidad Paisajismo",
+              "logo": "/images/partners/identidad-paisajismo.png"
+            },
+            {
+              "role": "Decoración",
+              "name": "Casa Baném",
+              "logo": "/images/partners/casa-banem.png"
+            },
+            {
+              "role": "Financia",
+              "name": "Itaú",
+              "logo": "/images/partners/itau.png"
+            }
+          ]
         },
-        {
-          "label": "Inversión",
-          "value": "U$S 25.725.973"
-        }
-      ],
-      "trust": "Fideicomiso Edílica II",
-      "overview": [
-        "Barrio con un potencial de 215 viviendas que incluye 92 town houses construidas en propiedad horizontal en cuatro módulos y hasta 120 apartamentos.",
-        "Un proyecto que responde a una demanda no cubierta: parejas jóvenes o familias pequeñas que buscan seguir viviendo en Carrasco."
-      ],
-      "amenities": [
-        "Seguridad 24 horas",
-        "Espacios verdes",
-        "Clubhouse",
-        "Salón de usos múltiples",
-        "Espacios para cowork",
-        "Piscina"
-      ],
-      "financing": [
-        "Ya se incorporó el 100% del capital comprometido y se obtuvo una pre reserva del 75% sobre las primeras 46 casas.",
-        "Varios bancos de plaza mostraron interés en financiar la construcción; sin embargo, el modelo prevé la autofinanciación del proyecto para todo requerimiento de fondos más allá del capital originalmente captado."
-      ],
-      "performance": [
-        "El proyecto se encuentra en etapa de construcción: ya se completó el movimiento de tierras y se trabaja en la infraestructura del barrio."
-      ],
-      "gallery": [
-        {
-          "image": "/images/2057_01-iluminacion-nocturna_ZEN_F2.jpeg"
-        },
-        {
-          "image": "/images/1961_01_ZEN_OP-7-1.jpeg"
-        },
-        {
-          "image": "/images/1961_02_ZEN_F-2.jpeg"
-        },
-        {
-          "image": "/images/1961_03_ZEN_OP7.jpeg"
-        },
-        {
-          "image": "/images/1961_04_ZEN_noche_F1-2.jpeg"
-        },
-        {
-          "image": "/images/2017_01_ZEN_F-1.jpeg"
-        },
-        {
-          "image": "/images/2017_02_ZEN_F1.jpeg"
-        },
-        {
-          "image": "/images/2017_03_ZEN_F.jpeg"
-        },
-        {
-          "image": "/images/2057_01-iluminacion-nocturna_ZEN_C1.jpeg"
-        },
-        {
-          "image": "/images/2058_02-living_ZEN_F1-1.jpeg"
-        },
-        {
-          "image": "/images/2058_03-sum_ZEN_F-1.jpeg"
-        },
-        {
-          "image": "/images/2058_03-sum_ZEN_C1-1.jpeg"
-        }
-      ]
+        "cta_title": "Viví ZEN",
+        "cta_text": "Escribinos para conocer las casas disponibles o agendar una visita.",
+        "cta_primary": "Quiero que me contacten",
+        "cta_secondary": "zenpueblojardin.uy",
+        "cta_image": "/images/zen-pueblo-jardin/casa-pergola.jpg"
+      }
     },
     {
       "slug": "torres-nuevo-centro",

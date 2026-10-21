@@ -20,6 +20,7 @@
   --gc-deep: #1b2c22;
   --gc-sage: #e7ece8;
   --gc-moss: #8fa892;
+  --gc-rgb: 27, 44, 34;
 
   /* Una sola familia en todo el sitio, afín al logo; la jerarquía se da por tamaño y peso */
   --serif: 'Jost', 'Century Gothic', 'Helvetica Neue', Arial, sans-serif;
@@ -1730,9 +1731,9 @@ body.menu-open .mobile-menu {
 
 .gc-shade {
   background:
-    linear-gradient(180deg, rgba(27, 44, 34, 0.6) 0%, rgba(27, 44, 34, 0) 30%),
-    linear-gradient(90deg, rgba(27, 44, 34, 0.75) 0%, rgba(27, 44, 34, 0.2) 65%),
-    linear-gradient(0deg, rgba(27, 44, 34, 0.8) 0%, rgba(27, 44, 34, 0) 50%);
+    linear-gradient(180deg, rgba(var(--gc-rgb), 0.6) 0%, rgba(var(--gc-rgb), 0) 30%),
+    linear-gradient(90deg, rgba(var(--gc-rgb), 0.75) 0%, rgba(var(--gc-rgb), 0.2) 65%),
+    linear-gradient(0deg, rgba(var(--gc-rgb), 0.8) 0%, rgba(var(--gc-rgb), 0) 50%);
 }
 
 .gc-hero {
@@ -3125,4 +3126,103 @@ body.menu-open .mobile-menu {
   .gc-partners-team img {
     height: 30px;
   }
+}
+
+/* ==========================================================================
+   Fichas de proyecto: paletas por proyecto (tomadas de cada brochure)
+   ========================================================================== */
+
+.theme-zpj {
+  --gc-deep: #0f4a43;
+  --gc-sage: #eaf0ee;
+  --gc-moss: #86bfb0;
+  --gc-rgb: 15, 74, 67;
+}
+
+.theme-zr {
+  --gc-deep: #263f40;
+  --gc-sage: #e6e3dc;
+  --gc-moss: #c4a46a;
+  --gc-rgb: 38, 63, 64;
+}
+
+/* Banda destacada sin cinta de premio (diferencial del proyecto) */
+.gc-award-text .gc-award-grid {
+  grid-template-columns: minmax(0, 1fr);
+  max-width: 900px;
+}
+
+.award-chips {
+  margin-top: 26px;
+}
+
+.gc-award .award-chips li {
+  border-color: rgba(var(--gc-rgb), 0.25);
+  color: var(--ink);
+}
+
+/* Etapas */
+.gc-status-single {
+  grid-template-columns: minmax(0, 1fr);
+  max-width: 820px;
+}
+
+.stage-name small {
+  display: block;
+  margin-top: 2px;
+  font-size: 14px;
+  color: var(--muted);
+}
+
+.stage-done .stage-status {
+  color: var(--gc-deep);
+}
+
+.stage-link {
+  margin-top: 16px;
+  font-size: 12px;
+  color: var(--gc-deep);
+}
+
+/* Amenities con descripción */
+.gc-amenity-grid-detail {
+  grid-template-columns: repeat(3, 1fr);
+}
+
+.gc-amenity-grid-detail li {
+  padding: 26px 24px 26px 0;
+}
+
+.gc-amenity-grid-detail strong {
+  display: block;
+  font-weight: 400;
+  font-size: 20px;
+  margin-bottom: 6px;
+}
+
+.gc-amenity-grid-detail p {
+  font-size: 15px;
+  color: rgba(255, 255, 255, 0.65);
+}
+
+/* Menú con dos proyectos destacados: más compacto en pantallas medianas */
+@media (max-width: 1280px) {
+  .main-nav {
+    gap: 24px;
+  }
+  .nav-link {
+    font-size: 13px;
+  }
+}
+
+@media (max-width: 820px) {
+  .gc-amenity-grid-detail {
+    grid-template-columns: minmax(0, 1fr);
+  }
+}
+
+/* Frases de portada largas: un tamaño menor para no ocupar toda la foto */
+.gc-tagline-long {
+  max-width: 20ch;
+  font-size: clamp(40px, 5.4vw, 80px);
 }

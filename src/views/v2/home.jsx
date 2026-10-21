@@ -118,7 +118,7 @@ function Home(props) {
         </div>
       </section>
 
-      {/* PROYECTOS (sin Green Concept, que ya tiene su sección) */}
+      {/* PROYECTOS (sin Green Concept, que ya tiene su sección destacada) */}
       <section className="projects section" id="proyectos">
         <div className="container">
           <div className="section-head" data-reveal>
@@ -132,7 +132,7 @@ function Home(props) {
           </div>
           <div className="project-list">
             {projects.items
-              .filter((p) => p.status_kind !== 'new')
+              .filter((p) => p.slug !== 'green-concept')
               .map((item, i) => (
                 <ProjectRow key={item.slug} item={item} index={i} base={base} viewLabel={projects.page.labels.view} />
               ))}

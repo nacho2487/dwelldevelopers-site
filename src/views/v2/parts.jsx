@@ -28,7 +28,7 @@ function ProjectRow({ item, index, base, viewLabel }) {
     <article className={`project${isNew ? ' project-new' : ''}${index % 2 ? ' project-reverse' : ''}`} data-reveal>
       <a href={link} className="project-media" aria-label={item.name}>
         <img src={item.card_image} alt={item.name} loading="lazy" />
-        {isNew && item.gc && <img className="project-media-logo" src={item.gc.logo} alt="" />}
+        {isNew && item.rich && <img className="project-media-logo" src={item.rich.logo} alt="" />}
       </a>
       <div className="project-body">
         <div className="project-meta">

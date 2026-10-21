@@ -51,7 +51,7 @@
         }
       ],
       "website": "https://www.greenconcept.uy",
-      "gc": {
+      "rich": {
         "logo": "/images/green-concept/gc-logo-blanco.png",
         "tagline": "Your weekend retreat, <em>every day.</em>",
         "intro_title": "A new way of living",
@@ -303,110 +303,608 @@
               "logo": "/images/green-concept/partners/itau.png"
             }
           ]
+        },
+        "hero_badge": "Best Multi-Family Residential Development in Uruguay",
+        "intro_image": "/images/green-concept/paseo-frente.jpg",
+        "project_images": [
+          "/images/green-concept/acceso-principal.jpg",
+          "/images/green-concept/vista-lateral.jpg"
+        ],
+        "cta_image": "/images/green-concept/jardin-interior-noche.jpg"
+      }
+    },
+    {
+      "slug": "zen-reserva",
+      "theme": "zr",
+      "name": "Zen Reserva",
+      "name_full": "Zen Reserva",
+      "status": "On sale · Under construction",
+      "status_kind": "new",
+      "location": "Zen Pueblo Jardín, Carrasco",
+      "type": "Residential",
+      "summary": "The new phase of Zen Pueblo Jardín: 3 and 4-bedroom residences with private gardens, in the most sought-after area of Carrasco. Now on sale and under construction.",
+      "card_image": "/images/zen-reserva/residencia-piscina.jpg",
+      "hero_image": "/images/zen-reserva/jardines-privados.jpg",
+      "card_facts": [
+        {
+          "value": "41",
+          "label": "residences"
+        },
+        {
+          "value": "3 · 4",
+          "label": "bedrooms"
         }
+      ],
+      "website": "https://www.zenpueblojardin.uy/",
+      "rich": {
+        "logo": "/images/zen-reserva/logo-zen-reserva.png",
+        "hero_badge": "New phase of Zen Pueblo Jardín · Now on sale",
+        "tagline": "A way of living that grows: <em>more space, more green, more privacy.</em>",
+        "facts": [
+          {
+            "label": "Status",
+            "value": "On sale · Under construction"
+          },
+          {
+            "label": "Residences",
+            "value": "41"
+          },
+          {
+            "label": "Layouts",
+            "value": "3 and 4 bedrooms"
+          },
+          {
+            "label": "Size",
+            "value": "168 to 222 m² + private garden"
+          },
+          {
+            "label": "Architecture",
+            "value": "RMA Arquitectura"
+          }
+        ],
+        "award": {
+          "badge": "What sets it apart",
+          "title": "A unique product in the most sought-after area of Carrasco",
+          "text": "Zen Reserva takes the ZEN concept to its fullest expression: larger residences with private gardens and more privacy, within a secure neighborhood in the heart of Carrasco, surrounded by the best schools and clubs.",
+          "chips": [
+            "3 and 4-bedroom residences",
+            "Private gardens of 103 to 230 m²",
+            "24-hour security",
+            "Club House and pool"
+          ]
+        },
+        "stages": {
+          "eyebrow": "Progress",
+          "title": "The second phase of a success.",
+          "text": "Zen Reserva is Phase 2 of Zen Pueblo Jardín. Phase 1 is built and delivered; this new phase is under construction and now on sale.",
+          "items": [
+            {
+              "name": "Phase 1 · Zen Pueblo Jardín",
+              "detail": "46 homes",
+              "status": "Built and delivered",
+              "progress": 100,
+              "kind": "done",
+              "link": {
+                "title": "View Zen Pueblo Jardín",
+                "href": "/proyectos/zen-pueblo-jardin"
+              }
+            },
+            {
+              "name": "Phase 2 · Zen Reserva",
+              "detail": "41 residences",
+              "status": "Now on sale",
+              "progress": 0,
+              "kind": "open"
+            }
+          ]
+        },
+        "highlight": {
+          "eyebrow": "Your private garden",
+          "title": "More green, more privacy",
+          "text": "Every residence has its own garden of 103 to 230 m², with terrace and barbecue: a retreat of wellbeing and privacy, true to the ZEN spirit.",
+          "caption": "Life in the garden",
+          "image": "/images/zen-reserva/lifestyle-familia.jpg"
+        },
+        "intro_title": "The ZEN concept, in a new dimension",
+        "intro": [
+          "Zen Reserva is a set of 41 residences whose architecture blends naturally with light and landscape, creating a serene atmosphere where every space invites you to enjoy each day.",
+          "Inspired by the Zen Pueblo Jardín experience, it amplifies its essence: more space, more green and greater privacy. Choosing ZEN means choosing a calm life without giving up the essentials: security, comfort and a seamless connection to everything you need."
+        ],
+        "intro_image": "/images/zen-reserva/lifestyle-arbol.jpg",
+        "pillars_intro": "Live in balance. Live ZEN. Spaces that amplify the essentials: home, family and reconnecting with nature.",
+        "pillars": [
+          {
+            "title": "More space",
+            "text": "Residences of 168 to 222 m² with generous, bright, carefully designed interiors."
+          },
+          {
+            "title": "More green",
+            "text": "Private gardens of 103 to 230 m² and landscaping that enhances the natural setting."
+          },
+          {
+            "title": "More privacy",
+            "text": "A broader, more natural scale, designed for each family’s privacy and wellbeing."
+          }
+        ],
+        "project_title": "Residences",
+        "project_text": [
+          "At a broader, more natural scale, Zen Reserva reinterprets contemporary elegance with 3 and 4-bedroom residences.",
+          "Fine materials, warm textures and an architecture that grows in size to prioritize light, spaciousness and an authentic connection with the garden."
+        ],
+        "project_images": [
+          "/images/zen-reserva/acceso-interior.jpg",
+          "/images/zen-reserva/garden.jpg"
+        ],
+        "amenities_title": "Amenities and comforts",
+        "amenities_heading": "The whole ZEN neighborhood, at your disposal",
+        "amenities": [
+          {
+            "title": "Security",
+            "text": "Single entrance with 24-hour surveillance."
+          },
+          {
+            "title": "Club House",
+            "text": "Designed for all owners to use and enjoy."
+          },
+          {
+            "title": "Pool",
+            "text": "Enjoy sunny days in a natural setting."
+          },
+          {
+            "title": "Cowork space",
+            "text": "Shared offices for owners."
+          },
+          {
+            "title": "Landscaping",
+            "text": "A design that enhances the natural setting."
+          },
+          {
+            "title": "Location",
+            "text": "In the heart of Carrasco."
+          }
+        ],
+        "amenities_images": [
+          {
+            "image": "/images/zen-reserva/garden.jpg",
+            "caption": "Terrace with barbecue"
+          },
+          {
+            "image": "/images/zen-reserva/lifestyle-piscina.jpg",
+            "caption": "Pool"
+          },
+          {
+            "image": "/images/zen-reserva/lifestyle-mesa.jpg",
+            "caption": "Outdoor living"
+          },
+          {
+            "image": "/images/zen-reserva/acceso.jpg",
+            "caption": "ZEN entrance"
+          }
+        ],
+        "location_title": "Location",
+        "location_text": [
+          "Within Zen Pueblo Jardín, in the heart of Carrasco: the most sought-after area of Montevideo, surrounded by schools, clubs and services.",
+          "With quick access to Camino Carrasco, Avenida Italia and the rest of the city."
+        ],
+        "nearby": [
+          "Colegio Stella Maris",
+          "St. Patrick's College",
+          "British School",
+          "American School",
+          "Colegio Jesús María",
+          "Carrasco Polo Club",
+          "Carrasco Lawn Tennis",
+          "Portones Shopping",
+          "Parque Rivera"
+        ],
+        "location_image": "/images/zen-reserva/acceso.jpg",
+        "apartments_title": "Residences",
+        "apartments_text": "Three layouts with master suite, integrated kitchen, outdoor terrace with barbecue, private garden and separate laundry.",
+        "apartments": [
+          {
+            "value": "A",
+            "label": "4 bed · 222 m²"
+          },
+          {
+            "value": "B",
+            "label": "4 bed · 193 m²"
+          },
+          {
+            "value": "C",
+            "label": "3 bed · 168 m²"
+          }
+        ],
+        "gallery": [
+          {
+            "image": "/images/zen-reserva/living.jpg",
+            "caption": "Living room"
+          },
+          {
+            "image": "/images/zen-reserva/cocina-estar.jpg",
+            "caption": "Kitchen and family room"
+          },
+          {
+            "image": "/images/zen-reserva/living-galeria.jpg",
+            "caption": "Living room and gallery"
+          },
+          {
+            "image": "/images/zen-reserva/living-lifestyle.jpg",
+            "caption": "Interiors"
+          },
+          {
+            "image": "/images/zen-reserva/bano-suite.jpg",
+            "caption": "En-suite bathroom"
+          },
+          {
+            "image": "/images/zen-reserva/garden.jpg",
+            "caption": "Terrace"
+          },
+          {
+            "image": "/images/zen-reserva/residencia-piscina.jpg",
+            "caption": "Residence with private garden"
+          },
+          {
+            "image": "/images/zen-reserva/lifestyle-terraza.jpg",
+            "caption": "ZEN lifestyle"
+          },
+          {
+            "image": "/images/zen-reserva/acceso-interior.jpg",
+            "caption": "Interior entrance"
+          },
+          {
+            "image": "/images/zen-reserva/lifestyle-familia.jpg",
+            "caption": "ZEN lifestyle"
+          },
+          {
+            "image": "/images/zen-reserva/residencia-jardin.jpg",
+            "caption": "Private garden"
+          },
+          {
+            "image": "/images/zen-reserva/jardines-privados.jpg",
+            "caption": "Private gardens"
+          }
+        ],
+        "partnership_title": "An Edilica and Dwell project",
+        "partnership_text": "Zen Reserva builds on the pillars of Zen Pueblo Jardín, with the same development team and design by RMA Arquitectura.",
+        "partners": {
+          "developers_label": "Developed by",
+          "developers": [
+            {
+              "name": "Edilica",
+              "logo": "/images/partners/edilica.png"
+            },
+            {
+              "name": "Dwell Developers",
+              "logo": "/images/partners/dwell.png"
+            }
+          ],
+          "team": [
+            {
+              "role": "Design",
+              "name": "RMA Arquitectura",
+              "logo": "/images/partners/rma.png"
+            },
+            {
+              "role": "Sales",
+              "name": "Meikle Bienes Raíces",
+              "logo": "/images/partners/meikle.png"
+            },
+            {
+              "role": "Sales",
+              "name": "Crisci Blanco Propiedades",
+              "logo": "/images/partners/crisci-blanco.png"
+            },
+            {
+              "role": "Sales",
+              "name": "Roig Negocios Inmobiliarios",
+              "logo": "/images/partners/roig.png"
+            }
+          ]
+        },
+        "cta_title": "Live in balance. Live ZEN.",
+        "cta_text": "Zen Reserva is now on sale. Write to us to learn about available residences.",
+        "cta_primary": "Contact me",
+        "cta_secondary": "zenpueblojardin.uy",
+        "cta_image": "/images/zen-reserva/residencia-jardin.jpg"
       }
     },
     {
       "slug": "zen-pueblo-jardin",
+      "theme": "zpj",
       "name": "Zen Pueblo Jardín",
-      "status": "Under construction",
+      "name_full": "Zen Pueblo Jardín",
+      "status": "Phase 2 under construction",
       "status_kind": "progress",
-      "location": "Carrasco Norte, Montevideo",
+      "location": "Carrasco, Montevideo",
       "type": "Residential",
-      "summary": "Residential neighborhood with 24-hour security, clubhouse, pool, cowork and generous green spaces.",
-      "card_image": "/images/2017_01_ZEN_F-1.jpeg",
-      "hero_image": "/images/2057_01-iluminacion-nocturna_ZEN_F2.jpeg",
+      "summary": "A unique product in the most sought-after area of Carrasco: 86 homes in a safe, natural setting. Phase 1 built and delivered; Phase 2, Zen Reserva, under construction.",
+      "card_image": "/images/zen-pueblo-jardin/casa-pergola.jpg",
+      "hero_image": "/images/zen-pueblo-jardin/casa-pergola.jpg",
       "card_facts": [
         {
-          "value": "215",
-          "label": "planned homes"
+          "value": "86",
+          "label": "homes"
         },
         {
-          "value": "92",
-          "label": "town houses"
+          "value": "US$ 35M",
+          "label": "investment"
         }
       ],
       "website": "https://www.zenpueblojardin.uy/",
-      "facts": [
-        {
-          "label": "Status",
-          "value": "Under construction"
+      "rich": {
+        "logo": "/images/zen-pueblo-jardin/logo-zen-pueblo-jardin.png",
+        "hero_badge": "A unique product in the most sought-after area of Carrasco",
+        "tagline": "Your safe place <em>to enjoy.</em>",
+        "facts": [
+          {
+            "label": "Location",
+            "value": "Carrasco, Montevideo"
+          },
+          {
+            "label": "Homes",
+            "value": "86 in 2 phases"
+          },
+          {
+            "label": "Status",
+            "value": "Phase 1 delivered · Phase 2 under way"
+          },
+          {
+            "label": "Investment",
+            "value": "US$ 35M"
+          },
+          {
+            "label": "Architecture",
+            "value": "Ponce de León Architects"
+          }
+        ],
+        "award": {
+          "badge": "What sets it apart",
+          "title": "A unique product in the most sought-after area of Carrasco",
+          "text": "Zen Pueblo Jardín offers homes in a gated neighborhood with 24-hour security, in the heart of Carrasco: minutes from the main schools and clubs, with quick access to the rest of the city. Nothing else in the area compares.",
+          "chips": [
+            "Colegio Stella Maris",
+            "St. Patrick's College",
+            "British School",
+            "American School",
+            "Colegio Jesús María",
+            "Carrasco Polo Club",
+            "Carrasco Lawn Tennis",
+            "Portones Shopping"
+          ]
         },
-        {
-          "label": "Location",
-          "value": "Camino Brunel & Camino Carrasco"
+        "stages": {
+          "eyebrow": "Progress",
+          "title": "Two phases. One way of living.",
+          "text": "Phase 1 is built and delivered to its owners. Phase 2, Zen Reserva, is under construction and now on sale.",
+          "items": [
+            {
+              "name": "Phase 1",
+              "detail": "46 homes",
+              "status": "Built and delivered",
+              "progress": 100,
+              "kind": "done"
+            },
+            {
+              "name": "Phase 2 · Zen Reserva",
+              "detail": "3 and 4-bedroom residences",
+              "status": "Under construction · on sale",
+              "progress": 0,
+              "kind": "open",
+              "link": {
+                "title": "Discover Zen Reserva",
+                "href": "/proyectos/zen-reserva"
+              }
+            }
+          ]
         },
-        {
-          "label": "Type",
-          "value": "Residential"
+        "highlight": {
+          "eyebrow": "Lifestyle",
+          "title": "Living in peace, between nature and harmony",
+          "text": "Homes with pergola and barbecue opening onto the garden, tree-lined internal streets and the calm of a safe place to raise your family.",
+          "caption": "Home with pergola and barbecue",
+          "image": "/images/zen-pueblo-jardin/casa-atardecer.jpg"
         },
-        {
-          "label": "Start",
-          "value": "January 2019"
+        "intro_title": "Zen is a way of life",
+        "intro": [
+          "A safe place to enjoy. A way of living in peace between nature and harmony, close to every kind of service and comfort.",
+          "Located in the heart of Carrasco, at a strategically chosen spot, it is the perfect place to transform your routine."
+        ],
+        "intro_image": "/images/zen-pueblo-jardin/calle-interior.jpg",
+        "pillars_intro": "A change in your quality of life: security, calm and contact with nature, without giving up the comforts of the city.",
+        "pillars": [
+          {
+            "title": "Security",
+            "text": "Single gated entrance with 24-hour surveillance, a trusted setting to raise your family."
+          },
+          {
+            "title": "Nature",
+            "text": "Away from the city noise, with landscaping that enhances the natural setting."
+          },
+          {
+            "title": "Location",
+            "text": "Minutes from the area’s schools, with quick access to the rest of the city."
+          }
+        ],
+        "project_title": "The project",
+        "project_text": [
+          "A neighborhood of 86 homes with a single entrance and a tailor-made ClubHouse for the use and wellbeing of its owners.",
+          "ZEN brings an experiential housing concept that adds value to Carrasco: contemporary architecture, green internal streets and spaces designed for family life."
+        ],
+        "project_images": [
+          "/images/zen-pueblo-jardin/casa-frente.jpg",
+          "/images/1961_01_ZEN_OP-7-1.jpeg"
+        ],
+        "amenities_title": "Amenities",
+        "amenities_heading": "Everything to enjoy, without leaving home",
+        "amenities": [
+          {
+            "title": "Security",
+            "text": "Single entrance with 24-hour surveillance."
+          },
+          {
+            "title": "Club House",
+            "text": "Designed for all owners to use and enjoy."
+          },
+          {
+            "title": "Pool",
+            "text": "Enjoy sunny days in a natural setting."
+          },
+          {
+            "title": "Cowork space",
+            "text": "Shared offices for owners."
+          },
+          {
+            "title": "Landscaping",
+            "text": "A design that enhances the natural setting."
+          },
+          {
+            "title": "Location",
+            "text": "In the heart of Carrasco."
+          }
+        ],
+        "amenities_images": [
+          {
+            "image": "/images/zen-pueblo-jardin/piscina.jpg",
+            "caption": "Pool"
+          },
+          {
+            "image": "/images/2058_03-sum_ZEN_F-1.jpeg",
+            "caption": "Club House"
+          },
+          {
+            "image": "/images/2058_03-sum_ZEN_C1-1.jpeg",
+            "caption": "Club House"
+          },
+          {
+            "image": "/images/zen-pueblo-jardin/panoramica-jacarandas.jpg",
+            "caption": "Landscaping"
+          }
+        ],
+        "location_title": "Location",
+        "location_text": [
+          "In the heart of Carrasco, at a strategically chosen spot close to every service and minutes from the area’s schools.",
+          "Camino Brunel and Camino Carrasco, with quick access to the rest of the city."
+        ],
+        "nearby": [
+          "Colegio Stella Maris",
+          "St. Patrick's College",
+          "British School",
+          "American School",
+          "Colegio Jesús María",
+          "Carrasco Polo Club",
+          "Carrasco Lawn Tennis",
+          "Portones Shopping"
+        ],
+        "location_image": "/images/zen-pueblo-jardin/panoramica-jacarandas.jpg",
+        "apartments_title": "The homes",
+        "apartments_text": "A new concept in residential architecture: 3 bedrooms including a master suite with walk-in closet, 2 bathrooms plus powder room, kitchen with integrated family room, and pergola with barbecue and laundry.",
+        "apartments": [
+          {
+            "value": "138 m²",
+            "label": "per home"
+          },
+          {
+            "value": "3",
+            "label": "bedrooms"
+          },
+          {
+            "value": "2 + 1",
+            "label": "baths and powder room"
+          }
+        ],
+        "gallery": [
+          {
+            "image": "/images/zen-pueblo-jardin/casa-pergola.jpg",
+            "caption": "Home with pergola"
+          },
+          {
+            "image": "/images/zen-pueblo-jardin/casa-atardecer.jpg",
+            "caption": "Sunset"
+          },
+          {
+            "image": "/images/zen-pueblo-jardin/calle-interior.jpg",
+            "caption": "Internal street"
+          },
+          {
+            "image": "/images/1961_01_ZEN_OP-7-1.jpeg",
+            "caption": "Homes"
+          },
+          {
+            "image": "/images/2058_02-living_ZEN_F1-1.jpeg",
+            "caption": "Living room"
+          },
+          {
+            "image": "/images/zen-pueblo-jardin/piscina.jpg",
+            "caption": "Pool"
+          },
+          {
+            "image": "/images/2057_01-iluminacion-nocturna_ZEN_F2.jpeg",
+            "caption": "Night lighting"
+          },
+          {
+            "image": "/images/zen-pueblo-jardin/casa-frente.jpg",
+            "caption": "Front"
+          },
+          {
+            "image": "/images/1961_02_ZEN_F-2.jpeg",
+            "caption": "Homes"
+          },
+          {
+            "image": "/images/1961_04_ZEN_noche_F1-2.jpeg",
+            "caption": "At night"
+          },
+          {
+            "image": "/images/2017_02_ZEN_F1.jpeg",
+            "caption": "Gardens"
+          },
+          {
+            "image": "/images/2058_03-sum_ZEN_F-1.jpeg",
+            "caption": "Club House"
+          }
+        ],
+        "partnership_title": "An Edilica and Dwell project",
+        "partnership_text": "Developed with Edilica Group, with a first-class team in architecture, landscaping and interior design.",
+        "partners": {
+          "developers_label": "Developed by",
+          "developers": [
+            {
+              "name": "Edilica Group",
+              "logo": "/images/partners/edilica.png"
+            },
+            {
+              "name": "Dwell Developers",
+              "logo": "/images/partners/dwell.png"
+            }
+          ],
+          "team": [
+            {
+              "role": "Architecture",
+              "name": "Ponce de León Architects",
+              "logo": "/images/partners/ponce-de-leon.png"
+            },
+            {
+              "role": "Landscape",
+              "name": "Identidad Paisajismo",
+              "logo": "/images/partners/identidad-paisajismo.png"
+            },
+            {
+              "role": "Interiors",
+              "name": "Casa Baném",
+              "logo": "/images/partners/casa-banem.png"
+            },
+            {
+              "role": "Financing",
+              "name": "Itaú",
+              "logo": "/images/partners/itau.png"
+            }
+          ]
         },
-        {
-          "label": "Investment",
-          "value": "US$ 25,725,973"
-        }
-      ],
-      "trust": "Fideicomiso Edílica II",
-      "overview": [
-        "A neighborhood with a potential of 215 homes, including 92 town houses built under horizontal property in four modules and up to 120 apartments.",
-        "A project that meets an unserved demand: young couples or small families who want to keep living in Carrasco."
-      ],
-      "amenities": [
-        "24-hour security",
-        "Green spaces",
-        "Clubhouse",
-        "Multipurpose room",
-        "Cowork spaces",
-        "Pool"
-      ],
-      "financing": [
-        "100% of the committed capital has been contributed and a 75% pre-reservation was obtained on the first 46 houses.",
-        "Several local banks showed interest in financing construction; however, the model foresees self-financing for any funding requirement beyond the capital originally raised."
-      ],
-      "performance": [
-        "The project is under construction: earthworks are complete and work is underway on the neighborhood's infrastructure."
-      ],
-      "gallery": [
-        {
-          "image": "/images/2057_01-iluminacion-nocturna_ZEN_F2.jpeg"
-        },
-        {
-          "image": "/images/1961_01_ZEN_OP-7-1.jpeg"
-        },
-        {
-          "image": "/images/1961_02_ZEN_F-2.jpeg"
-        },
-        {
-          "image": "/images/1961_03_ZEN_OP7.jpeg"
-        },
-        {
-          "image": "/images/1961_04_ZEN_noche_F1-2.jpeg"
-        },
-        {
-          "image": "/images/2017_01_ZEN_F-1.jpeg"
-        },
-        {
-          "image": "/images/2017_02_ZEN_F1.jpeg"
-        },
-        {
-          "image": "/images/2017_03_ZEN_F.jpeg"
-        },
-        {
-          "image": "/images/2057_01-iluminacion-nocturna_ZEN_C1.jpeg"
-        },
-        {
-          "image": "/images/2058_02-living_ZEN_F1-1.jpeg"
-        },
-        {
-          "image": "/images/2058_03-sum_ZEN_F-1.jpeg"
-        },
-        {
-          "image": "/images/2058_03-sum_ZEN_C1-1.jpeg"
-        }
-      ]
+        "cta_title": "Live ZEN",
+        "cta_text": "Write to us to learn about available homes or book a visit.",
+        "cta_primary": "Contact me",
+        "cta_secondary": "zenpueblojardin.uy",
+        "cta_image": "/images/zen-pueblo-jardin/casa-pergola.jpg"
+      }
     },
     {
       "slug": "torres-nuevo-centro",
