@@ -199,8 +199,8 @@
     "team": [
       {
         "name": "Ing. Francisco Olaizola",
-        "role": "Director · Co-founder",
-        "image": "/images/Imagen-Francisco-Olaizola.jpeg",
+        "role": "Executive Director · Co-founder",
+        "image": "/images/team/francisco-olaizola.jpg",
         "bio": [
           "Civil engineer from Universidad de Montevideo, with studies at the University of Pittsburgh (USA) and a postgraduate degree from the University of Catalonia.",
           "Extensive experience in construction and development projects. Co-founder of Dwell Developers, dedicated to raising and managing investments in real estate."
@@ -208,15 +208,15 @@
       },
       {
         "name": "Ing. Elbio Olaizola",
-        "role": "Director",
-        "image": "/images/Imagen-Elbio-Olaizola.jpeg",
+        "role": "Director · Co-founder",
+        "image": "/images/team/elbio-olaizola.jpg",
         "bio": [
           "Businessman and director of engineering and construction companies. Projects under his management include Carrasco International Airport, the Executive Tower of the Presidency, World Trade Center IV and Nuevocentro Shopping.",
           "With broad real estate experience, he took part in the Nuevocentro Towers trust, Oxo Parques and Zen Pueblo Jardín."
         ]
       }
     ],
-    "cta_title": "Have a project or an investment in mind?",
+    "cta_title": "Have a project, a plot of land or an investment in mind?",
     "cta_button": "Let's talk"
   },
   "contact": {

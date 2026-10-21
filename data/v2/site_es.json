@@ -199,8 +199,8 @@
     "team": [
       {
         "name": "Ing. Francisco Olaizola",
-        "role": "Director · Cofundador",
-        "image": "/images/Imagen-Francisco-Olaizola.jpeg",
+        "role": "Director Ejecutivo · Cofundador",
+        "image": "/images/team/francisco-olaizola.jpg",
         "bio": [
           "Ingeniero civil egresado de la Universidad de Montevideo, con pasaje por la Universidad de Pittsburgh (EE. UU.) y posgrado en la Universidad de Cataluña.",
           "Amplia experiencia en proyectos de construcción y desarrollo. Cofundador de Dwell Developers, dedicada a captar y gestionar inversiones en el sector inmobiliario."
@@ -208,15 +208,15 @@
       },
       {
         "name": "Ing. Elbio Olaizola",
-        "role": "Director",
-        "image": "/images/Imagen-Elbio-Olaizola.jpeg",
+        "role": "Director · Cofundador",
+        "image": "/images/team/elbio-olaizola.jpg",
         "bio": [
           "Empresario y director de empresas del área de ingeniería y construcción. Entre los proyectos bajo su gestión se destacan el Aeropuerto Internacional de Carrasco, la Torre Ejecutiva de Presidencia, el World Trade Center IV y el Shopping Nuevocentro.",
           "Con amplia experiencia en el negocio inmobiliario, participó en el Fideicomiso Torres Nuevocentro, Oxo Parques y Zen Pueblo Jardín."
         ]
       }
     ],
-    "cta_title": "¿Tenés un proyecto o una inversión en mente?",
+    "cta_title": "¿Tenés un proyecto, un terreno o una inversión en mente?",
     "cta_button": "Hablemos"
   },
   "contact": {
