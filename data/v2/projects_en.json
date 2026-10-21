@@ -1,0 +1,505 @@
+{
+  "page": {
+    "eyebrow": "Projects",
+    "title": "What we build",
+    "text": "Residential neighborhoods and buildings developed with rigor, from opportunity to delivery. Every project is a promise kept to those who live and invest in it.",
+    "labels": {
+      "status": "Status",
+      "location": "Location",
+      "type": "Type",
+      "start": "Start",
+      "end": "Delivery",
+      "investment": "Investment",
+      "overview": "The project",
+      "amenities": "Amenities",
+      "financing": "Financing",
+      "performance": "Performance",
+      "gallery": "Gallery",
+      "website": "Visit project website",
+      "back": "All projects",
+      "next": "Next project",
+      "cta_title": "Interested in this project?",
+      "cta_text": "Write to us and we will share all the details.",
+      "cta_button": "Contact us",
+      "view": "View project",
+      "close": "Close",
+      "prev_img": "Previous",
+      "next_img": "Next"
+    }
+  },
+  "items": [
+    {
+      "slug": "green-concept",
+      "theme": "gc",
+      "name": "Green Concept",
+      "name_full": "Green Concept Carrasco",
+      "status": "New launch",
+      "status_kind": "new",
+      "location": "Carrasco, Montevideo",
+      "type": "Residential",
+      "summary": "Three low-rise buildings joined by a park, next to a linear park in Carrasco. 1, 2 and 3-bedroom apartments overlooking the park, the woods or the sea.",
+      "card_image": "/images/green-concept/acceso-principal.jpg",
+      "hero_image": "/images/green-concept/vista-posterior-noche.jpg",
+      "card_facts": [
+        {
+          "value": "3",
+          "label": "buildings"
+        },
+        {
+          "value": "1 · 2 · 3",
+          "label": "bedrooms"
+        }
+      ],
+      "website": "https://www.greenconcept.uy",
+      "gc": {
+        "logo": "/images/green-concept/gc-logo-blanco.png",
+        "tagline": "Your weekend retreat, <em>every day.</em>",
+        "intro_title": "A new way of living",
+        "intro": [
+          "An urban retreat to experience our philosophy in a tangible, intimate and revealing way.",
+          "Imagine coming home feels like arriving at the beach, birdsong is your soundtrack and nature invites you to connect with your senses all day long. Imagine a new way of living, where your daily routine unfolds in contact with different natural landscapes."
+        ],
+        "facts": [
+          {
+            "label": "Location",
+            "value": "Carrasco, Montevideo"
+          },
+          {
+            "label": "Project",
+            "value": "3 low-rise buildings with a green core"
+          },
+          {
+            "label": "Units",
+            "value": "1, 2 and 3 bedrooms"
+          },
+          {
+            "label": "Architecture",
+            "value": "RMA Arquitectos"
+          }
+        ],
+        "pillars_intro": "We promote flexible interiors, interaction with the immediate surroundings and a permanent bond with nature. And at the center, the community that lives there.",
+        "pillars": [
+          {
+            "title": "Home flex",
+            "text": "Flexible interiors that adapt to every stage and every way of living."
+          },
+          {
+            "title": "Home around",
+            "text": "Everything you need within a few blocks: schools, shops, sports and entertainment."
+          },
+          {
+            "title": "Home nature",
+            "text": "A permanent bond with nature, inside and outside your home."
+          }
+        ],
+        "project_title": "The project",
+        "project_text": [
+          "Bordering a linear park and surrounded by a well-kept setting, Green Concept is a development of three low-rise buildings with green surroundings and a green core.",
+          "Contemporary architecture by RMA Arquitectos that respectfully integrates its surroundings and brings them inside."
+        ],
+        "location_title": "Location",
+        "location_text": [
+          "Green Concept is connected to the main educational, shopping, sports and entertainment centers within a ten-block radius.",
+          "Walk or bike, rely less on the car and gain time for what you enjoy most."
+        ],
+        "nearby": [
+          "Carrasco waterfront",
+          "Sofitel Carrasco",
+          "Stella Maris Parish",
+          "Naval School",
+          "Puente de las Américas"
+        ],
+        "location_image": "/images/green-concept/vista-aerea.jpg",
+        "amenities_title": "Amenities",
+        "amenities": [
+          "Pool",
+          "Gym",
+          "Cowork",
+          "Barbecue",
+          "Rooftop",
+          "Scan & Go self-service",
+          "Inner garden",
+          "Coffee spot",
+          "Smart lockers",
+          "Garden walk",
+          "Bike parking",
+          "Laundry"
+        ],
+        "amenities_images": [
+          {
+            "image": "/images/green-concept/amenities-piscina.jpg",
+            "caption": "Pool and solarium"
+          },
+          {
+            "image": "/images/green-concept/rooftop.jpg",
+            "caption": "Rooftop"
+          },
+          {
+            "image": "/images/green-concept/jardin-interior.jpg",
+            "caption": "Inner garden"
+          },
+          {
+            "image": "/images/green-concept/amenities-noche.jpg",
+            "caption": "Amenities"
+          }
+        ],
+        "apartments_title": "Apartments",
+        "apartments_text": "1, 2 and 3-bedroom units joined by a park designed down to the last detail. Views of the park, the woods or the sea, with modern design, quality finishes and nature always present.",
+        "apartments": [
+          {
+            "value": "1",
+            "label": "bedroom"
+          },
+          {
+            "value": "2",
+            "label": "bedrooms"
+          },
+          {
+            "value": "3",
+            "label": "bedrooms"
+          }
+        ],
+        "gallery": [
+          {
+            "image": "/images/green-concept/living-3-dorm.jpg",
+            "caption": "Living room · 3 bedrooms"
+          },
+          {
+            "image": "/images/green-concept/terraza-3-dorm.jpg",
+            "caption": "Terrace · 3 bedrooms"
+          },
+          {
+            "image": "/images/green-concept/living-2-dorm.jpg",
+            "caption": "Living room · 2 bedrooms"
+          },
+          {
+            "image": "/images/green-concept/cocina.jpg",
+            "caption": "Kitchen"
+          },
+          {
+            "image": "/images/green-concept/dormitorio-1-dorm.jpg",
+            "caption": "Bedroom · 1 bedroom"
+          },
+          {
+            "image": "/images/green-concept/barbacoa-3-dorm.jpg",
+            "caption": "Barbecue · 3 bedrooms"
+          },
+          {
+            "image": "/images/green-concept/acceso-principal.jpg",
+            "caption": "Main entrance"
+          },
+          {
+            "image": "/images/green-concept/balcon.jpg",
+            "caption": "Balcony"
+          },
+          {
+            "image": "/images/green-concept/paseo-frente.jpg",
+            "caption": "Front walk"
+          },
+          {
+            "image": "/images/green-concept/bano.jpg",
+            "caption": "Bathroom"
+          },
+          {
+            "image": "/images/green-concept/vista-lateral.jpg",
+            "caption": "Side view"
+          },
+          {
+            "image": "/images/green-concept/paseo-amenities.jpg",
+            "caption": "Amenities walk"
+          }
+        ],
+        "partnership_title": "Dwell + Boreal",
+        "partnership_text": "Dwell Developers partners with Chilean firm Boreal Developments to create Green Concept Carrasco: the local version of a concept proven successful in Santiago, with inspiring examples that add value wherever they are built.",
+        "credits": [
+          {
+            "role": "Developers",
+            "name": "Dwell Developers · Boreal Developments"
+          },
+          {
+            "role": "Architecture",
+            "name": "RMA Arquitectos — Ravecca Montaño Artagaveytia"
+          },
+          {
+            "role": "Landscape",
+            "name": "Fernando Bianco"
+          }
+        ],
+        "cta_title": "Discover your next home",
+        "cta_text": "Book a meeting with our sales team or visit the project website to see floor plans and availability.",
+        "cta_primary": "Contact me",
+        "cta_secondary": "greenconcept.uy"
+      }
+    },
+    {
+      "slug": "zen-pueblo-jardin",
+      "name": "Zen Pueblo Jardín",
+      "status": "Under construction",
+      "status_kind": "progress",
+      "location": "Carrasco Norte, Montevideo",
+      "type": "Residential",
+      "summary": "Residential neighborhood with 24-hour security, clubhouse, pool, cowork and generous green spaces.",
+      "card_image": "/images/2017_01_ZEN_F-1.jpeg",
+      "hero_image": "/images/2057_01-iluminacion-nocturna_ZEN_F2.jpeg",
+      "card_facts": [
+        {
+          "value": "215",
+          "label": "planned homes"
+        },
+        {
+          "value": "92",
+          "label": "town houses"
+        }
+      ],
+      "website": "https://www.zenpueblojardin.uy/",
+      "facts": [
+        {
+          "label": "Status",
+          "value": "Under construction"
+        },
+        {
+          "label": "Location",
+          "value": "Camino Brunel & Camino Carrasco"
+        },
+        {
+          "label": "Type",
+          "value": "Residential"
+        },
+        {
+          "label": "Start",
+          "value": "January 2019"
+        },
+        {
+          "label": "Investment",
+          "value": "US$ 25,725,973"
+        }
+      ],
+      "trust": "Fideicomiso Edílica II",
+      "overview": [
+        "A neighborhood with a potential of 215 homes, including 92 town houses built under horizontal property in four modules and up to 120 apartments.",
+        "A project that meets an unserved demand: young couples or small families who want to keep living in Carrasco."
+      ],
+      "amenities": [
+        "24-hour security",
+        "Green spaces",
+        "Clubhouse",
+        "Multipurpose room",
+        "Cowork spaces",
+        "Pool"
+      ],
+      "financing": [
+        "100% of the committed capital has been contributed and a 75% pre-reservation was obtained on the first 46 houses.",
+        "Several local banks showed interest in financing construction; however, the model foresees self-financing for any funding requirement beyond the capital originally raised."
+      ],
+      "performance": [
+        "The project is under construction: earthworks are complete and work is underway on the neighborhood's infrastructure."
+      ],
+      "gallery": [
+        {
+          "image": "/images/2057_01-iluminacion-nocturna_ZEN_F2.jpeg"
+        },
+        {
+          "image": "/images/1961_01_ZEN_OP-7-1.jpeg"
+        },
+        {
+          "image": "/images/1961_02_ZEN_F-2.jpeg"
+        },
+        {
+          "image": "/images/1961_03_ZEN_OP7.jpeg"
+        },
+        {
+          "image": "/images/1961_04_ZEN_noche_F1-2.jpeg"
+        },
+        {
+          "image": "/images/2017_01_ZEN_F-1.jpeg"
+        },
+        {
+          "image": "/images/2017_02_ZEN_F1.jpeg"
+        },
+        {
+          "image": "/images/2017_03_ZEN_F.jpeg"
+        },
+        {
+          "image": "/images/2057_01-iluminacion-nocturna_ZEN_C1.jpeg"
+        },
+        {
+          "image": "/images/2058_02-living_ZEN_F1-1.jpeg"
+        },
+        {
+          "image": "/images/2058_03-sum_ZEN_F-1.jpeg"
+        },
+        {
+          "image": "/images/2058_03-sum_ZEN_C1-1.jpeg"
+        }
+      ]
+    },
+    {
+      "slug": "torres-nuevo-centro",
+      "name": "Nuevocentro Towers",
+      "status": "Completed",
+      "status_kind": "done",
+      "location": "Luis Alberto de Herrera Ave., Montevideo",
+      "type": "Residential",
+      "summary": "Two 25-storey towers integrated with Nuevocentro Shopping. Delivered four months ahead of the contractual deadline.",
+      "card_image": "/images/nuevocentro-1.jpeg",
+      "hero_image": "/images/nuevocentro-1.jpeg",
+      "card_facts": [
+        {
+          "value": "440",
+          "label": "units"
+        },
+        {
+          "value": "2017",
+          "label": "delivered"
+        }
+      ],
+      "facts": [
+        {
+          "label": "Status",
+          "value": "Completed"
+        },
+        {
+          "label": "Location",
+          "value": "Luis Alberto de Herrera Ave."
+        },
+        {
+          "label": "Type",
+          "value": "Residential"
+        },
+        {
+          "label": "Start",
+          "value": "January 2014"
+        },
+        {
+          "label": "Delivery",
+          "value": "July 2017"
+        },
+        {
+          "label": "Investment",
+          "value": "US$ 56,700,079"
+        }
+      ],
+      "trust": "Fideicomiso Financiero Torres Nuevocentro",
+      "overview": [
+        "Nuevocentro Towers is a complex of 440 apartments in two blocks of ground floor plus 25 levels, with a parking level and fully equipped multipurpose rooms.",
+        "The towers share their lot with Nuevocentro Shopping, with direct access to all its services, and special permits were obtained to exceed the height allowed in the area.",
+        "The project is complete, with all units delivered to their owners."
+      ],
+      "amenities": [
+        "Integrated with Nuevocentro Shopping",
+        "Equipped multipurpose rooms",
+        "Parking level"
+      ],
+      "financing": [
+        "Financing came from a public issue acquired by República AFAP, securing 100% of the funds from the start and allowing the project to follow its planned financial schedule.",
+        "Nuevocentro Towers was República AFAP's first real estate investment project. The land was acquired through negotiation with the developers of Nuevocentro Shopping."
+      ],
+      "performance": [
+        "Timeline: no negative deviations; construction finished four months ahead of the contractual schedule.",
+        "Economic: no deviations from the initial commitment."
+      ],
+      "gallery": [
+        {
+          "image": "/images/nuevocentro-1.jpeg"
+        },
+        {
+          "image": "/images/nuevocentro-2.jpeg"
+        },
+        {
+          "image": "/images/nuevocentro-3.jpeg"
+        },
+        {
+          "image": "/images/nuevocentro-4.jpeg"
+        }
+      ]
+    },
+    {
+      "slug": "oxo-parques",
+      "name": "Oxo Parques",
+      "status": "Completed",
+      "status_kind": "done",
+      "location": "Barrio Parques, Montevideo",
+      "type": "Residential",
+      "summary": "27 apartments with gym, sauna and pool with solarium. 100% pre-sold before construction began.",
+      "card_image": "/images/OXO_IMG_0933-2.jpeg",
+      "hero_image": "/images/OXO_IMG_0949-1.jpeg",
+      "card_facts": [
+        {
+          "value": "27",
+          "label": "units"
+        },
+        {
+          "value": "2019",
+          "label": "delivered"
+        }
+      ],
+      "facts": [
+        {
+          "label": "Status",
+          "value": "Completed"
+        },
+        {
+          "label": "Location",
+          "value": "Barrio Parques"
+        },
+        {
+          "label": "Type",
+          "value": "Residential"
+        },
+        {
+          "label": "Start",
+          "value": "May 2017"
+        },
+        {
+          "label": "Delivery",
+          "value": "January 2019"
+        },
+        {
+          "label": "Investment",
+          "value": "US$ 8,067,198"
+        }
+      ],
+      "trust": "Fideicomiso Inmobiliario Oxo Parques",
+      "overview": [
+        "Oxo Parques is a complex of 27 apartments in two blocks of ground floor plus three levels, with a parking level and shared spaces.",
+        "The project is complete, with all units delivered to their owners."
+      ],
+      "amenities": [
+        "Gym",
+        "Sauna",
+        "Locker rooms",
+        "Meeting room",
+        "Laundry",
+        "Pool with solarium"
+      ],
+      "financing": [
+        "Financing came directly from the trustors who, as this was an at-cost trust, are the end users.",
+        "100% of the units were pre-sold before construction began, and development was funded through monthly payments until completion. The land was reserved in advance and paid with the first three contributions."
+      ],
+      "performance": [
+        "Timeline: no deviations from the initial commitment.",
+        "Economic: the deviation stayed within normal parameters for this type of development, below 4%."
+      ],
+      "gallery": [
+        {
+          "image": "/images/OXO_IMG_0949-1.jpeg"
+        },
+        {
+          "image": "/images/OXO_IMG_0931.jpeg"
+        },
+        {
+          "image": "/images/OXO_IMG_0933-2.jpeg"
+        },
+        {
+          "image": "/images/OXO_IMG_0963.jpeg"
+        },
+        {
+          "image": "/images/OXO_IMG_0978.jpeg"
+        },
+        {
+          "image": "/images/OXO_IMG_0990.jpeg"
+        }
+      ]
+    }
+  ]
+}

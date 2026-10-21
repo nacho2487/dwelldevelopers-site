@@ -1,11 +1,12 @@
 {
+  "base": "",
   "meta": {
     "title": "Dwell Developers — Desarrolladora inmobiliaria boutique",
     "description": "Desarrolladora inmobiliaria boutique en Uruguay. Proyectos residenciales de alta calidad, gestionados con rigor y transparencia para compradores e inversores."
   },
   "nav": [
-    { "title": "Proyectos", "link": "/#proyectos" },
-    { "title": "Qué hacemos", "link": "/#servicios" },
+    { "title": "Green Concept", "link": "/proyectos/green-concept", "badge": "Nuevo" },
+    { "title": "Proyectos", "link": "/proyectos" },
     { "title": "Inversores", "link": "/#inversores" },
     { "title": "Nosotros", "link": "/acerca-de-nosotros" }
   ],
@@ -14,12 +15,12 @@
     "eyebrow": "Desarrolladora inmobiliaria boutique · Uruguay",
     "title": "Desarrollamos lugares <em>donde vale la pena vivir.</em>",
     "text": "Más de diez años creando barrios y edificios residenciales de alta calidad, con el rigor y la transparencia que esperan quienes compran e invierten con nosotros.",
-    "cta_primary": { "title": "Ver proyectos", "link": "#proyectos" },
+    "cta_primary": { "title": "Ver proyectos", "link": "/proyectos" },
     "cta_secondary": { "title": "Invertir con Dwell", "link": "#inversores" },
     "slides": [
-      { "image": "/images/2057_01-iluminacion-nocturna_ZEN_F2.jpeg", "caption": "Zen Pueblo Jardín — Carrasco Norte" },
-      { "image": "/images/nuevocentro-1.jpeg", "caption": "Torres Nuevocentro — Montevideo" },
-      { "image": "/images/OXO_IMG_0949-1.jpeg", "caption": "Oxo Parques — Barrio Parques" }
+      { "image": "/images/green-concept/vista-posterior-noche.jpg", "caption": "Nuevo — Green Concept Carrasco", "link": "/proyectos/green-concept" },
+      { "image": "/images/2057_01-iluminacion-nocturna_ZEN_F2.jpeg", "caption": "Zen Pueblo Jardín — Carrasco Norte", "link": "/proyectos/zen-pueblo-jardin" },
+      { "image": "/images/nuevocentro-1.jpeg", "caption": "Torres Nuevocentro — Montevideo", "link": "/proyectos/torres-nuevo-centro" }
     ],
     "scroll": "Descubrir"
   },
@@ -29,6 +30,20 @@
     { "value": "U$S 64M", "label": "invertidos en proyectos finalizados" },
     { "value": "0", "label": "atrasos en nuestras entregas" }
   ],
+  "featured": {
+    "eyebrow": "Nuevo lanzamiento",
+    "title": "Tu refugio de fin de semana, <em>todos los días.</em>",
+    "text": "Tres edificios bajos unidos por un parque, junto a un parque lineal en Carrasco. Apartamentos de 1, 2 y 3 dormitorios con vistas al parque, al bosque o al mar, y doce amenities pensados para vivir en contacto con la naturaleza.",
+    "facts": [ { "value": "3", "label": "edificios bajos" }, { "value": "1 · 2 · 3", "label": "dormitorios" }, { "value": "12", "label": "amenities" } ],
+    "cta_primary": { "title": "Conocé Green Concept", "link": "/proyectos/green-concept" },
+    "cta_secondary": { "title": "greenconcept.uy", "link": "https://www.greenconcept.uy" },
+    "logo": "/images/green-concept/gc-logo-blanco.png",
+    "images": [
+      "/images/green-concept/acceso-principal.jpg",
+      "/images/green-concept/amenities-piscina.jpg",
+      "/images/green-concept/living-3-dorm.jpg"
+    ]
+  },
   "intro": {
     "eyebrow": "Sobre Dwell",
     "title": "Elegimos pocos proyectos y los desarrollamos con <em>dedicación total.</em>",
@@ -39,53 +54,7 @@
   "projects": {
     "eyebrow": "Proyectos",
     "title": "Lo que construimos",
-    "link": { "title": "Ver todos los proyectos", "link": "/proyectos" },
-    "items": [
-      {
-        "name": "Green Concept",
-        "status": "Próximo lanzamiento",
-        "status_kind": "new",
-        "location": "Uruguay",
-        "summary": "Nuestro próximo proyecto. Muy pronto vas a conocer todos los detalles.",
-        "facts": [],
-        "image": "",
-        "link": "/contacto",
-        "cta": "Quiero recibir novedades"
-      },
-      {
-        "name": "Zen Pueblo Jardín",
-        "status": "En ejecución",
-        "status_kind": "progress",
-        "location": "Carrasco Norte, Montevideo",
-        "summary": "Barrio residencial con seguridad 24 horas, clubhouse, piscina, cowork y amplios espacios verdes.",
-        "facts": [ { "value": "215", "label": "viviendas proyectadas" }, { "value": "92", "label": "town houses" } ],
-        "image": "/images/2017_01_ZEN_F-1.jpeg",
-        "link": "/proyectos/zen-pueblo-jardin",
-        "cta": "Ver proyecto"
-      },
-      {
-        "name": "Torres Nuevocentro",
-        "status": "Finalizado",
-        "status_kind": "done",
-        "location": "Av. Luis Alberto de Herrera, Montevideo",
-        "summary": "Dos torres de 25 niveles integradas al Shopping Nuevocentro. Entregadas cuatro meses antes del plazo contractual.",
-        "facts": [ { "value": "440", "label": "unidades" }, { "value": "2017", "label": "entrega" } ],
-        "image": "/images/nuevocentro-1.jpeg",
-        "link": "/proyectos/torres-nuevo-centro",
-        "cta": "Ver proyecto"
-      },
-      {
-        "name": "Oxo Parques",
-        "status": "Finalizado",
-        "status_kind": "done",
-        "location": "Barrio Parques, Montevideo",
-        "summary": "Conjunto de 27 apartamentos con gimnasio, sauna y piscina con solárium. Vendido en un 100% antes del inicio de obra.",
-        "facts": [ { "value": "27", "label": "unidades" }, { "value": "2019", "label": "entrega" } ],
-        "image": "/images/OXO_IMG_0933-2.jpeg",
-        "link": "/proyectos/oxo-parques",
-        "cta": "Ver proyecto"
-      }
-    ]
+    "link": { "title": "Ver todos los proyectos", "link": "/proyectos" }
   },
   "services": {
     "eyebrow": "Qué hacemos",
@@ -113,6 +82,58 @@
     "points": [ "Fideicomisos al costo y financieros", "Reportes claros y periódicos", "Cronogramas cumplidos" ],
     "cta": { "title": "Hablemos de tu inversión", "link": "/contacto" },
     "image": "/images/nuevocentro-2.jpeg"
+  },
+  "about": {
+    "meta_title": "Nosotros — Dwell Developers",
+    "eyebrow": "Nosotros",
+    "title": "Más de diez años desarrollando con <em>rigor y cercanía.</em>",
+    "text": "Captamos oportunidades de inversión de forma profesional y creativa. Gestionamos inversiones aplicadas a desarrollos inmobiliarios asegurando resultados y brindando confianza a nuestros clientes.",
+    "image": "/images/green-concept/jardin-interior.jpg",
+    "story_title": "Una desarrolladora boutique",
+    "story": [
+      "Dwell nace de una convicción: los mejores proyectos se construyen con tiempo, atención al detalle y equipos que conocen cada número de la obra.",
+      "Por eso elegimos pocos desarrollos y nos involucramos en todas sus etapas: la búsqueda de la oportunidad, la estructura financiera, el diseño junto a estudios de primer nivel, la obra y la entrega."
+    ],
+    "team_eyebrow": "Equipo",
+    "team_title": "Quiénes lideran Dwell",
+    "team": [
+      {
+        "name": "Ing. Francisco Olaizola",
+        "role": "Director · Cofundador",
+        "image": "/images/Imagen-Francisco-Olaizola.jpeg",
+        "bio": [
+          "Ingeniero civil egresado de la Universidad de Montevideo, con pasaje por la Universidad de Pittsburgh (EE. UU.) y posgrado en la Universidad de Cataluña.",
+          "Amplia experiencia en proyectos de construcción y desarrollo. Cofundador de Dwell Developers, dedicada a captar y gestionar inversiones en el sector inmobiliario."
+        ]
+      },
+      {
+        "name": "Ing. Elbio Olaizola",
+        "role": "Director",
+        "image": "/images/Imagen-Elbio-Olaizola.jpeg",
+        "bio": [
+          "Empresario y director de empresas del área de ingeniería y construcción. Entre los proyectos bajo su gestión se destacan el Aeropuerto Internacional de Carrasco, la Torre Ejecutiva de Presidencia, el World Trade Center IV y el Shopping Nuevocentro.",
+          "Con amplia experiencia en el negocio inmobiliario, participó en el Fideicomiso Torres Nuevocentro, Oxo Parques y Zen Pueblo Jardín."
+        ]
+      }
+    ],
+    "cta_title": "¿Tenés un proyecto o una inversión en mente?",
+    "cta_button": "Hablemos"
+  },
+  "contact": {
+    "meta_title": "Contacto — Dwell Developers",
+    "eyebrow": "Contacto",
+    "title": "Hablemos de tu <em>próximo hogar</em> o tu próxima inversión.",
+    "text": "Dejanos tu consulta y te respondemos a la brevedad.",
+    "hours_title": "Horario",
+    "hours": "Lunes a viernes, de 9 a 18 h",
+    "form": {
+      "name": "Nombre",
+      "email": "Email",
+      "subject": "Asunto",
+      "message": "Mensaje",
+      "button": "Enviar consulta",
+      "success": "¡Gracias! Recibimos tu mensaje y te vamos a contactar a la brevedad."
+    }
   },
   "footer": {
     "tagline": "Desarrolladora inmobiliaria boutique. We develop, you Dwell.",

@@ -1,19 +1,25 @@
 const React = require('react');
 
 function Layout(props) {
-  const { site, lang, children, bodyClass } = props;
+  const { site, lang, children, bodyClass, title, description, solidHeader, currentPath, altPath } = props;
   const { meta, nav, nav_cta, footer } = site;
   const isEn = lang.lang_locale === 'en';
   const homeLink = isEn ? '/en' : '/';
   const year = new Date().getFullYear();
+  // link al mismo contenido en el otro idioma
+  const path = altPath || '/';
+  const otherLink = lang.option_locale === 'en' ? `/en${path === '/' ? '' : path}` : path;
+  const bodyClasses = [bodyClass, solidHeader ? 'header-solid' : ''].filter(Boolean).join(' ');
 
   return (
     <html lang={lang.lang_locale}>
       <head>
         <meta charSet="UTF-8" />
         <meta name="viewport" content="width=device-width, initial-scale=1" />
-        <title>{meta.title}</title>
-        <meta name="description" content={meta.description} />
+        <title>{title || meta.title}</title>
+        <meta name="description" content={description || meta.description} />
+        <meta property="og:title" content={title || meta.title} />
+        <meta property="og:description" content={description || meta.description} />
         <meta name="theme-color" content="#0d0d0c" />
         <link rel="canonical" href={`https://dwelldevelopers.com${isEn ? '/en' : '/'}`} />
         <link rel="alternate" href="https://dwelldevelopers.com/" hrefLang="es" />
@@ -35,22 +41,27 @@ function Layout(props) {
           }}
         />
       </head>
-      <body className={bodyClass}>
+      <body className={bodyClasses}>
         <header className="site-header" data-header>
           <div className="container header-inner">
             <a href={homeLink} className="brand" aria-label="Dwell Developers">
               <img src="/images/brand/dwell-badge.png" alt="Dwell Developers" width="200" height="48" />
             </a>
             <nav className="main-nav" aria-label="Principal">
-              {nav.map(({ title, link }) => (
-                <a key={link} href={link} className="nav-link">
-                  {title}
+              {nav.map((item) => (
+                <a
+                  key={item.link}
+                  href={item.link}
+                  className={`nav-link${currentPath && item.link === currentPath ? ' is-active' : ''}`}
+                >
+                  {item.title}
+                  {item.badge && <span className="nav-badge">{item.badge}</span>}
                 </a>
               ))}
               <a href={nav_cta.link} className="btn btn-small btn-light nav-cta">
                 {nav_cta.title}
               </a>
-              <a href={`/${lang.option_locale === 'es' ? '' : 'en'}`} className="lang-switch" hrefLang={lang.option_locale}>
+              <a href={otherLink} className="lang-switch" hrefLang={lang.option_locale}>
                 <span className="is-current">{lang.lang_locale.toUpperCase()}</span>
                 <span className="sep">/</span>
                 <span>{lang.option_locale.toUpperCase()}</span>
@@ -65,9 +76,10 @@ function Layout(props) {
 
         <div className="mobile-menu" data-mobile-menu aria-hidden="true">
           <nav>
-            {nav.map(({ title, link }) => (
+            {nav.map(({ title, link, badge }) => (
               <a key={link} href={link} className="mobile-link" data-menu-close>
                 {title}
+                {badge && <span className="nav-badge">{badge}</span>}
               </a>
             ))}
             <a href={nav_cta.link} className="mobile-link" data-menu-close>
@@ -77,7 +89,7 @@ function Layout(props) {
           <div className="mobile-menu-footer">
             <a href={`tel:${footer.phone.replace(/\s/g, '')}`}>{footer.phone}</a>
             <a href={`mailto:${footer.email}`}>{footer.email}</a>
-            <a href={`/${lang.option_locale === 'es' ? '' : 'en'}`}>
+            <a href={otherLink}>
               {lang.lang_locale.toUpperCase()} / <strong>{lang.option_locale.toUpperCase()}</strong>
             </a>
           </div>
@@ -121,7 +133,7 @@ function Layout(props) {
             <span>
               © {year} Dwell Developers. {footer.rights}
             </span>
-            <a href={`/${lang.option_locale === 'es' ? '' : 'en'}`}>{lang.option_text}</a>
+            <a href={otherLink}>{lang.option_text}</a>
           </div>
         </footer>
 

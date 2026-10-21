@@ -2,9 +2,49 @@ const express = require('express');
 const nodemailer = require('nodemailer');
 const router = express.Router();
 
+// Datos comunes para las vistas del rediseño
+const v2 = (req, res) => {
+  const { lang, siteV2, projectsV2 } = res.locals;
+  return {
+    lang,
+    site: siteV2,
+    projects: projectsV2,
+    currentPath: `${siteV2.base}${req.path === '/' && siteV2.base ? '' : req.path}`,
+    altPath: req.path,
+  };
+};
+
 router.get('/', (req, res) => {
-  const { lang, siteV2 } = res.locals;
-  res.render('v2/home', { lang, site: siteV2 });
+  res.render('v2/home', v2(req, res));
+});
+
+router.get('/proyectos', (req, res) => {
+  res.render('v2/projects', v2(req, res));
+});
+
+router.get('/proyectos/:project', (req, res, next) => {
+  const data = v2(req, res);
+  const items = data.projects.items;
+  const index = items.findIndex((p) => p.slug === req.params.project);
+  if (index === -1) {
+    return next();
+  }
+  const project = items[index];
+  const view = project.theme === 'gc' ? 'v2/project-gc' : 'v2/project';
+  res.render(view, {
+    ...data,
+    project,
+    next: items[(index + 1) % items.length],
+    labels: data.projects.page.labels,
+  });
+});
+
+router.get('/acerca-de-nosotros', (req, res) => {
+  res.render('v2/about', v2(req, res));
+});
+
+router.get('/contacto', (req, res) => {
+  res.render('v2/contact', { ...v2(req, res), success: req.query.message === 'success' });
 });
 
 // Home anterior, disponible mientras dure el rediseño para comparar
@@ -20,79 +60,31 @@ router.get('/version-anterior', (req, res) => {
   });
 });
 
-router.get('/proyectos/:project', (req, res, next) => {
-  const { lang, currentPath, layout, projects, translation, projectsPage } = res.locals;
-  if (!projects || !projects[req.params.project]) {
-    return next();
-  }
-  res.render('project', {
-    currentPath,
-    lang,
-    layout,
-    ...translation,
-    projects: projectsPage,
-    ...projects[req.params.project],
-  });
-});
-
-router.get('/proyectos', (req, res) => {
-  const { lang, currentPath, layout, projectsPage, translation } = res.locals;
-  res.render('projects', {
-    currentPath,
-    lang,
-    layout,
-    ...translation,
-    ...projectsPage,
-  });
-});
-
-router.get('/acerca-de-nosotros', (req, res) => {
-  const { lang, currentPath, layout, aboutUs, translation, projectsPage } = res.locals;
-  res.render('about-us', {
-    currentPath,
-    lang,
-    layout,
-    ...translation,
-    ...aboutUs,
-    projects: projectsPage,
-  });
-});
-
-router.get('/contacto', (req, res) => {
-  const { lang, currentPath, layout, contact, projectsPage, translation } = res.locals;
-  res.render('contact', {
-    currentPath,
-    lang,
-    layout,
-    ...translation,
-    ...contact,
-    projects: projectsPage,
-  });
-});
+const escapeHtml = (s) =>
+  String(s || '').replace(/[&<>"']/g, (c) => ({ '&': '&amp;', '<': '&lt;', '>': '&gt;', '"': '&quot;', "'": '&#39;' }[c]));
 
 router.post('/contacto', async (req, res) => {
   const from = 'nacho2487@gmail.com';
   const to = 'laurabajuk@gmail.com, nacho2487@gmail.com';
-  const subject =  'Consulta online - Dwell';
-  console.log("req.body", req.body);
+  const subject = 'Consulta online - Dwell';
+  const base = res.locals.siteV2.base;
   const context = {
-    name: req.body.name,
-    email: req.body.email,
-    subject: req.body.subject,
-    message: req.body.message,
+    name: escapeHtml(req.body.name),
+    email: escapeHtml(req.body.email),
+    subject: escapeHtml(req.body.subject),
+    message: escapeHtml(req.body.message),
   };
-  let testAccount = await nodemailer.createTestAccount();
-  let transporter = nodemailer.createTransport({
-    host: "smtp.sendgrid.net",
-    port: 587,
-    secure: false, // true for 465, false for other ports
-  });
-  // create template based sender function
-  const sendMessage = transporter.sendMail({
-    from,
-    to,
-    subject,
-    html: `
+  try {
+    const transporter = nodemailer.createTransport({
+      host: 'smtp.sendgrid.net',
+      port: 587,
+      secure: false, // true for 465, false for other ports
+    });
+    const info = await transporter.sendMail({
+      from,
+      to,
+      subject,
+      html: `
     <div>
       <h2>Consulta Online</h2>
       <p>Se ha realizado una consulta con los siguientes datos:</p>
@@ -107,7 +99,7 @@ router.post('/contacto', async (req, res) => {
             <td><a href='mailto:${context.email}' target='_blank'>${context.email}</a></td>
           </tr>
           <tr>
-            <td><strong>Assunto:</strong></td>
+            <td><strong>Asunto:</strong></td>
             <td>${context.subject}</td>
           </tr>
           <tr>
@@ -117,14 +109,13 @@ router.post('/contacto', async (req, res) => {
         </tbody>
       </table>
     </div>`,
-  });
-
-  console.log("Message sent: %s", sendMessage.messageId);
-  // Message sent: <b658f8ca-6296-ccf4-8306-87d57a0b4321@example.com>
-
-  // Preview only available when sending through an Ethereal account
-  console.log("Preview URL: %s", nodemailer.getTestMessageUrl(sendMessage));
-  return res.redirect('/contacto?message=success');
+    });
+    console.log('Message sent: %s', info.messageId);
+  } catch (err) {
+    // No se corta el servidor si el envío falla; queda registrado en el log
+    console.error('Error enviando consulta de contacto:', err.message);
+  }
+  return res.redirect(`${base}/contacto?message=success`);
 });
 
 module.exports = router;
