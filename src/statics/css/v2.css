@@ -3091,9 +3091,9 @@ body.menu-open .mobile-menu {
   list-style: none;
   margin: clamp(40px, 5vw, 64px) auto 0;
   padding: 0;
-  max-width: 1000px;
+  max-width: 1120px;
   display: grid;
-  grid-template-columns: repeat(4, 1fr);
+  grid-template-columns: repeat(auto-fit, minmax(170px, 1fr));
 }
 
 .gc-partners-team li {
@@ -3117,10 +3117,10 @@ body.menu-open .mobile-menu {
 
 @media (max-width: 820px) {
   .gc-partners-team {
-    grid-template-columns: repeat(2, 1fr);
+    grid-template-columns: repeat(2, minmax(0, 1fr));
     row-gap: 40px;
   }
-  .gc-partners-team li:nth-child(3) {
+  .gc-partners-team li:nth-child(odd) {
     border-left: 0;
   }
   .gc-partners-team img {

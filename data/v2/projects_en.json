@@ -654,7 +654,7 @@
           },
           {
             "label": "Architecture",
-            "value": "Ponce de León Architects"
+            "value": "Ponce de León (Phase 1) · RMA (Phase 2)"
           }
         ],
         "award": {
@@ -701,15 +701,15 @@
           "eyebrow": "Lifestyle",
           "title": "Living in peace, between nature and harmony",
           "text": "Homes with pergola and barbecue opening onto the garden, tree-lined internal streets and the calm of a safe place to raise your family.",
-          "caption": "Home with pergola and barbecue",
-          "image": "/images/zen-pueblo-jardin/casa-atardecer.jpg"
+          "caption": "Phase 2 residence",
+          "image": "/images/zen-reserva/residencia-jardin.jpg"
         },
         "intro_title": "Zen is a way of life",
         "intro": [
           "A safe place to enjoy. A way of living in peace between nature and harmony, close to every kind of service and comfort.",
           "Located in the heart of Carrasco, at a strategically chosen spot, it is the perfect place to transform your routine."
         ],
-        "intro_image": "/images/zen-pueblo-jardin/calle-interior.jpg",
+        "intro_image": "/images/zen-reserva/acceso-interior.jpg",
         "pillars_intro": "A change in your quality of life: security, calm and contact with nature, without giving up the comforts of the city.",
         "pillars": [
           {
@@ -731,8 +731,8 @@
           "ZEN brings an experiential housing concept that adds value to Carrasco: contemporary architecture, green internal streets and spaces designed for family life."
         ],
         "project_images": [
-          "/images/zen-pueblo-jardin/casa-frente.jpg",
-          "/images/1961_01_ZEN_OP-7-1.jpeg"
+          "/images/zen-reserva/residencia-piscina.jpg",
+          "/images/zen-reserva/garden.jpg"
         ],
         "amenities_title": "Amenities",
         "amenities_heading": "Everything to enjoy, without leaving home",
@@ -764,20 +764,20 @@
         ],
         "amenities_images": [
           {
-            "image": "/images/zen-pueblo-jardin/piscina.jpg",
+            "image": "/images/zen-reserva/lifestyle-piscina.jpg",
             "caption": "Pool"
           },
           {
-            "image": "/images/2058_03-sum_ZEN_F-1.jpeg",
-            "caption": "Club House"
+            "image": "/images/zen-reserva/garden.jpg",
+            "caption": "Terrace with barbecue"
           },
           {
-            "image": "/images/2058_03-sum_ZEN_C1-1.jpeg",
-            "caption": "Club House"
+            "image": "/images/zen-reserva/lifestyle-mesa.jpg",
+            "caption": "Outdoor living"
           },
           {
-            "image": "/images/zen-pueblo-jardin/panoramica-jacarandas.jpg",
-            "caption": "Landscaping"
+            "image": "/images/zen-reserva/acceso.jpg",
+            "caption": "ZEN entrance"
           }
         ],
         "location_title": "Location",
@@ -795,71 +795,71 @@
           "Carrasco Lawn Tennis",
           "Portones Shopping"
         ],
-        "location_image": "/images/zen-pueblo-jardin/panoramica-jacarandas.jpg",
+        "location_image": "/images/zen-reserva/acceso.jpg",
         "apartments_title": "The homes",
-        "apartments_text": "A new concept in residential architecture: 3 bedrooms including a master suite with walk-in closet, 2 bathrooms plus powder room, kitchen with integrated family room, and pergola with barbecue and laundry.",
+        "apartments_text": "The residences in the phase now on sale, Zen Reserva, have 3 and 4 bedrooms with master suite, integrated kitchen, terrace with barbecue, private garden and separate laundry.",
         "apartments": [
           {
-            "value": "138 m²",
-            "label": "per home"
+            "value": "222 m²",
+            "label": "Layout A · 4 bedrooms"
           },
           {
-            "value": "3",
-            "label": "bedrooms"
+            "value": "193 m²",
+            "label": "Layout B · 4 bedrooms"
           },
           {
-            "value": "2 + 1",
-            "label": "baths and powder room"
+            "value": "168 m²",
+            "label": "Layout C · 3 bedrooms"
           }
         ],
         "gallery": [
           {
-            "image": "/images/zen-pueblo-jardin/casa-pergola.jpg",
-            "caption": "Home with pergola"
-          },
-          {
-            "image": "/images/zen-pueblo-jardin/casa-atardecer.jpg",
-            "caption": "Sunset"
-          },
-          {
-            "image": "/images/zen-pueblo-jardin/calle-interior.jpg",
-            "caption": "Internal street"
-          },
-          {
-            "image": "/images/1961_01_ZEN_OP-7-1.jpeg",
-            "caption": "Homes"
-          },
-          {
-            "image": "/images/2058_02-living_ZEN_F1-1.jpeg",
+            "image": "/images/zen-reserva/living.jpg",
             "caption": "Living room"
           },
           {
-            "image": "/images/zen-pueblo-jardin/piscina.jpg",
-            "caption": "Pool"
+            "image": "/images/zen-reserva/cocina-estar.jpg",
+            "caption": "Kitchen and family room"
           },
           {
-            "image": "/images/2057_01-iluminacion-nocturna_ZEN_F2.jpeg",
-            "caption": "Night lighting"
+            "image": "/images/zen-reserva/living-galeria.jpg",
+            "caption": "Living room and gallery"
           },
           {
-            "image": "/images/zen-pueblo-jardin/casa-frente.jpg",
-            "caption": "Front"
+            "image": "/images/zen-reserva/living-lifestyle.jpg",
+            "caption": "Interiors"
           },
           {
-            "image": "/images/1961_02_ZEN_F-2.jpeg",
-            "caption": "Homes"
+            "image": "/images/zen-reserva/bano-suite.jpg",
+            "caption": "En-suite bathroom"
           },
           {
-            "image": "/images/1961_04_ZEN_noche_F1-2.jpeg",
-            "caption": "At night"
+            "image": "/images/zen-reserva/garden.jpg",
+            "caption": "Terrace"
           },
           {
-            "image": "/images/2017_02_ZEN_F1.jpeg",
-            "caption": "Gardens"
+            "image": "/images/zen-reserva/residencia-piscina.jpg",
+            "caption": "Residence with private garden"
           },
           {
-            "image": "/images/2058_03-sum_ZEN_F-1.jpeg",
-            "caption": "Club House"
+            "image": "/images/zen-reserva/lifestyle-terraza.jpg",
+            "caption": "ZEN lifestyle"
+          },
+          {
+            "image": "/images/zen-reserva/acceso-interior.jpg",
+            "caption": "Interior entrance"
+          },
+          {
+            "image": "/images/zen-reserva/lifestyle-familia.jpg",
+            "caption": "ZEN lifestyle"
+          },
+          {
+            "image": "/images/zen-reserva/residencia-jardin.jpg",
+            "caption": "Private garden"
+          },
+          {
+            "image": "/images/zen-reserva/jardines-privados.jpg",
+            "caption": "Private gardens"
           }
         ],
         "partnership_title": "An Edilica and Dwell project",
@@ -878,9 +878,14 @@
           ],
           "team": [
             {
-              "role": "Architecture",
+              "role": "Architecture · Phase 1",
               "name": "Ponce de León Architects",
               "logo": "/images/partners/ponce-de-leon.png"
+            },
+            {
+              "role": "Architecture · Phase 2",
+              "name": "RMA Arquitectura",
+              "logo": "/images/partners/rma.png"
             },
             {
               "role": "Landscape",
@@ -903,7 +908,7 @@
         "cta_text": "Write to us to learn about available homes or book a visit.",
         "cta_primary": "Contact me",
         "cta_secondary": "zenpueblojardin.uy",
-        "cta_image": "/images/zen-pueblo-jardin/casa-pergola.jpg"
+        "cta_image": "/images/zen-reserva/residencia-jardin.jpg"
       }
     },
     {

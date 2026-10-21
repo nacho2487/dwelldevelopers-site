@@ -654,7 +654,7 @@
           },
           {
             "label": "Arquitectura",
-            "value": "Ponce de León Architects"
+            "value": "Ponce de León (Etapa 1) · RMA (Etapa 2)"
           }
         ],
         "award": {
@@ -701,15 +701,15 @@
           "eyebrow": "Estilo de vida",
           "title": "Vivir en paz, entre naturaleza y armonía",
           "text": "Casas con pérgola y parrillero que se abren al jardín, calles internas arboladas y la tranquilidad de un entorno seguro para criar a tu familia.",
-          "caption": "Casa con pérgola y parrillero",
-          "image": "/images/zen-pueblo-jardin/casa-atardecer.jpg"
+          "caption": "Residencia de la Etapa 2",
+          "image": "/images/zen-reserva/residencia-jardin.jpg"
         },
         "intro_title": "Zen es un estilo de vida",
         "intro": [
           "Un entorno seguro para disfrutar. Es la manera de vivir en paz entre naturaleza y armonía, próximo a todo tipo de servicios y comodidades.",
           "Ubicado en el corazón de Carrasco, en un punto estratégicamente seleccionado, es el lugar perfecto para transformar tu nueva rutina."
         ],
-        "intro_image": "/images/zen-pueblo-jardin/calle-interior.jpg",
+        "intro_image": "/images/zen-reserva/acceso-interior.jpg",
         "pillars_intro": "Te ofrecemos un cambio en la calidad de tu vida: seguridad, tranquilidad y contacto con la naturaleza, sin resignar la comodidad de la ciudad.",
         "pillars": [
           {
@@ -731,8 +731,8 @@
           "ZEN aplica un concepto de vivienda experiencial que suma valor a la zona de Carrasco: arquitectura contemporánea, calles internas verdes y espacios pensados para la vida en familia."
         ],
         "project_images": [
-          "/images/zen-pueblo-jardin/casa-frente.jpg",
-          "/images/1961_01_ZEN_OP-7-1.jpeg"
+          "/images/zen-reserva/residencia-piscina.jpg",
+          "/images/zen-reserva/garden.jpg"
         ],
         "amenities_title": "Amenities",
         "amenities_heading": "Todo para disfrutar, sin salir de casa",
@@ -764,20 +764,20 @@
         ],
         "amenities_images": [
           {
-            "image": "/images/zen-pueblo-jardin/piscina.jpg",
+            "image": "/images/zen-reserva/lifestyle-piscina.jpg",
             "caption": "Piscina"
           },
           {
-            "image": "/images/2058_03-sum_ZEN_F-1.jpeg",
-            "caption": "Club House"
+            "image": "/images/zen-reserva/garden.jpg",
+            "caption": "Terraza con parrillero"
           },
           {
-            "image": "/images/2058_03-sum_ZEN_C1-1.jpeg",
-            "caption": "Club House"
+            "image": "/images/zen-reserva/lifestyle-mesa.jpg",
+            "caption": "Vida al aire libre"
           },
           {
-            "image": "/images/zen-pueblo-jardin/panoramica-jacarandas.jpg",
-            "caption": "Paisajismo"
+            "image": "/images/zen-reserva/acceso.jpg",
+            "caption": "Acceso ZEN"
           }
         ],
         "location_title": "Ubicación",
@@ -795,71 +795,71 @@
           "Carrasco Lawn Tennis",
           "Portones Shopping"
         ],
-        "location_image": "/images/zen-pueblo-jardin/panoramica-jacarandas.jpg",
+        "location_image": "/images/zen-reserva/acceso.jpg",
         "apartments_title": "Las casas",
-        "apartments_text": "Un nuevo concepto de arquitectura residencial: 3 dormitorios incluida master suite con vestidor, 2 baños y toilette, cocina con estar integrado y pérgola con parrillero y box lavadero.",
+        "apartments_text": "Las residencias de la etapa en venta, Zen Reserva, tienen 3 y 4 dormitorios con master suite, cocina integrada, terraza con parrillero, jardín privado y lavadero independiente.",
         "apartments": [
           {
-            "value": "138 m²",
-            "label": "por casa"
+            "value": "222 m²",
+            "label": "Tipología A · 4 dormitorios"
           },
           {
-            "value": "3",
-            "label": "dormitorios"
+            "value": "193 m²",
+            "label": "Tipología B · 4 dormitorios"
           },
           {
-            "value": "2 + 1",
-            "label": "baños y toilette"
+            "value": "168 m²",
+            "label": "Tipología C · 3 dormitorios"
           }
         ],
         "gallery": [
           {
-            "image": "/images/zen-pueblo-jardin/casa-pergola.jpg",
-            "caption": "Casa con pérgola"
-          },
-          {
-            "image": "/images/zen-pueblo-jardin/casa-atardecer.jpg",
-            "caption": "Atardecer"
-          },
-          {
-            "image": "/images/zen-pueblo-jardin/calle-interior.jpg",
-            "caption": "Calle interna"
-          },
-          {
-            "image": "/images/1961_01_ZEN_OP-7-1.jpeg",
-            "caption": "Casas"
-          },
-          {
-            "image": "/images/2058_02-living_ZEN_F1-1.jpeg",
+            "image": "/images/zen-reserva/living.jpg",
             "caption": "Living"
           },
           {
-            "image": "/images/zen-pueblo-jardin/piscina.jpg",
-            "caption": "Piscina"
+            "image": "/images/zen-reserva/cocina-estar.jpg",
+            "caption": "Cocina y estar"
           },
           {
-            "image": "/images/2057_01-iluminacion-nocturna_ZEN_F2.jpeg",
-            "caption": "Iluminación nocturna"
+            "image": "/images/zen-reserva/living-galeria.jpg",
+            "caption": "Living y galería"
           },
           {
-            "image": "/images/zen-pueblo-jardin/casa-frente.jpg",
-            "caption": "Frente"
+            "image": "/images/zen-reserva/living-lifestyle.jpg",
+            "caption": "Interiores"
           },
           {
-            "image": "/images/1961_02_ZEN_F-2.jpeg",
-            "caption": "Casas"
+            "image": "/images/zen-reserva/bano-suite.jpg",
+            "caption": "Baño en suite"
           },
           {
-            "image": "/images/1961_04_ZEN_noche_F1-2.jpeg",
-            "caption": "De noche"
+            "image": "/images/zen-reserva/garden.jpg",
+            "caption": "Terraza"
           },
           {
-            "image": "/images/2017_02_ZEN_F1.jpeg",
-            "caption": "Jardines"
+            "image": "/images/zen-reserva/residencia-piscina.jpg",
+            "caption": "Residencia con jardín privado"
           },
           {
-            "image": "/images/2058_03-sum_ZEN_F-1.jpeg",
-            "caption": "Club House"
+            "image": "/images/zen-reserva/lifestyle-terraza.jpg",
+            "caption": "ZEN lifestyle"
+          },
+          {
+            "image": "/images/zen-reserva/acceso-interior.jpg",
+            "caption": "Acceso interior"
+          },
+          {
+            "image": "/images/zen-reserva/lifestyle-familia.jpg",
+            "caption": "ZEN lifestyle"
+          },
+          {
+            "image": "/images/zen-reserva/residencia-jardin.jpg",
+            "caption": "Jardín privado"
+          },
+          {
+            "image": "/images/zen-reserva/jardines-privados.jpg",
+            "caption": "Jardines privados"
           }
         ],
         "partnership_title": "Un proyecto de Edilica y Dwell",
@@ -878,9 +878,14 @@
           ],
           "team": [
             {
-              "role": "Arquitectura",
+              "role": "Arquitectura · Etapa 1",
               "name": "Ponce de León Architects",
               "logo": "/images/partners/ponce-de-leon.png"
+            },
+            {
+              "role": "Arquitectura · Etapa 2",
+              "name": "RMA Arquitectura",
+              "logo": "/images/partners/rma.png"
             },
             {
               "role": "Paisajismo",
@@ -903,7 +908,7 @@
         "cta_text": "Escribinos para conocer las casas disponibles o agendar una visita.",
         "cta_primary": "Quiero que me contacten",
         "cta_secondary": "zenpueblojardin.uy",
-        "cta_image": "/images/zen-pueblo-jardin/casa-pergola.jpg"
+        "cta_image": "/images/zen-reserva/residencia-jardin.jpg"
       }
     },
     {
