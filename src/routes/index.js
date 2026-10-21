@@ -3,6 +3,12 @@ const nodemailer = require('nodemailer');
 const router = express.Router();
 
 router.get('/', (req, res) => {
+  const { lang, siteV2 } = res.locals;
+  res.render('v2/home', { lang, site: siteV2 });
+});
+
+// Home anterior, disponible mientras dure el rediseño para comparar
+router.get('/version-anterior', (req, res) => {
   const { lang, currentPath, layout, home, translation, projectsPage } = res.locals;
   res.render('home', {
     currentPath,

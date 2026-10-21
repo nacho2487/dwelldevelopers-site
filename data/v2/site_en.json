@@ -1,0 +1,126 @@
+{
+  "meta": {
+    "title": "Dwell Developers — Boutique real estate developer",
+    "description": "Boutique real estate developer in Uruguay. High-quality residential projects, managed with rigor and transparency for buyers and investors."
+  },
+  "nav": [
+    { "title": "Projects", "link": "/en#proyectos" },
+    { "title": "What we do", "link": "/en#servicios" },
+    { "title": "Investors", "link": "/en#inversores" },
+    { "title": "About us", "link": "/en/acerca-de-nosotros" }
+  ],
+  "nav_cta": { "title": "Contact", "link": "/en/contacto" },
+  "hero": {
+    "eyebrow": "Boutique real estate developer · Uruguay",
+    "title": "We develop places <em>truly worth living in.</em>",
+    "text": "For over a decade we have been creating high-quality residential neighborhoods and buildings, with the rigor and transparency our buyers and investors expect.",
+    "cta_primary": { "title": "View projects", "link": "#proyectos" },
+    "cta_secondary": { "title": "Invest with Dwell", "link": "#inversores" },
+    "slides": [
+      { "image": "/images/2057_01-iluminacion-nocturna_ZEN_F2.jpeg", "caption": "Zen Pueblo Jardín — Carrasco Norte" },
+      { "image": "/images/nuevocentro-1.jpeg", "caption": "Nuevocentro Towers — Montevideo" },
+      { "image": "/images/OXO_IMG_0949-1.jpeg", "caption": "Oxo Parques — Barrio Parques" }
+    ],
+    "scroll": "Discover"
+  },
+  "stats": [
+    { "value": "10+", "label": "years developing projects" },
+    { "value": "467", "label": "units delivered" },
+    { "value": "US$ 64M", "label": "invested in completed projects" },
+    { "value": "0", "label": "delays in our deliveries" }
+  ],
+  "intro": {
+    "eyebrow": "About Dwell",
+    "title": "We choose few projects and develop them with <em>full dedication.</em>",
+    "text": "We identify investment opportunities in a professional and creative way, and manage every development with care for design, timelines and numbers. The result: neighborhoods and buildings that gain value over time, and communities that choose to stay.",
+    "signature": "We develop, you Dwell.",
+    "link": { "title": "Meet the team", "link": "/en/acerca-de-nosotros" }
+  },
+  "projects": {
+    "eyebrow": "Projects",
+    "title": "What we build",
+    "link": { "title": "View all projects", "link": "/en/proyectos" },
+    "items": [
+      {
+        "name": "Green Concept",
+        "status": "Coming soon",
+        "status_kind": "new",
+        "location": "Uruguay",
+        "summary": "Our next project. All the details will be revealed very soon.",
+        "facts": [],
+        "image": "",
+        "link": "/en/contacto",
+        "cta": "Keep me posted"
+      },
+      {
+        "name": "Zen Pueblo Jardín",
+        "status": "Under construction",
+        "status_kind": "progress",
+        "location": "Carrasco Norte, Montevideo",
+        "summary": "Residential neighborhood with 24-hour security, clubhouse, pool, cowork and generous green spaces.",
+        "facts": [ { "value": "215", "label": "planned homes" }, { "value": "92", "label": "town houses" } ],
+        "image": "/images/2017_01_ZEN_F-1.jpeg",
+        "link": "/en/proyectos/zen-pueblo-jardin",
+        "cta": "View project"
+      },
+      {
+        "name": "Nuevocentro Towers",
+        "status": "Completed",
+        "status_kind": "done",
+        "location": "Luis Alberto de Herrera Ave., Montevideo",
+        "summary": "Two 25-storey towers integrated with Nuevocentro Shopping. Delivered four months ahead of the contractual deadline.",
+        "facts": [ { "value": "440", "label": "units" }, { "value": "2017", "label": "delivered" } ],
+        "image": "/images/nuevocentro-1.jpeg",
+        "link": "/en/proyectos/torres-nuevo-centro",
+        "cta": "View project"
+      },
+      {
+        "name": "Oxo Parques",
+        "status": "Completed",
+        "status_kind": "done",
+        "location": "Barrio Parques, Montevideo",
+        "summary": "27 apartments with gym, sauna and pool with solarium. 100% pre-sold before construction began.",
+        "facts": [ { "value": "27", "label": "units" }, { "value": "2019", "label": "delivered" } ],
+        "image": "/images/OXO_IMG_0933-2.jpeg",
+        "link": "/en/proyectos/oxo-parques",
+        "cta": "View project"
+      }
+    ]
+  },
+  "services": {
+    "eyebrow": "What we do",
+    "title": "One team, from opportunity to delivery",
+    "items": [
+      { "title": "Residential development", "text": "We create high-quality, secure residential buildings and neighborhoods, supporting every buyer throughout the process." },
+      { "title": "Commercial development", "text": "We design spaces to work and enjoy, with a firm commitment to their surroundings and the communities around them." },
+      { "title": "Investment management", "text": "We structure and manage real estate trusts with clear information, timelines met and measurable results." }
+    ]
+  },
+  "why": {
+    "eyebrow": "Why Dwell",
+    "title": "Quality is not a detail. It is the starting point.",
+    "items": [
+      { "title": "Uncompromising quality", "text": "Thoughtful design and fine materials, in harmony with the architecture of each setting." },
+      { "title": "Considered amenities", "text": "Shared spaces that add to daily life: green, recreational and for work." },
+      { "title": "Green surroundings", "text": "Every project starts from a simple idea: living in harmony with nature." },
+      { "title": "Community", "text": "We design so neighbors can meet and community life grows stronger." }
+    ]
+  },
+  "investors": {
+    "eyebrow": "Investors",
+    "title": "Invest with a team that delivers on its promises.",
+    "text": "Nuevocentro Towers was República AFAP's first real estate investment project. At Oxo Parques, the cost deviation was under 4%. We manage every trust with the same discipline.",
+    "points": [ "At-cost and financial trusts", "Clear, periodic reporting", "Timelines met" ],
+    "cta": { "title": "Let's talk about your investment", "link": "/en/contacto" },
+    "image": "/images/nuevocentro-2.jpeg"
+  },
+  "footer": {
+    "tagline": "Boutique real estate developer. We develop, you Dwell.",
+    "contact_title": "Contact",
+    "phone": "+598 98 797 788",
+    "email": "info.dwelldevelopers@gmail.com",
+    "location": "Montevideo, Uruguay",
+    "menu_title": "Menu",
+    "rights": "All rights reserved."
+  }
+}

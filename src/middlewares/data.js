@@ -16,6 +16,8 @@ const dataContactEs = require('../../data/contact_es.json')
 const dataContactEn = require('../../data/contact_en.json')
 const translationsEs = require('../../data/translations_es.json')
 const translationsEn = require('../../data/translations_en.json')
+const siteV2Es = require('../../data/v2/site_es.json');
+const siteV2En = require('../../data/v2/site_en.json');
 
 const data = {
   es: {
@@ -31,6 +33,7 @@ const data = {
     aboutUs: dataAboutUsEs,
     contact: dataContactEs,
     translation: translationsEs,
+    siteV2: siteV2Es,
   },
   en: {
     layout: dataLayoutEn,
@@ -45,6 +48,7 @@ const data = {
     aboutUs: dataAboutUsEn,
     contact: dataContactEn,
     translation: translationsEn,
+    siteV2: siteV2En,
   }
 };
 
@@ -60,6 +64,7 @@ const dataMiddleware = (lang) => (req, res, next) => {
   res.locals.aboutUs = data[lang].aboutUs;
   res.locals.contact = data[lang].contact;
   res.locals.translation = data[lang].translation;
+  res.locals.siteV2 = data[lang].siteV2;
   res.locals.currentPath = req.path;
   next();
 };
