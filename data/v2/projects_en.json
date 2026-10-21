@@ -327,7 +327,7 @@
       "hero_image": "/images/zen-reserva/jardines-privados.jpg",
       "card_facts": [
         {
-          "value": "41",
+          "value": "40",
           "label": "residences"
         },
         {
@@ -347,7 +347,7 @@
           },
           {
             "label": "Residences",
-            "value": "41"
+            "value": "40"
           },
           {
             "label": "Layouts",
@@ -391,7 +391,7 @@
             },
             {
               "name": "Phase 2 · Zen Reserva",
-              "detail": "41 residences",
+              "detail": "40 residences",
               "status": "Now on sale",
               "progress": 0,
               "kind": "open"
@@ -407,7 +407,7 @@
         },
         "intro_title": "The ZEN concept, in a new dimension",
         "intro": [
-          "Zen Reserva is a set of 41 residences whose architecture blends naturally with light and landscape, creating a serene atmosphere where every space invites you to enjoy each day.",
+          "Zen Reserva is a set of 40 residences whose architecture blends naturally with light and landscape, creating a serene atmosphere where every space invites you to enjoy each day.",
           "Inspired by the Zen Pueblo Jardín experience, it amplifies its essence: more space, more green and greater privacy. Choosing ZEN means choosing a calm life without giving up the essentials: security, comfort and a seamless connection to everything you need."
         ],
         "intro_image": "/images/zen-reserva/lifestyle-arbol.jpg",

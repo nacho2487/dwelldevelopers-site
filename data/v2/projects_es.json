@@ -327,7 +327,7 @@
       "hero_image": "/images/zen-reserva/jardines-privados.jpg",
       "card_facts": [
         {
-          "value": "41",
+          "value": "40",
           "label": "residencias"
         },
         {
@@ -347,7 +347,7 @@
           },
           {
             "label": "Residencias",
-            "value": "41"
+            "value": "40"
           },
           {
             "label": "Tipologías",
@@ -391,7 +391,7 @@
             },
             {
               "name": "Etapa 2 · Zen Reserva",
-              "detail": "41 residencias",
+              "detail": "40 residencias",
               "status": "Venta lanzada",
               "progress": 0,
               "kind": "open"
@@ -407,7 +407,7 @@
         },
         "intro_title": "El concepto ZEN, en una nueva dimensión",
         "intro": [
-          "Zen Reserva es un conjunto de 41 residencias cuya arquitectura se integra de forma natural con la luz y el paisaje, generando una atmósfera serena donde cada espacio invita a disfrutar del día a día.",
+          "Zen Reserva es un conjunto de 40 residencias cuya arquitectura se integra de forma natural con la luz y el paisaje, generando una atmósfera serena donde cada espacio invita a disfrutar del día a día.",
           "Inspirado en la experiencia de Zen Pueblo Jardín, amplifica su esencia: más metraje, más verde y mayor privacidad. Elegir ZEN es elegir una vida tranquila sin renunciar a lo esencial: seguridad, comodidad y una conexión fluida con todo lo que necesitás."
         ],
         "intro_image": "/images/zen-reserva/lifestyle-arbol.jpg",
