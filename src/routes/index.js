@@ -44,7 +44,11 @@ router.get('/acerca-de-nosotros', (req, res) => {
 });
 
 router.get('/contacto', (req, res) => {
-  res.render('v2/contact', { ...v2(req, res), success: req.query.message === 'success' });
+  res.render('v2/contact', {
+    ...v2(req, res),
+    success: req.query.message === 'success',
+    subject: typeof req.query.asunto === 'string' ? req.query.asunto.slice(0, 120) : '',
+  });
 });
 
 // Home anterior, disponible mientras dure el rediseño para comparar

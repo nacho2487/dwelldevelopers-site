@@ -3,7 +3,7 @@ const Layout = require('./layout');
 const { html, Eyebrow, Arrow } = require('./parts');
 
 function Contact(props) {
-  const { site, lang, success, currentPath, altPath } = props;
+  const { site, lang, success, subject, currentPath, altPath } = props;
   const c = site.contact;
   const f = site.footer;
 
@@ -61,7 +61,7 @@ function Contact(props) {
               </label>
               <label className="full">
                 <span>{c.form.subject}</span>
-                <input type="text" name="subject" />
+                <input type="text" name="subject" defaultValue={subject} />
               </label>
               <label className="full">
                 <span>{c.form.message}</span>

@@ -3017,3 +3017,112 @@ body.menu-open .mobile-menu {
     padding: 8px 14px;
   }
 }
+
+/* ---------- Green Concept: alianza y equipo (logos) ---------- */
+
+.gc-partners {
+  background: var(--paper);
+  padding: clamp(80px, 10vw, 140px) 0;
+  text-align: center;
+}
+
+.gc-partners-head {
+  max-width: 620px;
+  margin: 0 auto;
+}
+
+.gc-partners-title {
+  margin: 0;
+  font-weight: 300;
+  font-size: clamp(30px, 3.4vw, 46px);
+  line-height: 1.12;
+  letter-spacing: -0.02em;
+}
+
+.gc-partners-head p {
+  margin-top: 18px;
+  color: var(--muted);
+  font-size: 18px;
+}
+
+.partner-role {
+  display: block;
+  font-size: 11px;
+  font-weight: 500;
+  letter-spacing: 0.2em;
+  text-transform: uppercase;
+  color: var(--muted);
+}
+
+/* los logos vienen en blanco; se pasan a negro para fondo claro */
+.gc-partners img {
+  filter: brightness(0);
+  opacity: 0.88;
+}
+
+.gc-partners-dev {
+  margin: clamp(48px, 6vw, 80px) auto 0;
+  padding-bottom: clamp(40px, 5vw, 64px);
+  border-bottom: 1px solid var(--line);
+  max-width: 760px;
+}
+
+.partner-dev-logos {
+  display: flex;
+  align-items: center;
+  justify-content: center;
+  gap: clamp(24px, 4vw, 56px);
+  margin-top: 28px;
+}
+
+.partner-dev-logos img {
+  height: clamp(44px, 5vw, 64px);
+  width: auto;
+}
+
+.partner-x {
+  font-size: 26px;
+  font-weight: 200;
+  color: var(--muted);
+}
+
+.gc-partners-team {
+  list-style: none;
+  margin: clamp(40px, 5vw, 64px) auto 0;
+  padding: 0;
+  max-width: 1000px;
+  display: grid;
+  grid-template-columns: repeat(4, 1fr);
+}
+
+.gc-partners-team li {
+  display: flex;
+  flex-direction: column;
+  align-items: center;
+  gap: 22px;
+  padding: 8px 20px;
+}
+
+.gc-partners-team li + li {
+  border-left: 1px solid var(--line);
+}
+
+.gc-partners-team img {
+  height: 38px;
+  width: auto;
+  max-width: 100%;
+  object-fit: contain;
+}
+
+@media (max-width: 820px) {
+  .gc-partners-team {
+    grid-template-columns: repeat(2, 1fr);
+    row-gap: 40px;
+  }
+  .gc-partners-team li:nth-child(3) {
+    border-left: 0;
+  }
+  .gc-partners-team img {
+    height: 30px;
+  }
+}

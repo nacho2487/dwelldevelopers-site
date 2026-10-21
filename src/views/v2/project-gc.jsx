@@ -6,6 +6,8 @@ function GreenConcept(props) {
   const { site, lang, project: p, next, labels, currentPath, altPath } = props;
   const gc = p.gc;
   const base = site.base;
+  // lleva al formulario con el asunto ya completado
+  const contactLink = `${site.nav_cta.link}?asunto=${encodeURIComponent(p.name_full)}`;
 
   return (
     <Layout
@@ -35,7 +37,7 @@ function GreenConcept(props) {
           <img className="gc-hero-logo" src={gc.logo} alt={p.name_full} />
           <h1 className="hero-title gc-tagline" dangerouslySetInnerHTML={html(gc.tagline)} />
           <div className="hero-actions">
-            <a href="#gc-contacto" className="btn btn-light">
+            <a href={contactLink} className="btn btn-light">
               {gc.cta_primary} <Arrow />
             </a>
             <a href={p.website} className="btn btn-ghost-light" target="_blank" rel="noopener">
@@ -258,21 +260,32 @@ function GreenConcept(props) {
         </div>
       </section>
 
-      {/* ALIANZA Y CRÉDITOS */}
-      <section className="section-tight gc-credits">
-        <div className="container two-col">
-          <div data-reveal>
-            <Eyebrow>{gc.partnership_title}</Eyebrow>
-            <p className="lead">{gc.partnership_text}</p>
+      {/* ALIANZA Y EQUIPO */}
+      <section className="gc-partners">
+        <div className="container">
+          <div className="gc-partners-head" data-reveal>
+            <h2 className="gc-partners-title">{gc.partnership_title}</h2>
+            <p>{gc.partnership_text}</p>
           </div>
-          <dl className="credits" data-reveal>
-            {gc.credits.map((c) => (
-              <div key={c.role}>
-                <dt>{c.role}</dt>
-                <dd>{c.name}</dd>
-              </div>
+          <div className="gc-partners-dev" data-reveal>
+            <span className="partner-role">{gc.partners.developers_label}</span>
+            <div className="partner-dev-logos">
+              {gc.partners.developers.map((d, i) => (
+                <React.Fragment key={d.name}>
+                  {i > 0 && <span className="partner-x" aria-hidden="true">×</span>}
+                  <img src={d.logo} alt={d.name} loading="lazy" />
+                </React.Fragment>
+              ))}
+            </div>
+          </div>
+          <ul className="gc-partners-team" data-reveal>
+            {gc.partners.team.map((t) => (
+              <li key={t.name}>
+                <span className="partner-role">{t.role}</span>
+                <img src={t.logo} alt={t.name} loading="lazy" />
+              </li>
             ))}
-          </dl>
+          </ul>
         </div>
       </section>
 
@@ -285,7 +298,7 @@ function GreenConcept(props) {
           <h2 className="display">{gc.cta_title}</h2>
           <p>{gc.cta_text}</p>
           <div className="hero-actions">
-            <a href={site.nav_cta.link} className="btn btn-light">
+            <a href={contactLink} className="btn btn-light">
               {gc.cta_primary} <Arrow />
             </a>
             <a href={p.website} className="btn btn-ghost-light" target="_blank" rel="noopener">

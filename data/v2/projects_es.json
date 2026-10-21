@@ -213,22 +213,8 @@
             "caption": "Paseo de amenities"
           }
         ],
-        "partnership_title": "Dwell + Boreal",
-        "partnership_text": "Dwell Developers se asocia con Boreal Developments, de origen chileno, para crear Green Concept Carrasco: la versión local de un concepto probado con éxito en Santiago, con ejemplos inspiradores que aportan valor allí donde se implementan.",
-        "credits": [
-          {
-            "role": "Desarrollan",
-            "name": "Dwell Developers · Boreal Developments"
-          },
-          {
-            "role": "Arquitectura",
-            "name": "RMA Arquitectura — Ravecca Montaño Artagaveytia"
-          },
-          {
-            "role": "Paisajismo",
-            "name": "Fernando Bianco"
-          }
-        ],
+        "partnership_title": "Un proyecto de Dwell y Boreal",
+        "partnership_text": "Dwell Developers se asocia con Boreal Developments, de origen chileno, para traer a Carrasco un concepto probado con éxito en Santiago.",
         "cta_title": "Conocé tu próximo hogar",
         "cta_text": "Agendá una reunión con nuestro equipo comercial o visitá el sitio del proyecto para ver planos y disponibilidad.",
         "cta_primary": "Quiero que me contacten",
@@ -282,6 +268,41 @@
           "text": "Los tres edificios se abrazan alrededor de un jardín interno diseñado por Fernando Bianco: senderos sinuosos, vegetación frondosa y lugares para encontrarse, a pasos de tu puerta.",
           "caption": "Jardín interno — vista cenital",
           "image": "/images/green-concept/patio-cenital.jpg"
+        },
+        "partners": {
+          "developers_label": "Desarrollan",
+          "developers": [
+            {
+              "name": "Dwell Developers",
+              "logo": "/images/green-concept/partners/dwell.png"
+            },
+            {
+              "name": "Boreal Developments",
+              "logo": "/images/green-concept/partners/boreal.png"
+            }
+          ],
+          "team": [
+            {
+              "role": "Arquitectura",
+              "name": "RMA Arquitectura",
+              "logo": "/images/green-concept/partners/rma.png"
+            },
+            {
+              "role": "Paisajismo",
+              "name": "Fernando Bianco",
+              "logo": "/images/green-concept/partners/fernandobianco.png"
+            },
+            {
+              "role": "Asesoría legal",
+              "name": "Guyer & Regules",
+              "logo": "/images/green-concept/partners/guyer-regules.png"
+            },
+            {
+              "role": "Financia",
+              "name": "Itaú",
+              "logo": "/images/green-concept/partners/itau.png"
+            }
+          ]
         }
       }
     },
