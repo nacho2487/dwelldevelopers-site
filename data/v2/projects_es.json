@@ -918,7 +918,7 @@
       "status_kind": "done",
       "location": "Av. Luis Alberto de Herrera, Montevideo",
       "type": "Residencial",
-      "summary": "Dos torres de 25 niveles integradas al Shopping Nuevocentro. Entregadas cuatro meses antes del plazo contractual.",
+      "summary": "Un hito urbano: el primer gran proyecto en integrar residencias con los servicios de un shopping, y la primera emisión pública residencial comprada por las AFAPs. 440 unidades entregadas antes de plazo.",
       "card_image": "/images/nuevocentro-1.jpeg",
       "hero_image": "/images/nuevocentro-1.jpeg",
       "card_facts": [
@@ -927,69 +927,180 @@
           "label": "unidades"
         },
         {
-          "value": "2017",
-          "label": "entrega"
+          "value": "U$S 70M",
+          "label": "de inversión"
         }
       ],
-      "facts": [
-        {
-          "label": "Estado",
-          "value": "Finalizado"
+      "theme": "tnc",
+      "rich": {
+        "hero_badge": "Primera emisión pública residencial comprada por las AFAPs",
+        "tagline": "Un hito que cambió <em>la percepción de su entorno.</em>",
+        "facts": [
+          {
+            "label": "Estado",
+            "value": "Finalizado · Entregado en 2017"
+          },
+          {
+            "label": "Unidades",
+            "value": "440 en 2 torres"
+          },
+          {
+            "label": "Altura",
+            "value": "Planta baja + 25 niveles"
+          },
+          {
+            "label": "Inversión",
+            "value": "U$S 70M"
+          },
+          {
+            "label": "Régimen",
+            "value": "Vivienda promovida"
+          }
+        ],
+        "award": {
+          "badge": "Un hito en el mercado",
+          "title": "El primer proyecto de emisión pública residencial comprado por las AFAPs",
+          "text": "Torres Nuevocentro se financió mediante una emisión pública adquirida por las AFAPs, algo inédito para un proyecto residencial en Uruguay. Así se aseguró el 100% de los fondos desde el inicio y el proyecto se desarrolló según el cronograma financiero previsto.",
+          "chips": [
+            "Emisión pública",
+            "100% de los fondos desde el inicio",
+            "Entregado 4 meses antes del plazo",
+            "Sin desvíos económicos"
+          ]
         },
-        {
-          "label": "Ubicación",
-          "value": "Av. Luis Alberto de Herrera"
+        "results": {
+          "eyebrow": "Desempeño",
+          "title": "Cumplimos lo que prometimos.",
+          "text": "Un proyecto de gran escala entregado antes de lo previsto y sin desvíos respecto a lo comprometido.",
+          "items": [
+            {
+              "value": "4 meses",
+              "label": "antes del plazo contractual"
+            },
+            {
+              "value": "0",
+              "label": "desvíos económicos"
+            },
+            {
+              "value": "100%",
+              "label": "de los fondos desde el inicio"
+            },
+            {
+              "value": "440",
+              "label": "unidades entregadas"
+            }
+          ]
         },
-        {
-          "label": "Tipo",
-          "value": "Residencial"
+        "promoted": {
+          "eyebrow": "Vivienda promovida",
+          "title": "Uno de los primeros proyectos de Vivienda Promovida del país",
+          "text": "Torres Nuevocentro fue pionero en el régimen de Vivienda Promovida (Ley N.º 18.795), que impulsa la construcción de vivienda con beneficios fiscales para quienes invierten y compran.",
+          "points": [
+            "Pionero en el régimen de la Ley N.º 18.795",
+            "Beneficios fiscales para compradores e inversores",
+            "Proyecto finalizado y 100% entregado"
+          ]
         },
-        {
-          "label": "Inicio",
-          "value": "Enero 2014"
-        },
-        {
-          "label": "Entrega",
-          "value": "Julio 2017"
-        },
-        {
-          "label": "Inversión",
-          "value": "U$S 56.700.079"
-        }
-      ],
-      "trust": "Fideicomiso Financiero para la Construcción de los Edificios para Vivienda Denominados Torres Nuevocentro",
-      "overview": [
-        "Torres Nuevocentro es un conjunto de 440 apartamentos desarrollados en dos bloques de planta baja más 25 niveles, con un nivel de garajes y salones de usos múltiples totalmente equipados.",
-        "Las torres comparten padrón con el Shopping Nuevocentro, con acceso directo a todos sus servicios, y se obtuvieron los permisos especiales para sobreelevar la altura permitida en la zona.",
-        "El proyecto está finalizado, con la totalidad de sus unidades entregadas a los usuarios finales."
-      ],
-      "amenities": [
-        "Integración con Shopping Nuevocentro",
-        "Salones de usos múltiples equipados",
-        "Nivel de garajes"
-      ],
-      "financing": [
-        "La financiación se obtuvo mediante una emisión pública adquirida por República AFAP, lo que aseguró el 100% de los fondos desde el inicio y permitió desarrollar el proyecto según el cronograma financiero previsto.",
-        "Torres Nuevocentro fue el primer proyecto de inversión inmobiliaria desarrollado por República AFAP. El terreno se adquirió mediante negociación con los promotores del Shopping Nuevocentro."
-      ],
-      "performance": [
-        "Plazo: sin desviaciones negativas; la obra finalizó cuatro meses antes de lo previsto contractualmente.",
-        "Económico: sin desviaciones respecto a lo comprometido inicialmente."
-      ],
-      "gallery": [
-        {
-          "image": "/images/nuevocentro-1.jpeg"
-        },
-        {
+        "highlight": {
+          "eyebrow": "Un hito urbano",
+          "title": "Residencias y shopping, integrados por primera vez",
+          "text": "Fue el primer gran proyecto en integrar los servicios de un shopping con residencias. Las torres comparten padrón con el Shopping Nuevocentro y transformaron la percepción de toda la zona.",
+          "caption": "Torres Nuevocentro",
           "image": "/images/nuevocentro-2.jpeg"
         },
-        {
-          "image": "/images/nuevocentro-3.jpeg"
-        },
-        {
-          "image": "/images/nuevocentro-4.jpeg"
-        }
-      ]
+        "intro_title": "Vivir integrado a la ciudad",
+        "intro": [
+          "Torres Nuevocentro se desarrolla sobre el Shopping Nuevocentro: comercios, gastronomía y servicios a pasos de tu casa.",
+          "Para hacerlo posible se obtuvieron los permisos especiales que permitieron sobreelevar la altura habilitada en la zona, y el terreno se adquirió mediante negociación con los promotores del shopping."
+        ],
+        "intro_image": "/images/nuevocentro-3.jpeg",
+        "pillars_intro": "Un proyecto que marcó un antes y un después: en su entorno, en la forma de financiar vivienda y en cómo se vive en la ciudad.",
+        "pillars": [
+          {
+            "title": "Integración",
+            "text": "El primer gran proyecto residencial integrado a los servicios de un shopping."
+          },
+          {
+            "title": "Inversión institucional",
+            "text": "La primera emisión pública residencial comprada por las AFAPs."
+          },
+          {
+            "title": "Vivienda promovida",
+            "text": "Uno de los primeros proyectos del país bajo el régimen de Vivienda Promovida."
+          }
+        ],
+        "project_title": "El proyecto",
+        "project_text": [
+          "Un conjunto de 440 apartamentos desarrollados en dos torres de planta baja más 25 niveles.",
+          "Cuenta con un nivel de garajes y salones de usos múltiples totalmente equipados. El proyecto está finalizado, con la totalidad de sus unidades entregadas a los usuarios finales."
+        ],
+        "project_images": [
+          "/images/nuevocentro-1.jpeg",
+          "/images/nuevocentro-4.jpeg"
+        ],
+        "amenities_title": "Amenities",
+        "amenities_heading": "La ciudad, al pie de tu casa",
+        "amenities": [
+          {
+            "title": "Shopping Nuevocentro",
+            "text": "Acceso directo a comercios, gastronomía y servicios."
+          },
+          {
+            "title": "Salones de usos múltiples",
+            "text": "Totalmente equipados para los residentes."
+          },
+          {
+            "title": "Garajes",
+            "text": "Un nivel completo de estacionamiento."
+          }
+        ],
+        "location_title": "Ubicación",
+        "location_text": [
+          "Sobre la Avenida Luis Alberto de Herrera, en uno de los nodos mejor conectados de Montevideo.",
+          "Un entorno que el propio proyecto ayudó a transformar, hoy consolidado como un polo de servicios y vivienda."
+        ],
+        "nearby": [
+          "Shopping Nuevocentro",
+          "Av. Luis Alberto de Herrera",
+          "Bulevar Artigas",
+          "Conexión con toda la ciudad"
+        ],
+        "location_image": "/images/nuevocentro-1.jpeg",
+        "apartments_title": "Las torres",
+        "apartments_text": "Dos torres de planta baja más 25 niveles que suman 440 apartamentos, con garajes y salones de usos múltiples.",
+        "apartments": [
+          {
+            "value": "440",
+            "label": "apartamentos"
+          },
+          {
+            "value": "2",
+            "label": "torres"
+          },
+          {
+            "value": "25",
+            "label": "niveles"
+          }
+        ],
+        "gallery": [
+          {
+            "image": "/images/nuevocentro-1.jpeg",
+            "caption": "Torres y shopping"
+          },
+          {
+            "image": "/images/nuevocentro-2.jpeg",
+            "caption": "Las torres"
+          },
+          {
+            "image": "/images/nuevocentro-3.jpeg",
+            "caption": "Interiores"
+          },
+          {
+            "image": "/images/nuevocentro-4.jpeg",
+            "caption": "Interiores"
+          }
+        ]
+      }
     },
     {
       "slug": "oxo-parques",

@@ -918,7 +918,7 @@
       "status_kind": "done",
       "location": "Luis Alberto de Herrera Ave., Montevideo",
       "type": "Residential",
-      "summary": "Two 25-storey towers integrated with Nuevocentro Shopping. Delivered four months ahead of the contractual deadline.",
+      "summary": "An urban landmark: the first large project to integrate homes with the services of a shopping mall, and the first residential public issue purchased by Uruguay’s pension funds (AFAPs). 440 units delivered ahead of schedule.",
       "card_image": "/images/nuevocentro-1.jpeg",
       "hero_image": "/images/nuevocentro-1.jpeg",
       "card_facts": [
@@ -927,69 +927,180 @@
           "label": "units"
         },
         {
-          "value": "2017",
-          "label": "delivered"
+          "value": "US$ 70M",
+          "label": "investment"
         }
       ],
-      "facts": [
-        {
-          "label": "Status",
-          "value": "Completed"
+      "theme": "tnc",
+      "rich": {
+        "hero_badge": "First residential public issue purchased by the AFAPs",
+        "tagline": "A landmark that changed <em>how its surroundings are seen.</em>",
+        "facts": [
+          {
+            "label": "Status",
+            "value": "Completed · Delivered in 2017"
+          },
+          {
+            "label": "Units",
+            "value": "440 in 2 towers"
+          },
+          {
+            "label": "Height",
+            "value": "Ground floor + 25 levels"
+          },
+          {
+            "label": "Investment",
+            "value": "US$ 70M"
+          },
+          {
+            "label": "Regime",
+            "value": "Promoted housing"
+          }
+        ],
+        "award": {
+          "badge": "A market milestone",
+          "title": "The first residential public issue purchased by the AFAPs",
+          "text": "Nuevocentro Towers was financed through a public issue purchased by Uruguay’s pension funds (AFAPs), unprecedented for a residential project in the country. This secured 100% of the funds from the start and kept the project on its planned financial schedule.",
+          "chips": [
+            "Public issue",
+            "100% of funds from day one",
+            "Delivered 4 months early",
+            "No cost deviations"
+          ]
         },
-        {
-          "label": "Location",
-          "value": "Luis Alberto de Herrera Ave."
+        "results": {
+          "eyebrow": "Performance",
+          "title": "We delivered what we promised.",
+          "text": "A large-scale project delivered ahead of schedule and with no deviations from its commitments.",
+          "items": [
+            {
+              "value": "4 months",
+              "label": "ahead of the contractual deadline"
+            },
+            {
+              "value": "0",
+              "label": "cost deviations"
+            },
+            {
+              "value": "100%",
+              "label": "of funds from day one"
+            },
+            {
+              "value": "440",
+              "label": "units delivered"
+            }
+          ]
         },
-        {
-          "label": "Type",
-          "value": "Residential"
+        "promoted": {
+          "eyebrow": "Promoted housing",
+          "title": "One of the first Promoted Housing projects in the country",
+          "text": "Nuevocentro Towers was a pioneer under Uruguay’s Promoted Housing regime (Law No. 18,795), which encourages housing construction with tax benefits for investors and buyers.",
+          "points": [
+            "A pioneer under Law No. 18,795",
+            "Tax benefits for buyers and investors",
+            "Completed and 100% delivered"
+          ]
         },
-        {
-          "label": "Start",
-          "value": "January 2014"
-        },
-        {
-          "label": "Delivery",
-          "value": "July 2017"
-        },
-        {
-          "label": "Investment",
-          "value": "US$ 56,700,079"
-        }
-      ],
-      "trust": "Fideicomiso Financiero Torres Nuevocentro",
-      "overview": [
-        "Nuevocentro Towers is a complex of 440 apartments in two blocks of ground floor plus 25 levels, with a parking level and fully equipped multipurpose rooms.",
-        "The towers share their lot with Nuevocentro Shopping, with direct access to all its services, and special permits were obtained to exceed the height allowed in the area.",
-        "The project is complete, with all units delivered to their owners."
-      ],
-      "amenities": [
-        "Integrated with Nuevocentro Shopping",
-        "Equipped multipurpose rooms",
-        "Parking level"
-      ],
-      "financing": [
-        "Financing came from a public issue acquired by República AFAP, securing 100% of the funds from the start and allowing the project to follow its planned financial schedule.",
-        "Nuevocentro Towers was República AFAP's first real estate investment project. The land was acquired through negotiation with the developers of Nuevocentro Shopping."
-      ],
-      "performance": [
-        "Timeline: no negative deviations; construction finished four months ahead of the contractual schedule.",
-        "Economic: no deviations from the initial commitment."
-      ],
-      "gallery": [
-        {
-          "image": "/images/nuevocentro-1.jpeg"
-        },
-        {
+        "highlight": {
+          "eyebrow": "An urban landmark",
+          "title": "Homes and shopping, integrated for the first time",
+          "text": "It was the first large project to integrate the services of a shopping mall with homes. The towers share their lot with Nuevocentro Shopping and transformed how the whole area is perceived.",
+          "caption": "Nuevocentro Towers",
           "image": "/images/nuevocentro-2.jpeg"
         },
-        {
-          "image": "/images/nuevocentro-3.jpeg"
-        },
-        {
-          "image": "/images/nuevocentro-4.jpeg"
-        }
-      ]
+        "intro_title": "Living connected to the city",
+        "intro": [
+          "Nuevocentro Towers rises above Nuevocentro Shopping: shops, dining and services steps from home.",
+          "Special permits were obtained to exceed the height allowed in the area, and the land was acquired through negotiation with the mall’s developers."
+        ],
+        "intro_image": "/images/nuevocentro-3.jpeg",
+        "pillars_intro": "A project that marked a before and after: for its surroundings, for how housing is financed and for how people live in the city.",
+        "pillars": [
+          {
+            "title": "Integration",
+            "text": "The first large residential project integrated with the services of a shopping mall."
+          },
+          {
+            "title": "Institutional investment",
+            "text": "The first residential public issue purchased by the AFAPs."
+          },
+          {
+            "title": "Promoted housing",
+            "text": "One of the country’s first projects under the Promoted Housing regime."
+          }
+        ],
+        "project_title": "The project",
+        "project_text": [
+          "A complex of 440 apartments in two towers of ground floor plus 25 levels.",
+          "It includes a parking level and fully equipped multipurpose rooms. The project is complete, with all units delivered to their owners."
+        ],
+        "project_images": [
+          "/images/nuevocentro-1.jpeg",
+          "/images/nuevocentro-4.jpeg"
+        ],
+        "amenities_title": "Amenities",
+        "amenities_heading": "The city, at your doorstep",
+        "amenities": [
+          {
+            "title": "Nuevocentro Shopping",
+            "text": "Direct access to shops, dining and services."
+          },
+          {
+            "title": "Multipurpose rooms",
+            "text": "Fully equipped for residents."
+          },
+          {
+            "title": "Parking",
+            "text": "A full parking level."
+          }
+        ],
+        "location_title": "Location",
+        "location_text": [
+          "On Luis Alberto de Herrera Avenue, one of the best-connected hubs in Montevideo.",
+          "A setting the project itself helped transform, now an established center of services and housing."
+        ],
+        "nearby": [
+          "Nuevocentro Shopping",
+          "Luis Alberto de Herrera Ave.",
+          "Bulevar Artigas",
+          "Connected to the whole city"
+        ],
+        "location_image": "/images/nuevocentro-1.jpeg",
+        "apartments_title": "The towers",
+        "apartments_text": "Two towers of ground floor plus 25 levels, with 440 apartments, parking and multipurpose rooms.",
+        "apartments": [
+          {
+            "value": "440",
+            "label": "apartments"
+          },
+          {
+            "value": "2",
+            "label": "towers"
+          },
+          {
+            "value": "25",
+            "label": "levels"
+          }
+        ],
+        "gallery": [
+          {
+            "image": "/images/nuevocentro-1.jpeg",
+            "caption": "Towers and mall"
+          },
+          {
+            "image": "/images/nuevocentro-2.jpeg",
+            "caption": "The towers"
+          },
+          {
+            "image": "/images/nuevocentro-3.jpeg",
+            "caption": "Interiors"
+          },
+          {
+            "image": "/images/nuevocentro-4.jpeg",
+            "caption": "Interiors"
+          }
+        ]
+      }
     },
     {
       "slug": "oxo-parques",

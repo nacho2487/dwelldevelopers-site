@@ -3226,3 +3226,60 @@ body.menu-open .mobile-menu {
   max-width: 20ch;
   font-size: clamp(40px, 5.4vw, 80px);
 }
+
+/* Torres Nuevocentro: grafito urbano + bronce Dwell */
+.theme-tnc {
+  --gc-deep: #23272c;
+  --gc-sage: #eceae5;
+  --gc-moss: #c9ae86;
+  --gc-rgb: 35, 39, 44;
+}
+
+/* Nombre del proyecto en portada cuando no hay logo */
+.gc-hero-name {
+  margin: 8px 0 22px;
+  font-size: clamp(15px, 1.3vw, 18px);
+  font-weight: 500;
+  letter-spacing: 0.3em;
+  text-transform: uppercase;
+  color: rgba(255, 255, 255, 0.9);
+}
+
+/* Cifras de desempeño */
+.results-grid {
+  display: grid;
+  grid-template-columns: repeat(2, 1fr);
+  gap: 0;
+  margin: 36px 0 0;
+  border-top: 1px solid rgba(var(--gc-rgb), 0.15);
+}
+
+.results-grid > div {
+  padding: 24px 20px 24px 0;
+  border-bottom: 1px solid rgba(var(--gc-rgb), 0.15);
+}
+
+.results-grid > div:nth-child(even) {
+  padding-left: 24px;
+  border-left: 1px solid rgba(var(--gc-rgb), 0.15);
+}
+
+.results-grid dt {
+  font-size: clamp(32px, 3.2vw, 44px);
+  font-weight: 300;
+  line-height: 1;
+  letter-spacing: -0.02em;
+  color: var(--gc-deep);
+}
+
+.results-grid dd {
+  margin: 8px 0 0;
+  font-size: 14px;
+  color: var(--muted);
+}
+
+/* Galerías cortas: la última foto completa la fila en vez de quedar sola */
+.gallery-item:nth-child(4):last-child,
+.gallery-item:nth-child(7):last-child {
+  grid-column: 1 / -1;
+}

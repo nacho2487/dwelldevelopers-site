@@ -45,21 +45,27 @@ function ProjectRich(props) {
               {r.hero_badge}
             </a>
           )}
-          <img className="gc-hero-logo" src={r.logo} alt={name} />
+          {r.logo ? (
+            <img className="gc-hero-logo" src={r.logo} alt={name} />
+          ) : (
+            <p className="gc-hero-name">{name}</p>
+          )}
           <h1
             className={`hero-title gc-tagline${r.tagline.replace(/<[^>]+>/g, '').length > 45 ? ' gc-tagline-long' : ''}`}
             dangerouslySetInnerHTML={html(r.tagline)}
           />
-          <div className="hero-actions">
-            <a href={contactLink} className="btn btn-light">
-              {r.cta_primary} <Arrow />
-            </a>
-            {p.website && (
-              <a href={p.website} className="btn btn-ghost-light" target="_blank" rel="noopener">
-                {r.cta_secondary}
+          {r.cta_primary && (
+            <div className="hero-actions">
+              <a href={contactLink} className="btn btn-light">
+                {r.cta_primary} <Arrow />
               </a>
-            )}
-          </div>
+              {p.website && (
+                <a href={p.website} className="btn btn-ghost-light" target="_blank" rel="noopener">
+                  {r.cta_secondary}
+                </a>
+              )}
+            </div>
+          )}
         </div>
         <div className="container gc-hero-foot">
           <Status kind="new">{p.status}</Status>
@@ -104,9 +110,25 @@ function ProjectRich(props) {
       )}
 
       {/* ETAPAS Y BENEFICIOS */}
-      {r.stages && (
+      {(r.stages || r.results || r.promoted) && (
         <section className="section gc-status">
           <div className={`container gc-status-grid${r.promoted ? '' : ' gc-status-single'}`}>
+            {r.results && (
+              <div className="gc-stages gc-results" data-reveal>
+                <Eyebrow>{r.results.eyebrow}</Eyebrow>
+                <h2 className="display">{r.results.title}</h2>
+                {r.results.text && <p className="muted-p">{r.results.text}</p>}
+                <dl className="results-grid">
+                  {r.results.items.map((it) => (
+                    <div key={it.label}>
+                      <dt>{it.value}</dt>
+                      <dd>{it.label}</dd>
+                    </div>
+                  ))}
+                </dl>
+              </div>
+            )}
+            {r.stages && (
             <div className="gc-stages" data-reveal>
               <Eyebrow>{r.stages.eyebrow}</Eyebrow>
               <h2 className="display">{r.stages.title}</h2>
@@ -133,6 +155,7 @@ function ProjectRich(props) {
                 ))}
               </ol>
             </div>
+            )}
             {r.promoted && (
               <div className="gc-promoted" data-reveal>
                 <span className="gc-promoted-badge">{r.promoted.eyebrow}</span>
@@ -354,11 +377,12 @@ function ProjectRich(props) {
       )}
 
       {/* CONTACTO */}
+      {r.cta_title && (
       <section className="gc-cta" id="contacto-proyecto">
         <img src={r.cta_image} alt="" loading="lazy" />
         <div className="hero-shade gc-shade"></div>
         <div className="container gc-cta-inner" data-reveal>
-          <img className="gc-cta-logo" src={r.logo} alt="" />
+          {r.logo && <img className="gc-cta-logo" src={r.logo} alt="" />}
           <h2 className="display">{r.cta_title}</h2>
           <p>{r.cta_text}</p>
           <div className="hero-actions">
@@ -373,6 +397,7 @@ function ProjectRich(props) {
           </div>
         </div>
       </section>
+      )}
 
       {next && (
         <a href={`${base}/proyectos/${next.slug}`} className="next-project">
